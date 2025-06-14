@@ -21974,7 +21974,7 @@
 		(uuid "22814e93-20d8-4b4f-ac5c-d2773dbc10c2")
 	)
 	(via
-		(at 112.55 63)
+		(at 106 62.05)
 		(size 0.4)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -21992,7 +21992,7 @@
 		(uuid "47592b0a-1d77-4241-afef-e559029f3fef")
 	)
 	(via
-		(at 105.05 58.5)
+		(at 104.85 58.4)
 		(size 0.4)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")

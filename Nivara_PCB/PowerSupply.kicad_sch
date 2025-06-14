@@ -693,6 +693,508 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Resistor_US_AKL:R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_0603"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor us SMD 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0.762 1.905) (xy -0.762 1.143) (xy 0 0.762) (xy 0.762 0.381) (xy 0 0) (xy -0.762 -0.381)
+						(xy 0 -0.762) (xy 0.762 -1.143) (xy 0 -1.524) (xy -0.762 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.778 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy -1.524 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.524) (xy -1.778 -0.762) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.762 0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.254 -1.27) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 0.254 1.27) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 0.762 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 1.778 0.762) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_0603_1_2"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Switching:AP63201WU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP63201WU"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "2A Buck DC/DC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP63201WU_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP63201WU_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:AP63203WU"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -985,6 +1487,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Regulador a 12V\n"
+		(exclude_from_sim no)
+		(at 59.182 85.344 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "1defcd7b-a652-4d6c-971b-a4871699ead5")
+	)
+	(text "Regulador a 3.3V\n"
+		(exclude_from_sim no)
+		(at 54.356 35.052 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "edc8f6a7-5ff2-462b-b286-60046656e400")
+	)
+	(junction
+		(at 107.95 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04ec3626-6816-4d96-a851-a413510ed491")
+	)
 	(junction
 		(at 110.49 52.07)
 		(diameter 0)
@@ -998,10 +1526,46 @@
 		(uuid "15fd6674-218d-4738-ac0e-71ae7f3881d7")
 	)
 	(junction
+		(at 116.84 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a051a8a-d92e-41b3-9086-b064d377aa5b")
+	)
+	(junction
+		(at 128.27 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2662a776-c3d4-4833-babb-4275224f5ede")
+	)
+	(junction
+		(at 128.27 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26b3a14d-d701-45db-b806-83a6338774fb")
+	)
+	(junction
+		(at 116.84 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "315ad1f0-711f-44f6-991d-75ed2df0196f")
+	)
+	(junction
+		(at 140.97 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33b5cbba-eee5-480d-8567-90af0dbddb09")
+	)
+	(junction
 		(at 93.98 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4af0a513-c5c6-43e2-8741-f337cd4c5ddf")
+	)
+	(junction
+		(at 50.8 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c2cbae7-d4cd-4519-b76c-10185ed89408")
 	)
 	(junction
 		(at 110.49 64.77)
@@ -1022,6 +1586,18 @@
 		(uuid "64dd13d6-11de-4146-a105-7fd95ffb06bb")
 	)
 	(junction
+		(at 50.8 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c658375-476c-46dd-9190-d316afa93e82")
+	)
+	(junction
+		(at 107.95 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c3f7ce7-d214-409e-91a7-bd0845439861")
+	)
+	(junction
 		(at 71.12 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1032,6 +1608,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce3aaac4-9379-403b-9dda-4fd800179ae2")
+	)
+	(junction
+		(at 91.44 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2142b2c-f88c-473f-afe3-9257df2412a7")
+	)
+	(junction
+		(at 68.58 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6cd6e9c-d504-45af-b04c-86e0ce3da644")
+	)
+	(junction
+		(at 116.84 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df22888e-c396-4f66-aeb9-c3a673647764")
 	)
 	(wire
 		(pts
@@ -1075,6 +1669,76 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 106.68) (xy 50.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16314903-63aa-46f4-b0fb-3e103427f181")
+	)
+	(wire
+		(pts
+			(xy 91.44 95.25) (xy 91.44 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f1e863-8240-4417-a16d-453ed7469768")
+	)
+	(wire
+		(pts
+			(xy 88.9 104.14) (xy 91.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f1b088-0e40-4dcc-bf5b-a9af192d4873")
+	)
+	(wire
+		(pts
+			(xy 91.44 101.6) (xy 78.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a300e5-20a9-47f4-8549-af3503f8c052")
+	)
+	(wire
+		(pts
+			(xy 78.74 104.14) (xy 81.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e7d7d3-d3c1-4646-a58e-33c82519030c")
+	)
+	(wire
+		(pts
+			(xy 107.95 106.68) (xy 116.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f0eaaf-1330-4cee-a022-84bf27611894")
+	)
+	(wire
+		(pts
+			(xy 68.58 119.38) (xy 116.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e62f744-d818-431d-aee1-2235c3e8a110")
+	)
+	(wire
+		(pts
 			(xy 110.49 52.07) (xy 110.49 54.61)
 		)
 		(stroke
@@ -1085,6 +1749,26 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 105.41) (xy 128.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ad1fea-23e9-4b61-a3b7-1ff7c7bade9f")
+	)
+	(wire
+		(pts
+			(xy 95.25 95.25) (xy 91.44 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afefa5c-3c60-4c73-be20-4468e56ba92e")
+	)
+	(wire
+		(pts
 			(xy 53.34 52.07) (xy 53.34 46.99)
 		)
 		(stroke
@@ -1092,6 +1776,26 @@
 			(type default)
 		)
 		(uuid "3c1558ce-03a3-4d3a-9656-d08993b5d478")
+	)
+	(wire
+		(pts
+			(xy 128.27 119.38) (xy 140.97 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4dc278-e431-4309-9398-28d854f3f3e0")
+	)
+	(wire
+		(pts
+			(xy 107.95 106.68) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1a37ca-a383-4614-8b9d-5e9932ff5bee")
 	)
 	(wire
 		(pts
@@ -1125,6 +1829,46 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 101.6) (xy 58.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f3dde5-186c-4e11-b87c-564ef6c7383a")
+	)
+	(wire
+		(pts
+			(xy 46.99 101.6) (xy 50.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b3d48f-d73e-421a-a4f9-b474d76c3d12")
+	)
+	(wire
+		(pts
+			(xy 116.84 106.68) (xy 116.84 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5ddb8e-a739-47b9-ac92-7657f1c02ee6")
+	)
+	(wire
+		(pts
+			(xy 140.97 95.25) (xy 143.51 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edc7259-1068-4134-9ed7-995a418e083f")
+	)
+	(wire
+		(pts
 			(xy 123.19 64.77) (xy 110.49 64.77)
 		)
 		(stroke
@@ -1132,6 +1876,36 @@
 			(type default)
 		)
 		(uuid "73afc8a1-7302-4c5f-91de-67370a5b28f9")
+	)
+	(wire
+		(pts
+			(xy 116.84 95.25) (xy 128.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3415ca-5611-474c-8c7e-fdb2e4a2cdb0")
+	)
+	(wire
+		(pts
+			(xy 140.97 95.25) (xy 140.97 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d69b72b-2402-4b8d-aadf-3697672b3633")
+	)
+	(wire
+		(pts
+			(xy 50.8 119.38) (xy 68.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd018e5-da5f-406d-8bbb-6fb032f3a70d")
 	)
 	(wire
 		(pts
@@ -1155,6 +1929,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 111.76) (xy 68.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a143253-3076-4e2e-8eac-807123e32b8d")
+	)
+	(wire
+		(pts
 			(xy 123.19 52.07) (xy 123.19 54.61)
 		)
 		(stroke
@@ -1162,6 +1946,16 @@
 			(type default)
 		)
 		(uuid "8d00e98e-6f6f-4882-b84f-808670875989")
+	)
+	(wire
+		(pts
+			(xy 50.8 106.68) (xy 50.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d377490-d469-469b-b0c1-72fcd755986a")
 	)
 	(wire
 		(pts
@@ -1175,6 +1969,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 109.22) (xy 50.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904a5004-ca81-4fe0-acbc-31dcbdb3eb68")
+	)
+	(wire
+		(pts
 			(xy 106.68 52.07) (xy 81.28 52.07)
 		)
 		(stroke
@@ -1182,6 +1986,36 @@
 			(type default)
 		)
 		(uuid "90fef5bd-7ff3-4adb-9eea-18d58f4038bf")
+	)
+	(wire
+		(pts
+			(xy 78.74 106.68) (xy 107.95 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95180e90-c7b0-430e-a1f2-067f1fa99e6c")
+	)
+	(wire
+		(pts
+			(xy 102.87 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0f88d3-86d6-43d3-9dfc-fdcb84d8c9c9")
+	)
+	(wire
+		(pts
+			(xy 68.58 119.38) (xy 68.58 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b32da4d-6182-4ff3-b340-f90213d66726")
 	)
 	(wire
 		(pts
@@ -1235,6 +2069,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 116.84) (xy 116.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38887aa-816f-43f1-b4e8-f41cf47bca25")
+	)
+	(wire
+		(pts
 			(xy 106.68 46.99) (xy 106.68 52.07)
 		)
 		(stroke
@@ -1255,6 +2099,66 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 105.41) (xy 140.97 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb88e015-09ab-448a-a94b-91b1e618e15c")
+	)
+	(wire
+		(pts
+			(xy 128.27 95.25) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc574498-d2e6-4af2-8288-581e859e2c1e")
+	)
+	(wire
+		(pts
+			(xy 116.84 119.38) (xy 128.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3d9e31-1982-49ec-a719-cc7928a669f2")
+	)
+	(wire
+		(pts
+			(xy 116.84 96.52) (xy 116.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46b5bfc-9464-4001-89f7-41248b233e86")
+	)
+	(wire
+		(pts
+			(xy 116.84 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77ef080-c8e2-4ee4-8c1b-ae2a5e1a8417")
+	)
+	(wire
+		(pts
+			(xy 107.95 95.25) (xy 107.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54a763d-367f-4855-be1a-3cb9e252f42f")
+	)
+	(wire
+		(pts
 			(xy 123.19 52.07) (xy 125.73 52.07)
 		)
 		(stroke
@@ -1262,6 +2166,16 @@
 			(type default)
 		)
 		(uuid "e7154559-d47f-4ac3-936a-204d87e13c6d")
+	)
+	(wire
+		(pts
+			(xy 128.27 95.25) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79d82bc-8c59-4103-b059-5d2b64f08ecb")
 	)
 	(wire
 		(pts
@@ -1275,6 +2189,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 116.84) (xy 50.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed70864b-01a8-46ae-b85c-9e63f9ba44ad")
+	)
+	(wire
+		(pts
 			(xy 93.98 46.99) (xy 81.28 46.99)
 		)
 		(stroke
@@ -1282,6 +2206,26 @@
 			(type default)
 		)
 		(uuid "ee06ac28-7a8d-403b-b86b-95957a3906a6")
+	)
+	(wire
+		(pts
+			(xy 116.84 104.14) (xy 116.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44b5d14-9ef0-4029-b57e-79f71950c5eb")
+	)
+	(wire
+		(pts
+			(xy 91.44 104.14) (xy 91.44 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f568c8d4-08d2-4f6f-b252-6c5a03a40f1a")
 	)
 	(wire
 		(pts
@@ -1304,6 +2248,28 @@
 		)
 		(uuid "46c3af04-e9f6-4dd6-a937-c3ff7b093693")
 	)
+	(hierarchical_label "+12V"
+		(shape bidirectional)
+		(at 143.51 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "514138af-17da-4eda-b2a6-432f9f0e89d0")
+	)
+	(hierarchical_label "VCC"
+		(shape bidirectional)
+		(at 46.99 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86d3bcf7-56d9-473e-90da-a9724cc056fc")
+	)
 	(hierarchical_label "VCC"
 		(shape bidirectional)
 		(at 49.53 46.99 180)
@@ -1314,6 +2280,74 @@
 			(justify right)
 		)
 		(uuid "aaf5cb3a-0657-4af3-901a-e08f683fe09f")
+	)
+	(symbol
+		(lib_id "Device:L_Iron")
+		(at 99.06 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36be25f0-6c46-49e5-b0a2-ff14d08697b4")
+		(property "Reference" "L2"
+			(at 99.06 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 99.06 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_APV_ANR6028"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with iron core"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "569c5bce-0a6e-4826-90ea-cf0fa7bc72a7")
+		)
+		(pin "2"
+			(uuid "a9c879b9-2729-4ee0-b7fd-fdda8d3fb192")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Regulator_Switching:AP63203WU")
@@ -1475,6 +2509,144 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 116.84 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a052931-16d5-49ea-9c09-1f8779665007")
+		(property "Reference" "R3"
+			(at 119.38 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18k"
+			(at 119.38 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 116.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 116.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05dcf131-7101-4d22-addd-37fbd1b91caf")
+		)
+		(pin "2"
+			(uuid "001f9141-1521-42c5-a17c-5630493b7e1c")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 85.09 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cec9eb6-c6a0-47a8-be2f-834082745e08")
+		(property "Reference" "C7"
+			(at 85.09 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 85.09 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+			(at 88.9 103.1748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a432aed-2ff9-4d40-8631-046f1eea055a")
+		)
+		(pin "1"
+			(uuid "fc418713-c487-4390-b640-58d0b0f25b21")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_1206")
 		(at 53.34 58.42 0)
 		(unit 1)
@@ -1539,6 +2711,156 @@
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(at 50.8 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ab6aebf-2aee-4a7b-905b-b40fce9ab3b8")
+		(property "Reference" "C4"
+			(at 54.61 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 54.61 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+			(at 51.7652 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+			(at 50.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "890750f4-37de-4b8c-b2e7-8858c99ad34b")
+		)
+		(pin "2"
+			(uuid "2367e9d9-1a89-4d2e-9be8-b9cb887fbe4b")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:AP63201WU")
+		(at 68.58 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b03b89fc-822e-4547-b346-9b8bbe1f6ec0")
+		(property "Reference" "U3"
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP63201WU"
+			(at 68.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 68.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"
+			(at 68.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "04b6d80a-6c47-4750-b9f4-ee6abef38de4")
+		)
+		(pin "2"
+			(uuid "a9c6de28-d70e-4750-8f60-98305e120a79")
+		)
+		(pin "6"
+			(uuid "0907d007-6fbc-4062-a788-deb470b4630a")
+		)
+		(pin "4"
+			(uuid "273f0749-79bd-4495-ab76-def452b95547")
+		)
+		(pin "5"
+			(uuid "47959b16-3628-463c-9ae4-2de5309c2e8f")
+		)
+		(pin "1"
+			(uuid "b2e9ac5b-87c6-4826-bf42-bd3f8a358947")
+		)
+		(instances
+			(project ""
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1673,6 +2995,352 @@
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 116.84 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1e9cf47-b6c1-4339-b716-d60b030af534")
+		(property "Reference" "R2"
+			(at 119.38 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "249k"
+			(at 119.38 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 116.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e8947fb-1e84-4d75-b478-ffbac1e113de")
+		)
+		(pin "2"
+			(uuid "6dc33038-f87c-4ed5-a4f7-4ee28e0fba47")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c91ce905-dc25-429a-bedc-875024be7eab")
+		(property "Reference" "#PWR014"
+			(at 68.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "167a0dfc-65b1-480d-a74a-75c6ee1d5216")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 128.27 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da7ddc8b-beec-4c21-8ee9-25b4cd4a3914")
+		(property "Reference" "C8"
+			(at 132.08 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 132.08 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+			(at 129.2352 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3fc5893-7380-4c4c-933b-1b4726e507cf")
+		)
+		(pin "1"
+			(uuid "da875646-01ec-4827-a5ca-b72bc7a3ef6c")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 107.95 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e912b6f3-b611-4925-b161-8083b6cf1bcc")
+		(property "Reference" "C10"
+			(at 111.76 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56pF"
+			(at 111.76 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+			(at 108.9152 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f9c2ac8-ee75-41e2-8959-052b66a7ae1e")
+		)
+		(pin "1"
+			(uuid "5e82c9df-9999-45ca-b729-2129690c960b")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 140.97 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebb07d94-e6d5-4e46-b930-170fb44a3763")
+		(property "Reference" "C9"
+			(at 144.78 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 144.78 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+			(at 141.9352 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 140.97 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0596cb82-0df7-44c1-9596-5097c1a6e835")
+		)
+		(pin "1"
+			(uuid "9b5dc700-fdfe-4649-b01a-36ebd46e677d")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "C9")
 					(unit 1)
 				)
 			)
