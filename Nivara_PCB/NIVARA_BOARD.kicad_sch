@@ -1414,6 +1414,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1804,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 43.18) (xy 59.69 43.18)
+			(xy 52.07 43.18) (xy 57.15 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1834,7 +1959,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 72.39) (xy 125.73 76.2)
+			(xy 64.77 46.99) (xy 52.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8fa7f7-1faf-4512-a4b1-4b4ad02e92ab")
+	)
+	(wire
+		(pts
+			(xy 125.73 73.66) (xy 125.73 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1844,13 +1979,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 63.5) (xy 125.73 64.77)
+			(xy 125.73 63.5) (xy 125.73 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "50a78e87-d8e7-4dd8-94b8-c61467d5477a")
+	)
+	(wire
+		(pts
+			(xy 64.77 40.64) (xy 64.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514fc200-8745-41cc-9220-9af7940e295a")
 	)
 	(wire
 		(pts
@@ -1924,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 43.18) (xy 59.69 40.64)
+			(xy 57.15 43.18) (xy 57.15 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2228,7 +2373,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 59.69 40.64 0)
+		(at 57.15 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2237,7 +2382,7 @@
 		(fields_autoplaced yes)
 		(uuid "04bcdc39-3029-4282-a2fd-63b3c0dd695b")
 		(property "Reference" "#PWR013"
-			(at 59.69 44.45 0)
+			(at 57.15 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2391,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 59.69 35.56 0)
+			(at 57.15 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 40.64 0)
+			(at 57.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +2408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 40.64 0)
+			(at 57.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2417,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 59.69 40.64 0)
+			(at 57.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +2505,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 125.73 68.58 0)
+		(at 125.73 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2369,7 +2514,7 @@
 		(fields_autoplaced yes)
 		(uuid "37c4fec4-4128-4a81-a94f-3fab81b659ca")
 		(property "Reference" "R1"
-			(at 128.27 67.3099 0)
+			(at 128.27 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +2523,7 @@
 			)
 		)
 		(property "Value" "R_0603"
-			(at 128.27 69.8499 0)
+			(at 128.27 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2532,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 125.73 80.01 0)
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2541,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 68.58 0)
+			(at 125.73 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2550,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 125.73 68.58 0)
+			(at 125.73 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,6 +3036,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 64.77 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e41a4014-b720-4783-9793-2898908cb3e6")
+		(property "Reference" "#PWR016"
+			(at 64.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 64.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 64.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14f58129-05f4-4c24-bdd1-dea0e4ac9cd6")
+		)
+		(instances
+			(project ""
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 125.73 60.96 0)
 		(unit 1)
@@ -2952,6 +3163,90 @@
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
 					(reference "#PWR011")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 63.5)
+		(size 30.48 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20ba0c48-a9e2-46df-b6c2-3a15a589565c")
+		(property "Sheetname" "ANALOG_IN"
+			(at 228.6 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ANALOG_IN.kicad_sch"
+			(at 228.6 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 127)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28adab20-3df9-4bd0-b792-64ff7180ad7f")
+		(property "Sheetname" "RELAY1&2"
+			(at 228.6 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RELAY1&2.kicad_sch"
+			(at 228.6 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(page "11")
 				)
 			)
 		)
@@ -3039,8 +3334,260 @@
 		)
 	)
 	(sheet
+		(at 179.07 25.4)
+		(size 24.13 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48f5ac7a-6bba-49c0-99bb-db418c675091")
+		(property "Sheetname" "PNP_IN"
+			(at 179.07 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PNP_IN.kicad_sch"
+			(at 179.07 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 25.4)
+		(size 33.02 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58467d6c-1433-4318-a1ea-3b041dc0b319")
+		(property "Sheetname" "NPN_IN"
+			(at 133.35 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NPN_IN.kicad_sch"
+			(at 133.35 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 25.4)
+		(size 20.32 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6456e4f4-1461-4bc6-babd-d2304e34b1f4")
+		(property "Sheetname" "NPN_OUT"
+			(at 213.36 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NPN_OUT.kicad_sch"
+			(at 213.36 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 25.4)
+		(size 24.13 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8130b756-3e88-4fc2-a026-528e9a5f42de")
+		(property "Sheetname" "PNP_OUT"
+			(at 243.84 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PNP_OUT.kicad_sch"
+			(at 243.84 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 100.33)
+		(size 30.48 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "941ecd47-882f-406e-b54e-d369029f60e5")
+		(property "Sheetname" "ANALOG_OUT"
+			(at 228.6 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ANALOG_OUT.kicad_sch"
+			(at 228.6 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 127)
+		(size 31.75 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8a95db9-2db6-4dd5-a448-91db082870e6")
+		(property "Sheetname" "D_IN"
+			(at 182.88 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "D_IN.kicad_sch"
+			(at 182.88 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 40.64)
-		(size 13.97 5.08)
+		(size 13.97 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3064,7 +3611,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerSupply.kicad_sch"
-			(at 38.1 46.3046 0)
+			(at 38.1 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,6 +3637,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "+12V" bidirectional
+			(at 52.07 46.99 0)
+			(uuid "a92954e1-2787-44df-8473-338f171e596c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

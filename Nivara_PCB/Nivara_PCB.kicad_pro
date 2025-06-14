@@ -624,6 +624,38 @@
     [
       "3eeaffcc-9bb5-4f36-a3b6-9bf8c04eaeb0",
       "DRIVER_RS485"
+    ],
+    [
+      "58467d6c-1433-4318-a1ea-3b041dc0b319",
+      "NPN_IN"
+    ],
+    [
+      "48f5ac7a-6bba-49c0-99bb-db418c675091",
+      "PNP_IN"
+    ],
+    [
+      "6456e4f4-1461-4bc6-babd-d2304e34b1f4",
+      "NPN_OUT"
+    ],
+    [
+      "8130b756-3e88-4fc2-a026-528e9a5f42de",
+      "PNP_OUT"
+    ],
+    [
+      "20ba0c48-a9e2-46df-b6c2-3a15a589565c",
+      "ANALOG_IN"
+    ],
+    [
+      "941ecd47-882f-406e-b54e-d369029f60e5",
+      "ANALOG_OUT"
+    ],
+    [
+      "28adab20-3df9-4bd0-b792-64ff7180ad7f",
+      "RELAY1&2"
+    ],
+    [
+      "a8a95db9-2db6-4dd5-a448-91db082870e6",
+      "D_IN"
     ]
   ],
   "text_variables": {}
