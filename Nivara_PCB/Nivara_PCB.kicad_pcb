@@ -8879,7 +8879,7 @@
 		(descr "Inductor, APV, ANR6028, 6.0x6.0x2.8mm, (http://en.apvind.com/public/upload/20240407/3375c395e460caa8519b4d637d9113ce.pdf), generated with kicad-footprint-generator gen_inductor.py")
 		(tags "Inductor wirewound power shielded")
 		(property "Reference" "L1"
-			(at 1.5 4.5 90)
+			(at 0.45 2 180)
 			(layer "F.SilkS")
 			(uuid "64893e7e-b9fc-49dc-a57f-4b8160bdacbc")
 			(effects
@@ -8890,7 +8890,7 @@
 			)
 		)
 		(property "Value" "4u7H"
-			(at -1 5.5 90)
+			(at 0.45 4.5 180)
 			(layer "F.Fab")
 			(uuid "3e0aca19-0e2c-4e09-9fee-4583eefbd1a1")
 			(effects
