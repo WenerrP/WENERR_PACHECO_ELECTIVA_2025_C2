@@ -1862,7 +1862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10345190-37fa-499e-8fab-d72992704cac")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 54.61 35.56 0)
 			(effects
 				(font
@@ -1912,7 +1912,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1928,7 +1928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "294c160e-2bb5-40b4-a787-8cd1659c344d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR01"
 			(at 33.02 113.03 0)
 			(effects
 				(font
@@ -1978,7 +1978,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1993,7 +1993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37ba1d02-d031-4922-ad40-768b9ecc26cc")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 87.63 110.49 0)
 			(effects
 				(font
@@ -2043,7 +2043,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2058,7 +2058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43943ddc-4078-4354-9454-74e8b9ea1c68")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 99.06 68.5799 0)
 			(effects
 				(font
@@ -2112,7 +2112,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2199,7 +2199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58fa5d32-f220-418b-bc13-b612ce63ff3b")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 22.86 116.8399 0)
 			(effects
 				(font
@@ -2253,7 +2253,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2411,7 +2411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7388e41f-9f4d-4a2f-b63b-7eb76c6ff383")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 43.18 35.5599 0)
 			(effects
 				(font
@@ -2465,7 +2465,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2546,7 +2546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "787246cd-5f79-49be-816a-905f38a1b0fd")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR02"
 			(at 33.02 128.27 0)
 			(effects
 				(font
@@ -2596,7 +2596,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR07")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2611,7 +2611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7dd20d2b-de94-491c-be40-b2c6292265c6")
-		(property "Reference" "J5"
+		(property "Reference" "J11"
 			(at 99.06 116.8399 0)
 			(effects
 				(font
@@ -2677,7 +2677,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J5")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -2693,7 +2693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f12e016-5696-4b32-8ae3-4f6f693b334d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 54.61 46.99 0)
 			(effects
 				(font
@@ -2743,7 +2743,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2826,7 +2826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b86d282-3b3a-4aef-8511-208d66b78349")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 99.06 97.7899 0)
 			(effects
 				(font
@@ -2883,7 +2883,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -2899,7 +2899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c84bec2-8dae-4436-a8fc-6db5e333b651")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 99.06 86.3599 0)
 			(effects
 				(font
@@ -2956,7 +2956,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2972,7 +2972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a33d2d55-e883-4950-ad2e-7b91ab66cf0e")
-		(property "Reference" "J9"
+		(property "Reference" "J4"
 			(at 21.59 98.044 0)
 			(effects
 				(font
@@ -3030,7 +3030,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J9")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3045,7 +3045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0e80122-40b9-446f-b68f-d1f6e51b1427")
-		(property "Reference" "J10"
+		(property "Reference" "J8"
 			(at 99.06 77.4699 0)
 			(effects
 				(font
@@ -3099,7 +3099,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J10")
+					(reference "J8")
 					(unit 1)
 				)
 			)

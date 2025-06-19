@@ -5,4 +5,56 @@
 	(uuid "31fbc969-07ad-419d-a7ef-0e910fc4c7da")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 111.76 69.85) (xy 111.76 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4bfa29-d062-4322-9b14-d0fa596697a4")
+	)
+	(wire
+		(pts
+			(xy 99.06 69.85) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a9dca5-b705-46cb-b616-6a8e16f99286")
+	)
+	(wire
+		(pts
+			(xy 114.3 69.85) (xy 111.76 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff449c94-a4ad-471a-b718-574160bc5756")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 101.6 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29eabdb3-8145-4f20-9936-f2b5f0cc0767")
+	)
+	(hierarchical_label "+3.3V"
+		(shape output)
+		(at 114.3 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6826f1d7-8f72-4f47-ae18-f8f2a8670c95")
+	)
 )

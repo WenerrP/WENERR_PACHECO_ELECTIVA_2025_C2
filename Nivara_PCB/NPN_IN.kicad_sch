@@ -1152,131 +1152,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1441,6 +1316,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 29.21) (xy 140.97 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02caac8d-5a65-4614-a373-fdbd261d0651")
+	)
+	(wire
+		(pts
 			(xy 110.49 74.93) (xy 118.11 74.93)
 		)
 		(stroke
@@ -1511,6 +1396,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 29.21) (xy 63.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ab8a92-d518-4c59-a456-dc7c3daf473a")
+	)
+	(wire
+		(pts
 			(xy 138.43 39.37) (xy 138.43 41.91)
 		)
 		(stroke
@@ -1558,16 +1453,6 @@
 			(type default)
 		)
 		(uuid "3e1c0574-0ba1-457c-9e6f-30eeb8517050")
-	)
-	(wire
-		(pts
-			(xy 125.73 29.21) (xy 125.73 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42ea56de-e23f-4c9a-b777-ba2bf3a13323")
 	)
 	(wire
 		(pts
@@ -1641,13 +1526,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 29.21) (xy 63.5 31.75)
+			(xy 50.8 29.21) (xy 53.34 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c61c0cd-763a-40a7-b73f-c843bd21ef82")
+		(uuid "602071ce-f3a1-4733-847f-6588a404ec5c")
+	)
+	(wire
+		(pts
+			(xy 125.73 29.21) (xy 125.73 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7186a942-a7cb-40bd-b1ff-b6da8dfc4851")
 	)
 	(wire
 		(pts
@@ -1791,6 +1686,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 29.21) (xy 128.27 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be30356e-d82a-463b-a800-50c8c6ea519c")
+	)
+	(wire
+		(pts
 			(xy 110.49 62.23) (xy 110.49 64.77)
 		)
 		(stroke
@@ -1858,6 +1763,16 @@
 			(type default)
 		)
 		(uuid "d8dbc25f-3bd5-4270-84bd-0e2273c45668")
+	)
+	(wire
+		(pts
+			(xy 63.5 29.21) (xy 63.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7a6202-38f2-4005-ac3a-8cf545137202")
 	)
 	(wire
 		(pts
@@ -1970,6 +1885,28 @@
 		)
 		(uuid "08b3881e-c2ec-418f-9e98-e93aa8c94a2b")
 	)
+	(hierarchical_label "+3.3V"
+		(shape output)
+		(at 140.97 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10227617-b3c6-40fe-83e8-e2d871f4e2fc")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 128.27 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24c99814-5580-436f-bede-85aa628e3c45")
+	)
 	(hierarchical_label "ESP_NPN_IN_2"
 		(shape output)
 		(at 144.78 41.91 0)
@@ -1991,6 +1928,28 @@
 			(justify right)
 		)
 		(uuid "a4c2120a-c51d-47d5-b4fc-4de6dccb451f")
+	)
+	(hierarchical_label "+3.3V"
+		(shape output)
+		(at 66.04 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb1813e3-6ecf-4e58-80a2-aa57c525c48c")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 53.34 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdd0e6f5-876c-4a6e-ba9d-e52234c37754")
 	)
 	(hierarchical_label "ESP_NPN_IN_1"
 		(shape output)
@@ -2083,7 +2042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ab13c4d-e855-4b26-915f-2671d7cd1466")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR016"
 			(at 48.26 83.82 0)
 			(effects
 				(font
@@ -2133,7 +2092,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "#PWR022")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2149,7 +2108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "257975a0-f069-4d28-9da7-fcf3864403bf")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 140.97 34.2899 0)
 			(effects
 				(font
@@ -2203,7 +2162,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2298,7 +2257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5532bbbc-cc4f-462b-8864-3b46ca6bc9cc")
-		(property "Reference" "R8"
+		(property "Reference" "R3"
 			(at 43.18 69.8499 0)
 			(effects
 				(font
@@ -2352,205 +2311,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 138.43 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ead1629-dcdc-4c57-9401-f5493d7343e7")
-		(property "Reference" "#PWR021"
-			(at 138.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 138.43 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 138.43 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ac42489-582e-403f-9f23-f684acc436d1")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 63.5 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fa13830-7756-484c-bf8e-8e5f7a16c1ea")
-		(property "Reference" "#PWR018"
-			(at 63.5 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 63.5 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 63.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fdac65b-0a66-4e2a-bd23-1a601bc7931c")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 50.8 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65f68355-1eb8-43ee-8c5e-f32e269001b4")
-		(property "Reference" "#PWR017"
-			(at 50.8 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 50.8 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 50.8 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0c5a84a-85ac-4427-a60b-a55a9f3ccae6")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "#PWR017")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2645,7 +2406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78d5f293-9494-4264-9c8f-9f9c15fe1b7d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR018"
 			(at 125.73 82.55 0)
 			(effects
 				(font
@@ -2695,7 +2456,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "#PWR023")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2711,7 +2472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ad2ec2a-3748-4cfc-b5b1-728fe5fc870b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 60.96 66.04 0)
 			(effects
 				(font
@@ -2761,7 +2522,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2850,7 +2611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f1705c4-4349-4084-9ebb-43eb6b5caa34")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 113.03 57.1499 0)
 			(effects
 				(font
@@ -2904,7 +2665,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3202,7 +2963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d025ffc7-823d-4025-a5bc-c27688cb206c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 135.89 66.04 0)
 			(effects
 				(font
@@ -3252,7 +3013,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3268,7 +3029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2b14a2f-45e7-452d-bb6c-2dad29132c27")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 128.27 34.2899 0)
 			(effects
 				(font
@@ -3322,7 +3083,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3398,72 +3159,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 125.73 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f090519b-60e2-46e7-abcb-f0349ede7eab")
-		(property "Reference" "#PWR019"
-			(at 125.73 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 125.73 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 125.73 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf818b76-c278-49e7-8cbf-45e49f32192a")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
 		(at 118.11 69.85 0)
 		(unit 1)
@@ -3473,7 +3168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f95bed98-2955-418d-a9d4-c36f0029ba1c")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 120.65 68.5799 0)
 			(effects
 				(font
@@ -3527,7 +3222,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
