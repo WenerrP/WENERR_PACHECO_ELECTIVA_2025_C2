@@ -5,6 +5,36 @@
 	(uuid "d5e25d4a-9e06-44d2-8a35-132fc9aada7f")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 107.95 71.12) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3122a2b5-a1cf-4cbb-b87a-272d560c9bd7")
+	)
+	(wire
+		(pts
+			(xy 95.25 71.12) (xy 97.79 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f01e5c-883e-4cff-bb81-8951d84743cf")
+	)
+	(wire
+		(pts
+			(xy 110.49 71.12) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6962c0d8-ebb6-4726-97e9-f3e7800aa452")
+	)
 	(hierarchical_label "D_IN_2"
 		(shape input)
 		(at 59.69 83.82 0)
@@ -15,6 +45,17 @@
 			(justify left)
 		)
 		(uuid "7f8ae6c8-54bb-4e95-8a77-dfaa96ab28c1")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 97.79 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97c97e2a-7572-4912-8b15-401d395a7980")
 	)
 	(hierarchical_label "D_IN_1"
 		(shape input)
@@ -37,5 +78,16 @@
 			(justify left)
 		)
 		(uuid "e002c3b3-18a8-4835-8893-866a64daab14")
+	)
+	(hierarchical_label "+3.3V"
+		(shape output)
+		(at 110.49 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff96b96a-f815-499b-867f-6ab50e4c8d98")
 	)
 )
