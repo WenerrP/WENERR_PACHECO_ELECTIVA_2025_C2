@@ -1880,7 +1880,7 @@
 		)
 		(uuid "c040d7ae-eeca-4b5c-91c5-1555a98059bb")
 	)
-	(hierarchical_label "PNP_IN_1"
+	(hierarchical_label "PNP_IN_2"
 		(shape input)
 		(at 115.57 43.18 180)
 		(effects
