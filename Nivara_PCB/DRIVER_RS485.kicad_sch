@@ -5,6 +5,17 @@
 	(uuid "c17b9347-858c-4658-bea4-4c4ac5d477cf")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "+3.3V"
+		(shape output)
+		(at 86.36 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d477b43-ded1-4f89-af51-97cdf5385017")
+	)
 	(hierarchical_label "UART_IN"
 		(shape input)
 		(at 49.53 60.96 0)
@@ -16,9 +27,20 @@
 		)
 		(uuid "48d4ece6-1c10-4a4e-90b6-ee3171c57c4b")
 	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 73.66 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cd6bbf2-0f41-4bfa-bdb7-744914da2215")
+	)
 	(hierarchical_label "RS485_A"
 		(shape bidirectional)
-		(at 49.53 68.58 0)
+		(at 99.06 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29,7 +51,7 @@
 	)
 	(hierarchical_label "RS485_B"
 		(shape bidirectional)
-		(at 49.53 71.12 0)
+		(at 99.06 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
