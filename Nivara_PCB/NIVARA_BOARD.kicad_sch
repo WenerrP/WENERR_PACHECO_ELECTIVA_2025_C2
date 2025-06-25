@@ -2069,6 +2069,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 67.31) (xy 180.34 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfe0d80-b2c7-4d30-a4aa-aeeb08c77c2d")
+	)
+	(wire
+		(pts
 			(xy 113.03 74.93) (xy 113.03 78.74)
 		)
 		(stroke
@@ -2096,6 +2106,16 @@
 			(type default)
 		)
 		(uuid "7af758be-10e6-423c-8a57-ddde76f93f8a")
+	)
+	(wire
+		(pts
+			(xy 175.26 67.31) (xy 175.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c83fd88-acab-46a5-b9a8-56553c9661be")
 	)
 	(wire
 		(pts
@@ -3035,7 +3055,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 175.26 71.12 0)
+		(at 175.26 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3044,7 +3064,7 @@
 		(fields_autoplaced yes)
 		(uuid "62aca244-9f3e-444c-b84a-c9a2dbfffb5f")
 		(property "Reference" "#PWR030"
-			(at 175.26 74.93 0)
+			(at 175.26 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3073,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 175.26 66.04 0)
+			(at 175.26 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 71.12 0)
+			(at 175.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +3090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 71.12 0)
+			(at 175.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 175.26 71.12 0)
+			(at 175.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3198,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 181.61 71.12 0)
+		(at 180.34 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3187,7 +3207,7 @@
 		(fields_autoplaced yes)
 		(uuid "7214b042-42e9-4b82-a605-2143cce01fd8")
 		(property "Reference" "#PWR031"
-			(at 181.61 74.93 0)
+			(at 180.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +3216,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 181.61 66.04 0)
+			(at 180.34 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +3224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 71.12 0)
+			(at 180.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +3233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 71.12 0)
+			(at 180.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3242,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 181.61 71.12 0)
+			(at 180.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,8 +4000,8 @@
 		)
 	)
 	(sheet
-		(at 167.64 76.2)
-		(size 21.59 10.16)
+		(at 167.64 72.39)
+		(size 21.59 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3996,7 +4016,7 @@
 		)
 		(uuid "3eeaffcc-9bb5-4f36-a3b6-9bf8c04eaeb0")
 		(property "Sheetname" "DRIVER_RS485"
-			(at 167.64 75.4884 0)
+			(at 167.64 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,6 +4071,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "+3.3V" output
+			(at 175.26 72.39 90)
+			(uuid "35c916f6-69a0-4916-a758-bcb2ae23bccf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" output
+			(at 180.34 72.39 90)
+			(uuid "f3dd6c08-fe33-4340-93bd-13198075fd8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
