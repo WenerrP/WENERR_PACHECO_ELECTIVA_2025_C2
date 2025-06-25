@@ -1255,6 +1255,269 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Fuse_Holder:2920L185DR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2920L185DR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:F2920"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Littelfuse_2920L185DR_Littelfuse-2920L185DR_C207086.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C207086"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2920L185DR_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Fuse_Holder:CUHZ30V,H3F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CUHZ30V,H3F"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:SOD-323HE_L2.0-W1.4-LS2.5-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C6493455"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CUHZ30V,H3F_0_1"
+				(polyline
+					(pts
+						(xy -1.78 1.78) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.76 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1484,13 +1747,19 @@
 	)
 	(text "12-24 VDC"
 		(exclude_from_sim no)
-		(at 37.084 26.162 0)
+		(at 24.384 18.542 0)
 		(effects
 			(font
 				(size 2.5 2.5)
 			)
 		)
 		(uuid "1c3cf312-30b0-4c4e-ba26-23040ff7c84a")
+	)
+	(junction
+		(at 57.15 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb1a9ed3-8952-4b67-b66b-a4a03dfab790")
 	)
 	(wire
 		(pts
@@ -1544,6 +1813,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 25.4) (xy 57.15 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d15789-776b-4000-9c6c-6bba4ec1b62b")
+	)
+	(wire
+		(pts
 			(xy 83.82 77.47) (xy 91.44 77.47)
 		)
 		(stroke
@@ -1584,7 +1863,27 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 38.1) (xy 50.8 38.1)
+			(xy 57.15 27.94) (xy 52.07 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373c102c-8095-48a6-a2df-4ffa60a27b2f")
+	)
+	(wire
+		(pts
+			(xy 57.15 30.48) (xy 57.15 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be38ca7-6980-467d-b0e7-d7c306d39d4e")
+	)
+	(wire
+		(pts
+			(xy 41.91 30.48) (xy 38.1 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1634,16 +1933,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 35.56) (xy 54.61 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68b952be-14b5-418d-8d9f-84ab0a3b24bb")
-	)
-	(wire
-		(pts
 			(xy 30.48 96.52) (xy 40.64 96.52)
 		)
 		(stroke
@@ -1684,7 +1973,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 35.56) (xy 54.61 35.56)
+			(xy 38.1 27.94) (xy 41.91 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1794,6 +2083,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 43.18) (xy 57.15 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99f7afa-9e30-4785-ac98-c614248e7c6c")
+	)
+	(wire
+		(pts
 			(xy 86.36 90.17) (xy 91.44 90.17)
 		)
 		(stroke
@@ -1844,7 +2143,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 40.64) (xy 54.61 38.1)
+			(xy 41.91 33.02) (xy 41.91 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1854,7 +2153,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 54.61 31.75 0)
+		(at 57.15 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1863,7 +2162,7 @@
 		(fields_autoplaced yes)
 		(uuid "10345190-37fa-499e-8fab-d72992704cac")
 		(property "Reference" "#PWR03"
-			(at 54.61 35.56 0)
+			(at 57.15 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,7 +2171,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 54.61 26.67 0)
+			(at 57.15 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +2179,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 31.75 0)
+			(at 57.15 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +2188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 31.75 0)
+			(at 57.15 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +2197,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 54.61 31.75 0)
+			(at 57.15 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,6 +2212,83 @@
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fuse_Holder:2920L185DR")
+		(at 46.99 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19038d61-56d2-477b-bb21-152d298d8556")
+		(property "Reference" "U4"
+			(at 46.99 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2920L185DR"
+			(at 46.99 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse_Holder:F2920"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Littelfuse_2920L185DR_Littelfuse-2920L185DR_C207086.html"
+			(at 46.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C207086"
+			(at 46.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6755f16-a26d-4c0a-88e7-9b81b1889c77")
+		)
+		(pin "1"
+			(uuid "a8ebfd91-8607-4f54-adb4-09c71f037b7b")
+		)
+		(instances
+			(project ""
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2403,7 +2779,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 45.72 35.56 0)
+		(at 33.02 27.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2412,7 +2788,7 @@
 		(dnp no)
 		(uuid "7388e41f-9f4d-4a2f-b63b-7eb76c6ff383")
 		(property "Reference" "J6"
-			(at 43.18 35.5599 0)
+			(at 30.48 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2797,7 @@
 			)
 		)
 		(property "Value" "FUENTE"
-			(at 43.18 38.0999 0)
+			(at 30.48 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2806,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 45.72 35.56 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2815,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 35.56 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +2824,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 45.72 35.56 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +3061,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 40.64 0)
+		(at 41.91 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2694,7 +3070,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f12e016-5696-4b32-8ae3-4f6f693b334d")
 		(property "Reference" "#PWR04"
-			(at 54.61 46.99 0)
+			(at 41.91 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +3079,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 45.72 0)
+			(at 41.91 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +3087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 40.64 0)
+			(at 41.91 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +3096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 40.64 0)
+			(at 41.91 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +3105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 40.64 0)
+			(at 41.91 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,6 +3339,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 57.15 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fffeac6-249c-42d7-b61f-1d22f33939b7")
+		(property "Reference" "#PWR032"
+			(at 57.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8c8ccc0-adc9-4fea-8681-9e0bb4b549b9")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
 		(at 25.4 99.06 0)
 		(mirror y)
@@ -3031,6 +3473,85 @@
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fuse_Holder:CUHZ30V,H3F")
+		(at 57.15 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aed248b3-e23f-4ec4-9806-f64bb0bc1f9c")
+		(property "Reference" "U5"
+			(at 59.69 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CUHZ30V,H3F"
+			(at 59.69 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse_Holder:SOD-323HE_L2.0-W1.4-LS2.5-RD"
+			(at 49.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C6493455"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ab4765c-773a-4cb0-86ae-68ff830613f2")
+		)
+		(pin "2"
+			(uuid "6bdd00a2-9eab-486e-b016-30fce8d8f189")
+		)
+		(instances
+			(project ""
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
+					(reference "U5")
 					(unit 1)
 				)
 			)
