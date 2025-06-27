@@ -1,0 +1,82 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "023d9a58-f905-4021-8fa8-fc3f180229bb")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 104.14 50.8) (xy 104.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8c7ba4-cfd3-4e76-87d7-8ff1d8061a0a")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 93.98 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9fb97c7-173b-49a7-b60a-738b9a4478e5")
+	)
+	(wire
+		(pts
+			(xy 106.68 50.8) (xy 104.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8016a9-ac49-4027-9491-b0e8bde2835c")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 93.98 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24d73c92-cd2f-4ed1-8352-bccb3f2aa315")
+	)
+	(hierarchical_label "+3.3V"
+		(shape output)
+		(at 106.68 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "395b9b24-6423-4b01-a8ce-ae47e1f3bc18")
+	)
+	(hierarchical_label "NPN_OUT_1"
+		(shape output)
+		(at 41.91 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9176dc51-804c-402b-8cf0-caaa8af925db")
+	)
+	(hierarchical_label "NPN_OUT_2"
+		(shape output)
+		(at 41.91 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebe9a08d-a756-4070-88aa-fb4e75ab7323")
+	)
+)

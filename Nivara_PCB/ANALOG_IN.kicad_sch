@@ -79,7 +79,7 @@
 		)
 		(uuid "80a36f57-8e6e-4e2a-a1c3-9017cc38b858")
 	)
-	(hierarchical_label "A0_32_IN_1"
+	(hierarchical_label "A0_5_IN_1"
 		(shape input)
 		(at 54.61 55.88 0)
 		(effects
