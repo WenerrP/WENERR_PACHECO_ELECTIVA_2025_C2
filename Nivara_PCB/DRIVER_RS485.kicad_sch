@@ -2091,46 +2091,28 @@
 		(uuid "1a54d567-6515-4e2d-83db-a213da65704d")
 	)
 	(junction
-		(at 74.93 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24218728-fe6c-4424-a10d-5b07196f4e6b")
-	)
-	(junction
-		(at 88.9 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4479e3ad-a4e3-46e6-a40e-c6906ca3f3b8")
-	)
-	(junction
-		(at 83.82 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "539a6455-4168-4cb5-9966-8c40c27c878d")
-	)
-	(junction
 		(at 39.37 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "725a2947-7640-47c9-ba86-712967c350c9")
 	)
 	(junction
-		(at 83.82 64.77)
+		(at 91.44 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "be93879d-9c80-4cad-9dfc-9f41a1754c4f")
-	)
-	(junction
-		(at 77.47 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca2c37c9-f52c-40a1-84b5-fd7a62f693ef")
+		(uuid "d5be1f15-f541-49d5-96aa-1d40166a4c4b")
 	)
 	(junction
 		(at 39.37 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e32b6e0c-992a-4834-bd81-b907497cd37b")
+	)
+	(junction
+		(at 83.82 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3f1b71e-9192-42f2-8824-9dcb8893de47")
 	)
 	(wire
 		(pts
@@ -2144,33 +2126,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 62.23) (xy 83.82 64.77)
+			(xy 91.44 62.23) (xy 92.71 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c19640e-6eb8-4bfa-892f-dc3d73d90d9b")
-	)
-	(wire
-		(pts
-			(xy 74.93 59.69) (xy 74.93 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c046573-07cf-4329-8e70-ebdfe181a023")
-	)
-	(wire
-		(pts
-			(xy 72.39 59.69) (xy 74.93 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32a24da0-abb0-43f3-a6a5-43a1cd20dc30")
+		(uuid "1458ca56-ae19-4402-b0eb-3a27a35cdce7")
 	)
 	(wire
 		(pts
@@ -2214,17 +2176,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 64.77) (xy 83.82 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b3fe14c-7f15-4457-b1d9-0a6ec70e9a6f")
-	)
-	(wire
-		(pts
-			(xy 83.82 64.77) (xy 78.74 64.77)
+			(xy 78.74 64.77) (xy 101.6 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2244,7 +2196,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 64.77) (xy 77.47 64.77)
+			(xy 72.39 64.77) (xy 78.74 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2294,7 +2246,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 55.88) (xy 77.47 55.88)
+			(xy 80.01 55.88) (xy 78.74 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2304,7 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 55.88) (xy 77.47 64.77)
+			(xy 78.74 55.88) (xy 78.74 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2321,16 +2273,6 @@
 			(type default)
 		)
 		(uuid "7cbbe74b-93af-4da1-9034-914e620e966e")
-	)
-	(wire
-		(pts
-			(xy 77.47 64.77) (xy 78.74 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d5fc39c-7b63-42a1-86e9-ce78b6db9b9d")
 	)
 	(wire
 		(pts
@@ -2354,7 +2296,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 62.23) (xy 113.03 62.23)
+			(xy 100.33 62.23) (xy 113.03 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2384,6 +2326,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 62.23) (xy 91.44 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a334dedd-9c54-4eb2-8342-eda7855b9610")
+	)
+	(wire
+		(pts
 			(xy 39.37 59.69) (xy 39.37 62.23)
 		)
 		(stroke
@@ -2394,7 +2346,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 55.88) (xy 88.9 62.23)
+			(xy 83.82 62.23) (xy 83.82 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa743d49-3ed4-4604-b3b2-91399acb5bb5")
+	)
+	(wire
+		(pts
+			(xy 91.44 55.88) (xy 91.44 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2444,6 +2406,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 55.88) (xy 91.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb25ee2c-a9d0-46be-ad00-cc46a744222c")
+	)
+	(wire
+		(pts
 			(xy 45.72 72.39) (xy 45.72 62.23)
 		)
 		(stroke
@@ -2474,26 +2446,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 64.77) (xy 101.6 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8868593-0184-4763-b1aa-cb4843e76d7e")
-	)
-	(wire
-		(pts
-			(xy 88.9 62.23) (xy 91.44 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e91dc9ef-ea61-4814-97a5-7c1183b5bfa0")
-	)
-	(wire
-		(pts
 			(xy 48.26 64.77) (xy 48.26 82.55)
 		)
 		(stroke
@@ -2501,16 +2453,6 @@
 			(type default)
 		)
 		(uuid "f191fcf6-ee50-4811-bb77-de0e8ce1afc6")
-	)
-	(wire
-		(pts
-			(xy 83.82 62.23) (xy 88.9 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f631fb89-adde-4405-923a-70d64bc706ad")
 	)
 	(hierarchical_label "+3.3V"
 		(shape output)
@@ -2949,7 +2891,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 95.25 62.23 90)
+		(at 96.52 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2958,7 +2900,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9e4edd2-70a3-4572-ae56-90f33b2da332")
 		(property "Reference" "R18"
-			(at 95.25 55.88 90)
+			(at 96.52 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +2908,7 @@
 			)
 		)
 		(property "Value" "R_0603"
-			(at 95.25 58.42 90)
+			(at 96.52 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +2916,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 106.68 62.23 0)
+			(at 107.95 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +2925,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 62.23 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +2934,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 95.25 62.23 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +3093,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:SMBJ12CA")
-		(at 83.82 55.88 0)
+		(at 85.09 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3160,7 +3102,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcf62191-f88d-45af-a7a3-fbaa64291050")
 		(property "Reference" "D3"
-			(at 83.82 49.53 0)
+			(at 85.09 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3110,7 @@
 			)
 		)
 		(property "Value" "SMBJ12CA"
-			(at 83.82 52.07 0)
+			(at 85.09 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3118,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB_TVS"
-			(at 83.82 55.88 0)
+			(at 85.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3127,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
-			(at 83.82 55.88 0)
+			(at 85.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3136,7 @@
 			)
 		)
 		(property "Description" "SMB Bidirectional TVS Diode, 12V, 600W, Alternate KiCAD Library"
-			(at 83.82 55.88 0)
+			(at 85.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
