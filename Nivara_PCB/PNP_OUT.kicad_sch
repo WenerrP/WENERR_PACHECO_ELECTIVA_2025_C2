@@ -5,28 +5,28 @@
 	(uuid "8577ab9a-637e-42b0-ab67-13c6705a4c1c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Fuse_Holder:ZXMS6004DGTA"
+		(symbol "Fuse_Holder:NCV8402ASTT3G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 0 8.89 0)
+			(property "Reference" "U"
+				(at 0 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "ZXMS6004DGTA"
-				(at 0 -8.89 0)
+			(property "Value" "NCV8402ASTT3G"
+				(at 0 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
-				(at 0 -11.43 0)
+			(property "Footprint" "EasyEDA:SOT-223_L6.5-W3.5-P2.30-LS7.0-BR"
+				(at 0 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,8 +34,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Diodes-Incorporated_ZXMS6004DGTA_Diodes-Incorporated-ZXMS6004DGTA_C211386.html"
-				(at 0 -13.97 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Power-Distribution-Switches_ON-Semicon_NCV8402ASTT3G_ON-Semicon-ON-NCV8402ASTT3G_C236053.html"
+				(at 0 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -52,8 +52,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C211386"
-				(at 0 -16.51 0)
+			(property "LCSC Part" "C236053"
+				(at 0 -24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -61,10 +61,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "ZXMS6004DGTA_0_1"
+			(symbol "NCV8402ASTT3G_0_1"
 				(rectangle
-					(start -2.54 6.35)
-					(end 2.54 -6.35)
+					(start -5.08 11.43)
+					(end 5.08 -8.89)
 					(stroke
 						(width 0)
 						(type default)
@@ -74,7 +74,7 @@
 					)
 				)
 				(circle
-					(center -1.27 5.08)
+					(center -4.57 -8.13)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -85,9 +85,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 3.81 0)
+					(at -2.54 -11.43 90)
 					(length 2.54)
-					(name "IN"
+					(name "GATE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -103,9 +103,27 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 1.27 0)
+					(at 0 13.97 270)
 					(length 2.54)
-					(name "D"
+					(name "DRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "DRAIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -121,9 +139,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 -1.27 0)
+					(at 2.54 -11.43 90)
 					(length 2.54)
-					(name "S"
+					(name "SOURCE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -131,24 +149,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1029,102 +1029,102 @@
 		)
 	)
 	(junction
-		(at 92.71 77.47)
+		(at 95.25 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "000ad49a-aeb6-4a99-bea6-a34aa8d7a36d")
+	)
+	(junction
+		(at 71.12 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c9c7ee3-7ced-4afd-b3d3-898aadc3190a")
 	)
 	(junction
-		(at 109.22 77.47)
+		(at 218.44 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d91b462-370b-43aa-b5b0-4cb54d267d55")
+	)
+	(junction
+		(at 87.63 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f47a784-20a2-4d98-9b21-d96f6ed1209d")
 	)
 	(junction
-		(at 187.96 78.74)
+		(at 95.25 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c0d71ce-9963-44c4-8a9b-f22708bffc70")
+		(uuid "1459e65e-b74e-416d-9c2e-ec90c0819c3f")
 	)
 	(junction
-		(at 116.84 80.01)
+		(at 226.06 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "36825dd4-0f3f-4792-af56-3230be83a5d3")
+		(uuid "521a379d-4dbf-4bfd-9f32-4d2bd2e2dea0")
 	)
 	(junction
-		(at 212.09 86.36)
+		(at 95.25 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3cb76886-12cd-4208-9261-9d80381c4548")
+		(uuid "6bd39d7e-e066-4fa6-a2c4-33529dc53824")
 	)
 	(junction
-		(at 204.47 78.74)
+		(at 201.93 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7c90d38d-bf0b-483f-a545-7c804bcbf161")
+		(uuid "7c6e472c-c64f-430a-9869-48023de51e63")
 	)
 	(junction
-		(at 115.57 96.52)
+		(at 213.36 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c181cd8-29fc-40d5-86da-3ade656a85c7")
+		(uuid "8451e6c5-493f-4187-b5f9-2ad00d33a61c")
 	)
 	(junction
-		(at 116.84 85.09)
+		(at 218.44 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a4d72063-4bf9-4be5-a799-f9975fa65091")
+		(uuid "8f6a2433-dfb0-46e8-a26c-7e722292d12c")
 	)
 	(junction
-		(at 212.09 81.28)
+		(at 226.06 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a64882b6-31bb-4df4-93ae-a43ad2407ad4")
+		(uuid "9f8546b1-bb5b-492d-b16d-5e951e9eef35")
 	)
 	(junction
-		(at 199.39 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b25f2084-2fe6-401f-9c44-99024783a67e")
-	)
-	(junction
-		(at 104.14 96.52)
+		(at 82.55 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c367ff6a-82e0-49b2-aead-b0d48bff800e")
 	)
 	(junction
-		(at 109.22 96.52)
+		(at 87.63 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3efa866-3d01-4ccb-a512-0d3de6484c54")
 	)
 	(junction
-		(at 210.82 97.79)
+		(at 226.06 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d0e4e363-17f6-4ea7-bc7b-80e5552f7546")
-	)
-	(junction
-		(at 204.47 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0b7e614-2f82-4c43-8226-d8c59f479ee7")
+		(uuid "f986b7f1-2d52-4d0d-ab71-cb3223bd5db0")
 	)
 	(wire
 		(pts
-			(xy 199.39 97.79) (xy 204.47 97.79)
+			(xy 233.68 86.36) (xy 238.76 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06d4bdb9-bcca-4921-b586-8f7da442ffa3")
+		(uuid "046aa393-3d3d-4a95-be25-c31001c07038")
 	)
 	(wire
 		(pts
-			(xy 115.57 93.98) (xy 115.57 96.52)
+			(xy 95.25 91.44) (xy 95.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1134,7 +1134,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 85.09) (xy 116.84 80.01)
+			(xy 95.25 81.28) (xy 95.25 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1144,7 +1144,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 92.71) (xy 92.71 96.52)
+			(xy 71.12 90.17) (xy 71.12 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1154,47 +1154,97 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 86.36) (xy 212.09 81.28)
+			(xy 218.44 77.47) (xy 233.68 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "222e3377-7512-4f14-9f09-5e15d14b8298")
+		(uuid "1d193cb3-33d4-49dd-86fc-13c1bccaf7b9")
 	)
 	(wire
 		(pts
-			(xy 116.84 80.01) (xy 121.92 80.01)
+			(xy 201.93 58.42) (xy 204.47 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2870aa4f-da2a-4b50-90fe-021ce352ecdf")
+		(uuid "1fa389b1-5f34-4da7-9ce0-175a90d4c0a5")
 	)
 	(wire
 		(pts
-			(xy 214.63 83.82) (xy 214.63 97.79)
+			(xy 201.93 77.47) (xy 208.28 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28a74ff1-45f7-4c30-8289-556d10fc7cd2")
+		(uuid "212d01ef-6a67-4abb-a08f-1df7a42ef4a6")
 	)
 	(wire
 		(pts
-			(xy 210.82 87.63) (xy 210.82 86.36)
+			(xy 95.25 93.98) (xy 102.87 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31c3b8b7-b3b2-449c-ada5-bfb6d93cc36d")
+		(uuid "26db5b1b-b086-453e-9882-07d28316fd1c")
 	)
 	(wire
 		(pts
-			(xy 109.22 77.47) (xy 109.22 85.09)
+			(xy 218.44 96.52) (xy 226.06 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27140dbd-f9ec-4f57-bd39-583d8bcda47a")
+	)
+	(wire
+		(pts
+			(xy 226.06 96.52) (xy 233.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6baf05-a4a2-4010-98e8-c2187f0e96ab")
+	)
+	(wire
+		(pts
+			(xy 264.16 83.82) (xy 266.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dbbc652-08a1-4cb3-a1d4-a795c94d8b0f")
+	)
+	(wire
+		(pts
+			(xy 213.36 96.52) (xy 213.36 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30167ce8-0e48-4462-b738-625f3b60305b")
+	)
+	(wire
+		(pts
+			(xy 215.9 77.47) (xy 218.44 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ec3710-cb6a-4fc2-8633-cac0efcf7390")
+	)
+	(wire
+		(pts
+			(xy 87.63 74.93) (xy 87.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1204,7 +1254,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 96.52) (xy 109.22 96.52)
+			(xy 82.55 93.98) (xy 87.63 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1214,17 +1264,27 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 76.2) (xy 187.96 78.74)
+			(xy 133.35 81.28) (xy 135.89 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a3455cf-2af6-444c-99ed-2e700329e1b4")
+		(uuid "3804e818-8df4-4f1a-9489-29921f918f76")
 	)
 	(wire
 		(pts
-			(xy 92.71 96.52) (xy 104.14 96.52)
+			(xy 135.89 81.28) (xy 135.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390bb1ef-14a9-49e3-9850-a4042126ee27")
+	)
+	(wire
+		(pts
+			(xy 71.12 93.98) (xy 82.55 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1234,17 +1294,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 83.82) (xy 214.63 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ef46889-f245-47b5-b203-0647ed6dc3c8")
-	)
-	(wire
-		(pts
-			(xy 92.71 74.93) (xy 92.71 77.47)
+			(xy 71.12 72.39) (xy 71.12 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1254,27 +1304,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 82.55) (xy 119.38 82.55)
+			(xy 201.93 96.52) (xy 213.36 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4037e914-d2cb-43ed-9f21-0ce6138d5ca0")
+		(uuid "4151df41-ac1b-43c7-a08b-9e815dca1ab0")
 	)
 	(wire
 		(pts
-			(xy 217.17 86.36) (xy 212.09 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40fbabe2-75aa-48d8-9e72-d223091754f3")
-	)
-	(wire
-		(pts
-			(xy 109.22 92.71) (xy 109.22 96.52)
+			(xy 87.63 87.63) (xy 87.63 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1284,47 +1324,37 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 78.74) (xy 217.17 78.74)
+			(xy 102.87 78.74) (xy 107.95 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "461eefa4-86b7-4d5e-a036-f17ecde3c524")
+		(uuid "44f82f12-2cc2-4b30-b813-5a0796c2c696")
 	)
 	(wire
 		(pts
-			(xy 119.38 82.55) (xy 119.38 96.52)
+			(xy 201.93 58.42) (xy 201.93 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4847a75e-043e-4561-afcb-f2f59fe07d83")
+		(uuid "461e31b7-da6f-4146-ae9b-49f53fd3eb35")
 	)
 	(wire
 		(pts
-			(xy 187.96 97.79) (xy 199.39 97.79)
+			(xy 226.06 83.82) (xy 226.06 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48897729-9e6d-4497-be08-fab38d217370")
+		(uuid "4c830ba2-41c0-433d-a1cb-bb1782628714")
 	)
 	(wire
 		(pts
-			(xy 210.82 86.36) (xy 212.09 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c523b54-0112-4fdb-8fd1-f0149abdf2e2")
-	)
-	(wire
-		(pts
-			(xy 92.71 58.42) (xy 92.71 67.31)
+			(xy 71.12 55.88) (xy 71.12 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1334,47 +1364,47 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 69.85) (xy 212.09 69.85)
+			(xy 201.93 92.71) (xy 201.93 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50e17fcc-666e-4189-beb2-fc1e3f2e8d6e")
+		(uuid "4f862d80-3a49-4d2d-9810-d84bb42c667e")
 	)
 	(wire
 		(pts
-			(xy 199.39 97.79) (xy 199.39 101.6)
+			(xy 226.06 68.58) (xy 226.06 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51c29497-6fa4-4301-9461-c1cfcb1a02bb")
+		(uuid "51a89ef2-c70e-418e-baa2-a897f81ba6a5")
 	)
 	(wire
 		(pts
-			(xy 163.83 88.9) (xy 168.91 88.9)
+			(xy 233.68 77.47) (xy 233.68 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "588ffe78-4b7a-4195-877e-1403aa0a3803")
+		(uuid "524a19b6-2f38-4d1e-95e3-877350198b29")
 	)
 	(wire
 		(pts
-			(xy 187.96 59.69) (xy 190.5 59.69)
+			(xy 233.68 81.28) (xy 238.76 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "591c0b99-7ac9-424d-a571-782e9faf3a01")
+		(uuid "5e9ebf08-b4be-463c-b0a7-3ded5835dcd3")
 	)
 	(wire
 		(pts
-			(xy 81.28 87.63) (xy 85.09 87.63)
+			(xy 59.69 85.09) (xy 63.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1384,27 +1414,27 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 97.79) (xy 210.82 97.79)
+			(xy 190.5 87.63) (xy 194.31 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a0ea681-c49f-40dc-9281-4ec2a5ce8258")
+		(uuid "636e1b54-d6b3-4d75-bb55-0cdf10ef7033")
 	)
 	(wire
 		(pts
-			(xy 212.09 69.85) (xy 212.09 81.28)
+			(xy 102.87 74.93) (xy 102.87 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75676da8-600a-4236-b6f4-ec2c44ee33d6")
+		(uuid "65874634-605c-47e6-8789-bcf6b243ad9f")
 	)
 	(wire
 		(pts
-			(xy 116.84 68.58) (xy 116.84 80.01)
+			(xy 95.25 66.04) (xy 95.25 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1414,27 +1444,27 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 78.74) (xy 194.31 78.74)
+			(xy 102.87 83.82) (xy 102.87 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ea9ed09-20d4-48e5-9c55-9f21ffd8ba86")
+		(uuid "807030f1-ca1f-4648-8ad0-a23911ec70ff")
 	)
 	(wire
 		(pts
-			(xy 204.47 93.98) (xy 204.47 97.79)
+			(xy 201.93 77.47) (xy 201.93 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fd189be-852a-4833-b8a2-5cc8078d0099")
+		(uuid "83fd0458-7d30-4bf4-8cd3-52ac839ae652")
 	)
 	(wire
 		(pts
-			(xy 68.58 87.63) (xy 73.66 87.63)
+			(xy 46.99 85.09) (xy 52.07 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1444,7 +1474,27 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 96.52) (xy 104.14 100.33)
+			(xy 233.68 86.36) (xy 233.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f44da00-85f1-46db-b573-74ee6046b8aa")
+	)
+	(wire
+		(pts
+			(xy 95.25 81.28) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9058931c-4e01-4cc7-a417-47949a84cc39")
+	)
+	(wire
+		(pts
+			(xy 82.55 93.98) (xy 82.55 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1454,7 +1504,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 68.58) (xy 116.84 68.58)
+			(xy 101.6 66.04) (xy 95.25 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1464,67 +1514,27 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 78.74) (xy 187.96 83.82)
+			(xy 201.93 74.93) (xy 201.93 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c87990f-6b7b-4e15-8093-afde135af6d9")
+		(uuid "a4bfee15-f350-40d7-bc2c-b3036e2199a8")
 	)
 	(wire
 		(pts
-			(xy 187.96 59.69) (xy 187.96 68.58)
+			(xy 226.06 73.66) (xy 266.7 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ce7bb36-fb45-48de-8646-6d634c4b7094")
+		(uuid "a5866acd-1f40-458b-ab73-da7c170e96ef")
 	)
 	(wire
 		(pts
-			(xy 204.47 78.74) (xy 204.47 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a08b7826-b9eb-4120-a2ea-ee23cf22c71b")
-	)
-	(wire
-		(pts
-			(xy 204.47 97.79) (xy 210.82 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8c3a1bf-e73d-412a-9c71-05edd49f1ed1")
-	)
-	(wire
-		(pts
-			(xy 121.92 85.09) (xy 116.84 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa608757-4ff6-40b0-bf5b-ef3d0decd57b")
-	)
-	(wire
-		(pts
-			(xy 212.09 81.28) (xy 217.17 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac40da53-4456-4b90-a046-cdb03c485757")
-	)
-	(wire
-		(pts
-			(xy 92.71 58.42) (xy 95.25 58.42)
+			(xy 71.12 55.88) (xy 73.66 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1534,17 +1544,37 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 85.09) (xy 116.84 85.09)
+			(xy 95.25 71.12) (xy 135.89 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b162f347-0fb4-4666-8e13-5418f2d47bd5")
+		(uuid "b1488f70-d02e-4599-a578-a738846d9187")
 	)
 	(wire
 		(pts
-			(xy 109.22 96.52) (xy 115.57 96.52)
+			(xy 218.44 77.47) (xy 218.44 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b66ea9-5c9e-429c-b954-8caaabb46efa")
+	)
+	(wire
+		(pts
+			(xy 226.06 93.98) (xy 226.06 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b41aa2c7-9690-4a71-a4c7-34c2af4d179b")
+	)
+	(wire
+		(pts
+			(xy 87.63 93.98) (xy 95.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1554,7 +1584,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 77.47) (xy 121.92 77.47)
+			(xy 226.06 83.82) (xy 238.76 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b017a1-5d0c-46f9-90cf-6dc5ed6736c1")
+	)
+	(wire
+		(pts
+			(xy 87.63 74.93) (xy 102.87 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1564,27 +1604,57 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 93.98) (xy 187.96 97.79)
+			(xy 232.41 68.58) (xy 226.06 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb46034a-6d2e-4f8a-80f9-65316c9245f8")
+		(uuid "bca48fb9-2939-4c95-95c3-027f21e25c5e")
 	)
 	(wire
 		(pts
-			(xy 115.57 86.36) (xy 115.57 85.09)
+			(xy 218.44 90.17) (xy 218.44 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c36d950e-b725-4ff3-a802-27b21a1214af")
+		(uuid "be500662-4c0f-4d78-8459-0c98707c6fe7")
 	)
 	(wire
 		(pts
-			(xy 106.68 77.47) (xy 109.22 77.47)
+			(xy 102.87 83.82) (xy 107.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee3e8fe-b509-4005-b44b-a8b4c3d4c75f")
+	)
+	(wire
+		(pts
+			(xy 213.36 96.52) (xy 218.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf13ca54-e5ca-45a2-b7b4-890fab374a1d")
+	)
+	(wire
+		(pts
+			(xy 226.06 73.66) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb29849-5068-4425-9fb1-beb62bc221d1")
+	)
+	(wire
+		(pts
+			(xy 85.09 74.93) (xy 87.63 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1594,17 +1664,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 95.25) (xy 210.82 97.79)
+			(xy 177.8 87.63) (xy 182.88 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c811084a-a340-4d56-a3ce-a7af011c6d25")
+		(uuid "dc99b31d-f3da-4d65-b433-a30d2b79d0c7")
 	)
 	(wire
 		(pts
-			(xy 92.71 77.47) (xy 92.71 82.55)
+			(xy 71.12 74.93) (xy 71.12 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1614,27 +1684,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 88.9) (xy 180.34 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8c8faf3-d827-49e4-9ad1-2c077784c539")
-	)
-	(wire
-		(pts
-			(xy 119.38 96.52) (xy 115.57 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e98bca30-3436-43bd-bbe7-45228c02ed56")
-	)
-	(wire
-		(pts
-			(xy 92.71 77.47) (xy 99.06 77.47)
+			(xy 71.12 74.93) (xy 77.47 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1644,39 +1694,38 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 78.74) (xy 204.47 78.74)
+			(xy 95.25 71.12) (xy 95.25 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8801cf8-4867-43ef-850f-66f935cece8c")
+		(uuid "f3536bf1-e3fd-43e8-ac0a-b2cf61fd1012")
 	)
-	(hierarchical_label "PNP_OUT_2"
+	(wire
+		(pts
+			(xy 266.7 83.82) (xy 266.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a807d6-a230-489d-96a3-d2d2c23794a8")
+	)
+	(hierarchical_label "+5V"
 		(shape output)
-		(at 218.44 69.85 0)
+		(at 204.47 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "52249c69-af64-46a2-a0d4-53e36c279115")
-	)
-	(hierarchical_label "ESP_PNP_OUT_2"
-		(shape output)
-		(at 163.83 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a228454-61d0-465c-a2aa-cff2a8657b48")
+		(uuid "40187d78-75d5-452d-8744-bf664a972015")
 	)
 	(hierarchical_label "+5V"
 		(shape output)
-		(at 95.25 58.42 0)
+		(at 73.66 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1685,20 +1734,31 @@
 		)
 		(uuid "7ef38c8d-5abb-42cf-b0a0-85596e81fd9f")
 	)
-	(hierarchical_label "+5V"
+	(hierarchical_label "ESP_PNP_OUT_2"
 		(shape output)
-		(at 190.5 59.69 0)
+		(at 177.8 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9821c08e-0adc-44e1-9fad-df1fb9005cb4")
+	)
+	(hierarchical_label "PNP_OUT_2"
+		(shape output)
+		(at 232.41 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a1b04e98-294b-4587-add3-e83358947b31")
+		(uuid "9e1f66e1-2b7a-47f7-81d8-81dab4617170")
 	)
 	(hierarchical_label "PNP_OUT_1"
 		(shape output)
-		(at 123.19 68.58 0)
+		(at 101.6 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1709,7 +1769,7 @@
 	)
 	(hierarchical_label "ESP_PNP_OUT_1"
 		(shape output)
-		(at 68.58 87.63 180)
+		(at 46.99 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1720,16 +1780,16 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 204.47 90.17 180)
+		(at 218.44 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "05585c6c-f4e1-46ee-9ffc-eb4142aadc83")
-		(property "Reference" "R49"
-			(at 207.01 88.8999 0)
+		(uuid "128e2c77-0735-4248-ac90-1836dcc684b0")
+		(property "Reference" "R38"
+			(at 220.98 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +1798,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 207.01 91.4399 0)
+			(at 220.98 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1807,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 204.47 78.74 0)
+			(at 218.44 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 90.17 0)
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1825,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 204.47 90.17 0)
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,100 +1834,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c40f0802-5141-49e4-9e7f-48ef77bba031")
+			(uuid "9a72fe34-c079-41d6-8be3-a4402e6c1736")
 		)
 		(pin "1"
-			(uuid "674fffa0-3dbc-4f78-9a41-32856053aaa5")
+			(uuid "bbb92052-951f-4b81-bde3-e069e1eba5be")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
-					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Fuse_Holder:ZXMS6004DGTA")
-		(at 127 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14e80e93-c03b-4d20-b84d-f2ab5c64a95d")
-		(property "Reference" "Q7"
-			(at 130.81 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ZXMS6004DGTA"
-			(at 130.81 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse_Holder:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
-			(at 127 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Diodes-Incorporated_ZXMS6004DGTA_Diodes-Incorporated-ZXMS6004DGTA_C211386.html"
-			(at 127 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C211386"
-			(at 127 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "289fd325-d1ff-4130-9d1a-7af70b4f53c5")
-		)
-		(pin "3"
-			(uuid "ad43183a-8fcf-4d4f-a320-60d2ecf6de85")
-		)
-		(pin "2"
-			(uuid "f3c6f356-a8fd-4069-9e61-dbc46b204cfb")
-		)
-		(pin "4"
-			(uuid "13bf93f8-b75d-4578-aeba-eb83c0cfd6da")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
-					(reference "Q7")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -1875,7 +1850,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:SMBJ33A")
-		(at 115.57 90.17 90)
+		(at 95.25 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1884,7 +1859,7 @@
 		(fields_autoplaced yes)
 		(uuid "2304fc80-027a-44eb-a69f-17d152f783cd")
 		(property "Reference" "D7"
-			(at 118.11 88.8999 90)
+			(at 97.79 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +1868,7 @@
 			)
 		)
 		(property "Value" "SMBJ33A"
-			(at 118.11 91.4399 90)
+			(at 97.79 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,7 +1877,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB"
-			(at 115.57 90.17 0)
+			(at 95.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,7 +1886,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
-			(at 115.57 90.17 0)
+			(at 95.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +1895,7 @@
 			)
 		)
 		(property "Description" "SMB Unidirectional TVS diode, 33V, 600W, Alternate KiCAD Library"
-			(at 115.57 90.17 0)
+			(at 95.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,32 +1920,34 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 102.87 77.47 90)
+		(at 201.93 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3dd74523-7cdb-4f49-9404-0a47d6eaf96b")
-		(property "Reference" "R22"
-			(at 102.87 71.8641 90)
+		(uuid "23a885b9-236d-4567-b036-6a2541f75262")
+		(property "Reference" "R36"
+			(at 204.47 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "2k"
-			(at 102.87 74.4041 90)
+		(property "Value" "1k"
+			(at 204.47 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 114.3 77.47 0)
+			(at 201.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +1956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 77.47 0)
+			(at 201.93 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +1965,157 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 102.87 77.47 0)
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d76ee3b-c2ea-4811-ae1f-79ede2350ab5")
+		)
+		(pin "1"
+			(uuid "416b0add-ee46-4678-80a6-f529055df9d9")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fuse_Holder:NCV8402ASTT3G")
+		(at 119.38 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a1ce3e2-7d30-4cee-a19f-6acb5467ad1b")
+		(property "Reference" "U3"
+			(at 120.65 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCV8402ASTT3G"
+			(at 120.65 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse_Holder:SOT-223_L6.5-W3.5-P2.30-LS7.0-BR"
+			(at 100.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Power-Distribution-Switches_ON-Semicon_NCV8402ASTT3G_ON-Semicon-ON-NCV8402ASTT3G_C236053.html"
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C236053"
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea4a0368-0b24-48a3-91e9-b4fc28c3059a")
+		)
+		(pin "3"
+			(uuid "564c75cd-27eb-4b47-b035-331f41a30a7d")
+		)
+		(pin "2"
+			(uuid "4e5ed78b-8fd7-4ccb-b98f-7e560af0cc96")
+		)
+		(pin "4"
+			(uuid "d971c409-22be-43f1-a765-df6f8569ae64")
+		)
+		(instances
+			(project ""
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 81.28 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dd74523-7cdb-4f49-9404-0a47d6eaf96b")
+		(property "Reference" "R22"
+			(at 81.28 69.3241 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 81.28 71.8641 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 81.28 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +2140,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 92.71 71.12 0)
+		(at 71.12 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2022,7 +2149,7 @@
 		(fields_autoplaced yes)
 		(uuid "41452e68-31f6-4963-abd9-a9a5909ea51a")
 		(property "Reference" "R21"
-			(at 95.25 69.8499 0)
+			(at 73.66 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,7 +2158,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 95.25 72.3899 0)
+			(at 73.66 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2167,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 92.71 82.55 0)
+			(at 71.12 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +2176,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 71.12 0)
+			(at 71.12 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2185,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 92.71 71.12 0)
+			(at 71.12 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,169 +2209,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Fuse_Holder:ZXMS6004DGTA")
-		(at 222.25 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4649ca94-281c-4dd8-9a7e-d38f961435c4")
-		(property "Reference" "Q18"
-			(at 226.06 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ZXMS6004DGTA"
-			(at 226.06 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse_Holder:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
-			(at 222.25 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Diodes-Incorporated_ZXMS6004DGTA_Diodes-Incorporated-ZXMS6004DGTA_C211386.html"
-			(at 222.25 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C211386"
-			(at 222.25 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "682ad8ac-6c32-4172-87bc-fcdfec6dc6ec")
-		)
-		(pin "3"
-			(uuid "d2cc358c-78a1-462f-a0dd-1afebc132844")
-		)
-		(pin "2"
-			(uuid "b9251173-4add-4ea0-a6ea-725fcf67a905")
-		)
-		(pin "4"
-			(uuid "a5819f4d-49d8-4b28-a0e5-37336bed5005")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
-					(reference "Q18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:SS8050")
-		(at 185.42 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e7f677d-e98d-48a8-9d4b-34a0c867af9b")
-		(property "Reference" "Q17"
-			(at 190.5 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS8050"
-			(at 190.5 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 190.5 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-			(at 190.5 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 219.456 91.186 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "db0f8db8-4e8a-482a-a22a-4c991633bb44")
-		)
-		(pin "1"
-			(uuid "6be866e4-0778-48c8-aa33-0bc2e8f5b463")
-		)
-		(pin "2"
-			(uuid "f574cff2-ac98-4f1f-ac6c-d90d6df9225c")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
-					(reference "Q17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 109.22 88.9 180)
+		(at 87.63 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2253,7 +2219,7 @@
 		(fields_autoplaced yes)
 		(uuid "5673b994-9a85-4ae9-b64a-a0e55afdd45f")
 		(property "Reference" "R23"
-			(at 111.76 87.6299 0)
+			(at 90.17 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2228,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 111.76 90.1699 0)
+			(at 90.17 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2237,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 109.22 77.47 0)
+			(at 87.63 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 88.9 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2255,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 109.22 88.9 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,77 +2280,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 187.96 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ae4f85b-5f0b-4dce-abdf-9f1896628be9")
-		(property "Reference" "R47"
-			(at 190.5 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 190.5 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 187.96 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 187.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "12f4d162-5471-45ba-8731-2bcb2b6398f9")
-		)
-		(pin "1"
-			(uuid "64232a1a-8fac-4d40-82c5-011114dac97a")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 77.47 87.63 90)
+		(at 55.88 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2393,7 +2289,7 @@
 		(fields_autoplaced yes)
 		(uuid "61566db6-1ed7-40e2-ade9-1a8dd47c9e24")
 		(property "Reference" "R20"
-			(at 77.47 81.28 90)
+			(at 55.88 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +2297,7 @@
 			)
 		)
 		(property "Value" "2K2"
-			(at 77.47 83.82 90)
+			(at 55.88 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2305,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 88.9 87.63 0)
+			(at 67.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +2314,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 87.63 0)
+			(at 55.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2323,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 77.47 87.63 0)
+			(at 55.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,33 +2347,56 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 172.72 88.9 90)
+		(lib_id "Transistor_BJT:SS8050")
+		(at 199.39 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "61cae213-0a79-4572-a022-cda3347fd0e7")
-		(property "Reference" "R24"
-			(at 172.72 82.55 90)
+		(uuid "6721d981-1675-4b95-ad0f-fc0b1bb4c265")
+		(property "Reference" "Q5"
+			(at 204.47 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "2K2"
-			(at 172.72 85.09 90)
+		(property "Value" "SS8050"
+			(at 204.47 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 184.15 88.9 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 204.47 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
+			(at 204.47 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
+			(at 233.426 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,51 +2404,51 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 172.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 172.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98ac6cd4-780a-4fcd-8a52-9eed0e0a9f15")
+		(pin "3"
+			(uuid "b8b02ba6-8fb6-4664-bec8-7d328cf5f0d6")
 		)
 		(pin "1"
-			(uuid "4dc39ba4-4f2a-4792-8662-9946eb5b424c")
+			(uuid "28f27ea5-b4ac-450d-b590-707835d77bb4")
+		)
+		(pin "2"
+			(uuid "d428cda3-ecd1-46fd-a602-2fac6f6c64bd")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
-					(reference "R24")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 199.39 101.6 0)
+		(lib_id "Fuse_Holder:NCV8402ASTT3G")
+		(at 250.19 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "767546ee-bdca-4c7e-b2f6-facfad917ea0")
-		(property "Reference" "#PWR051"
-			(at 199.39 107.95 0)
+		(uuid "7d932bac-ac3e-4723-843d-abe9898f5182")
+		(property "Reference" "U8"
+			(at 251.46 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCV8402ASTT3G"
+			(at 251.46 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse_Holder:SOT-223_L6.5-W3.5-P2.30-LS7.0-BR"
+			(at 231.14 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,16 +2456,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 199.39 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 101.6 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Power-Distribution-Switches_ON-Semicon_NCV8402ASTT3G_ON-Semicon-ON-NCV8402ASTT3G_C236053.html"
+			(at 228.6 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,8 +2465,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 199.39 101.6 0)
+		(property "Description" ""
+			(at 250.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,8 +2474,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 101.6 0)
+		(property "LCSC Part" "C236053"
+			(at 226.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,80 +2484,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "93d8d4ae-a08a-40cd-8800-6e69c0bbb5a1")
+			(uuid "76b37ea4-b672-44f0-99b4-2f93deae6ebd")
 		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 198.12 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d7a562a-b62d-490e-8413-b7e22042a568")
-		(property "Reference" "R48"
-			(at 198.12 73.1341 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 198.12 75.6741 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 209.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 198.12 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "837c5eed-d595-4df6-a961-4d25114e70bd")
 		)
 		(pin "2"
-			(uuid "c998649a-6f03-4074-a1b4-5832f3649510")
+			(uuid "6926639f-490e-4b82-87e8-657e695e2896")
 		)
-		(pin "1"
-			(uuid "a797e8ae-2465-427b-9453-8698e3ae7422")
+		(pin "4"
+			(uuid "48fbc093-ed6c-4fcb-ac0b-43118ecf37af")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
-					(reference "R48")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -2654,16 +2506,16 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:SMBJ33A")
-		(at 210.82 91.44 90)
+		(at 226.06 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a1335ebb-f3c4-4a32-935a-8637a00ccc27")
-		(property "Reference" "D8"
-			(at 213.36 90.1699 90)
+		(uuid "8b2afc95-a50c-4aeb-861c-0ac9a657d750")
+		(property "Reference" "D9"
+			(at 228.6 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +2524,7 @@
 			)
 		)
 		(property "Value" "SMBJ33A"
-			(at 213.36 92.7099 90)
+			(at 228.6 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +2533,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB"
-			(at 210.82 91.44 0)
+			(at 226.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +2542,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
-			(at 210.82 91.44 0)
+			(at 226.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +2551,7 @@
 			)
 		)
 		(property "Description" "SMB Unidirectional TVS diode, 33V, 600W, Alternate KiCAD Library"
-			(at 210.82 91.44 0)
+			(at 226.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,15 +2560,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9125b8d2-189f-4ddd-bfaa-1e818f7d4f8a")
+			(uuid "3f300d73-68ff-4552-89e8-e03f1d790f0b")
 		)
 		(pin "2"
-			(uuid "537b2a9f-0c58-4128-a26c-60fe04cd68ba")
+			(uuid "dbc0e770-90c2-45e7-b97d-6e90c9879975")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2724,16 +2576,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 100.33 0)
+		(at 213.36 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dcaf3613-f2e5-4db1-97bd-69223a95e1c3")
-		(property "Reference" "#PWR043"
-			(at 104.14 106.68 0)
+		(uuid "c91a278a-6947-496e-a36d-9ed16d642c55")
+		(property "Reference" "#PWR041"
+			(at 213.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +2594,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 105.41 0)
+			(at 213.36 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 100.33 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 100.33 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2620,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 100.33 0)
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d43b3ee7-a538-41c3-b4b9-099582e673e0")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcaf3613-f2e5-4db1-97bd-69223a95e1c3")
+		(property "Reference" "#PWR043"
+			(at 82.55 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,8 +2707,76 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 186.69 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e15eb6b0-e185-4e16-bda3-c34f96dac3d5")
+		(property "Reference" "R35"
+			(at 186.69 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2K2"
+			(at 186.69 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 186.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a69c5af6-11fa-4848-8170-dd1c6b98d007")
+		)
+		(pin "1"
+			(uuid "3c828e19-dd85-43b3-a650-e37636c9a0d6")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:SS8050")
-		(at 90.17 87.63 0)
+		(at 68.58 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2799,7 +2785,7 @@
 		(fields_autoplaced yes)
 		(uuid "e418fc2a-209f-4aa9-bb01-9c1ea8660f42")
 		(property "Reference" "Q6"
-			(at 95.25 86.3599 0)
+			(at 73.66 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +2794,7 @@
 			)
 		)
 		(property "Value" "SS8050"
-			(at 95.25 88.8999 0)
+			(at 73.66 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +2803,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 95.25 94.996 0)
+			(at 73.66 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,7 +2814,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-			(at 95.25 92.456 0)
+			(at 73.66 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2824,7 @@
 			)
 		)
 		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 124.206 89.916 0)
+			(at 102.616 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,6 +2845,74 @@
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 212.09 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fca87b24-783a-43ca-878f-8fbadf5d3bb0")
+		(property "Reference" "R37"
+			(at 212.09 71.8641 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 212.09 74.4041 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 223.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 212.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4211b575-4bf9-448e-8309-ee4f797e7038")
+		)
+		(pin "1"
+			(uuid "a6a85b09-5603-4cf5-9951-9b5e192e4e61")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/8130b756-3e88-4fc2-a026-528e9a5f42de"
+					(reference "R37")
 					(unit 1)
 				)
 			)
