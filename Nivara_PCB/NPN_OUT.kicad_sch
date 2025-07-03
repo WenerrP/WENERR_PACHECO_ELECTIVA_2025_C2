@@ -1734,7 +1734,7 @@
 		)
 		(uuid "12d0c951-2c10-4c63-b95e-b48faf580b0f")
 	)
-	(hierarchical_label "PNP_OUT_1"
+	(hierarchical_label "NPN_OUT_1"
 		(shape output)
 		(at 92.71 76.2 0)
 		(effects
@@ -1767,7 +1767,7 @@
 		)
 		(uuid "9a513cb0-73c8-4c3e-9fb0-6953152dcb3c")
 	)
-	(hierarchical_label "PNP_OUT_2"
+	(hierarchical_label "NPN_OUT_2"
 		(shape output)
 		(at 223.52 78.74 0)
 		(effects
