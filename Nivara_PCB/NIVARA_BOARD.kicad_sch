@@ -1919,7 +1919,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 147.32) (xy 252.73 147.32)
+			(xy 248.92 148.59) (xy 252.73 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1969,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 144.78) (xy 252.73 144.78)
+			(xy 248.92 146.05) (xy 252.73 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2169,6 +2169,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 149.86) (xy 219.71 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e6cb34-9cd4-45c5-b357-4be6ccb40beb")
+	)
+	(wire
+		(pts
 			(xy 215.9 40.64) (xy 224.79 40.64)
 		)
 		(stroke
@@ -2219,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 142.24) (xy 252.73 142.24)
+			(xy 248.92 143.51) (xy 252.73 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2349,6 +2359,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 152.4) (xy 219.71 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4c2557-ab3b-44a6-936c-e4896973058d")
+	)
+	(wire
+		(pts
 			(xy 29.21 128.27) (xy 31.75 128.27)
 		)
 		(stroke
@@ -2376,16 +2396,6 @@
 			(type default)
 		)
 		(uuid "c44672cf-c707-42ed-a4cb-12488b31e7e4")
-	)
-	(wire
-		(pts
-			(xy 248.92 149.86) (xy 252.73 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c56382c3-0674-4c01-9320-ce72c806efb5")
 	)
 	(wire
 		(pts
@@ -2515,7 +2525,7 @@
 	)
 	(hierarchical_label "A0_5_OUT_1"
 		(shape input)
-		(at 252.73 142.24 0)
+		(at 252.73 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2612,6 +2622,17 @@
 		)
 		(uuid "6a78674f-61f4-4515-9edc-d0e44c61057f")
 	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 214.63 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79c1ca93-ebb0-486b-8bc5-1a3d81e3cabb")
+	)
 	(hierarchical_label "RLY_2_NO"
 		(shape output)
 		(at 252.73 90.17 0)
@@ -2669,7 +2690,7 @@
 	)
 	(hierarchical_label "A0_10_OUT_1"
 		(shape output)
-		(at 252.73 144.78 0)
+		(at 252.73 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2677,17 +2698,6 @@
 			(justify left)
 		)
 		(uuid "944da62c-4f3c-4883-8cbe-e2339c19805f")
-	)
-	(hierarchical_label "LOOP-"
-		(shape input)
-		(at 252.73 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "abc1d947-9afe-41fe-9c4e-cfc6d9c3c42a")
 	)
 	(hierarchical_label "PNP_IN_1"
 		(shape input)
@@ -2702,7 +2712,7 @@
 	)
 	(hierarchical_label "LOOP+"
 		(shape input)
-		(at 252.73 147.32 0)
+		(at 252.73 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2711,16 +2721,16 @@
 		)
 		(uuid "bba7c59d-e5f9-439e-aaee-509d6828a584")
 	)
-	(hierarchical_label "LOOP+"
+	(hierarchical_label "SDA"
 		(shape input)
-		(at 308.3444 148.2754 0)
+		(at 214.63 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "e8c7b430-0410-4a5a-acf9-7fe3e3c116cb")
+		(uuid "c0267d6d-45a8-4bba-9d7d-748a31affeac")
 	)
 	(hierarchical_label "RLY_1_NO"
 		(shape output)
@@ -2733,7 +2743,7 @@
 		)
 		(uuid "f44888a1-807f-43d6-9c03-5f02721a4068")
 	)
-	(hierarchical_label "A0_5_IN_1"
+	(hierarchical_label "A0_32_IN_1"
 		(shape input)
 		(at 255.27 121.92 0)
 		(effects
@@ -4066,7 +4076,7 @@
 				(justify right)
 			)
 		)
-		(pin "A0_5_IN_1" input
+		(pin "A0_32_IN_1" input
 			(at 251.46 121.92 0)
 			(uuid "b4d76534-6854-48af-b29d-d38bc42a4abf")
 			(effects
@@ -4698,7 +4708,7 @@
 	)
 	(sheet
 		(at 219.71 139.7)
-		(size 29.21 12.7)
+		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4722,7 +4732,7 @@
 			)
 		)
 		(property "Sheetfile" "ANALOG_OUT.kicad_sch"
-			(at 219.71 152.9846 0)
+			(at 219.71 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +4741,7 @@
 			)
 		)
 		(pin "+3.3V" input
-			(at 219.71 146.05 180)
+			(at 219.71 144.78 180)
 			(uuid "d2802121-c626-40e0-b3a5-80b78d13f922")
 			(effects
 				(font
@@ -4751,7 +4761,7 @@
 			)
 		)
 		(pin "A0_10_OUT_1" output
-			(at 248.92 144.78 0)
+			(at 248.92 146.05 0)
 			(uuid "e12da4c7-cd60-472a-9743-30539760284d")
 			(effects
 				(font
@@ -4761,7 +4771,7 @@
 			)
 		)
 		(pin "A0_5_OUT_1" output
-			(at 248.92 142.24 0)
+			(at 248.92 143.51 0)
 			(uuid "92d4e1b2-c062-400c-8f47-fde374b137d2")
 			(effects
 				(font
@@ -4770,9 +4780,9 @@
 				(justify right)
 			)
 		)
-		(pin "ESP_4-20_OUT" input
+		(pin "SCLK" input
 			(at 219.71 149.86 180)
-			(uuid "bf579524-614c-4610-87ff-a74f8caa73d9")
+			(uuid "55001911-e9e1-4231-8dd1-9bac08d4f28e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,24 +4790,14 @@
 				(justify left)
 			)
 		)
-		(pin "LOOP+" input
-			(at 248.92 147.32 0)
-			(uuid "b603687c-c3db-457a-ae79-89801e52ee8b")
+		(pin "SDA" input
+			(at 219.71 152.4 180)
+			(uuid "2de5909e-9f68-4b7a-abc1-57823ca68e81")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(pin "LOOP-" input
-			(at 248.92 149.86 0)
-			(uuid "245ec5a3-3947-4ee9-9070-9ed892095eb4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
