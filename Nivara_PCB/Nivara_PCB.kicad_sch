@@ -1255,11 +1255,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Fuse_Holder:2920L185DR"
+		(symbol "EasyEDA:BSMD1812-150-33V"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "F"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -1267,7 +1267,7 @@
 					)
 				)
 			)
-			(property "Value" "2920L185DR"
+			(property "Value" "BSMD1812-150-33V"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1275,7 +1275,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:F2920"
+			(property "Footprint" "EasyEDA:F1812"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1284,7 +1284,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_Littelfuse_2920L185DR_Littelfuse-2920L185DR_C207086.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/PTC-Resettable-Fuses_BHFUSE-BSMD1812-150-33V_C883154.html"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -1302,7 +1302,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C207086"
+			(property "LCSC Part" "C883154"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1311,10 +1311,23 @@
 					(hide yes)
 				)
 			)
-			(symbol "2920L185DR_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
+			(symbol "BSMD1812-150-33V_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1325,7 +1338,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 2.54 0)
+						(xy 3.81 0) (xy 5.08 0)
 					)
 					(stroke
 						(width 0)
@@ -1354,7 +1367,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 0 180)
+					(at 7.62 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -1960,13 +1973,23 @@
 	)
 	(text "12-24 VDC"
 		(exclude_from_sim no)
-		(at 127.254 33.782 0)
+		(at 143.764 29.972 0)
 		(effects
 			(font
 				(size 2.5 2.5)
 			)
 		)
 		(uuid "1c3cf312-30b0-4c4e-ba26-23040ff7c84a")
+	)
+	(text "\n\n24 VDC"
+		(exclude_from_sim no)
+		(at 218.694 24.13 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "34ed1ad3-1996-4c2b-b72a-f656495fd2ea")
 	)
 	(text "TIERRA DE\nLOOP"
 		(exclude_from_sim no)
@@ -1982,17 +2005,23 @@
 		(at 160.02 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "32376633-3102-424a-8f31-2ed292820496")
+		(uuid "5e025f07-95d3-47dd-8162-6b9ba4489dcb")
+	)
+	(junction
+		(at 234.95 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f96a6b47-5c32-45be-91eb-cb7e69d7d353")
 	)
 	(wire
 		(pts
-			(xy 160.02 43.18) (xy 154.94 43.18)
+			(xy 234.95 60.96) (xy 234.95 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04c3c048-c9c7-40cb-b03d-1e100bbf1179")
+		(uuid "033deb9c-cda8-44f2-a6a9-8ac9ff9ab67b")
 	)
 	(wire
 		(pts
@@ -2066,6 +2095,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 34.29) (xy 234.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef9030e-5d40-46a7-83fa-c490c4dc39a2")
+	)
+	(wire
+		(pts
 			(xy 83.82 125.73) (xy 91.44 125.73)
 		)
 		(stroke
@@ -2096,6 +2135,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 43.18) (xy 160.02 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384c2aae-b905-4c72-a6d5-4888f3e0469d")
+	)
+	(wire
+		(pts
+			(xy 234.95 41.91) (xy 234.95 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b79dbee-6da0-40d6-bc01-3cab9b24e3c4")
+	)
+	(wire
+		(pts
 			(xy 144.78 45.72) (xy 140.97 45.72)
 		)
 		(stroke
@@ -2103,6 +2162,16 @@
 			(type default)
 		)
 		(uuid "42d023e2-636f-463b-9e16-8fb15f44ba07")
+	)
+	(wire
+		(pts
+			(xy 156.21 43.18) (xy 160.02 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452fea85-f58c-4378-8176-ec1365ad0e77")
 	)
 	(wire
 		(pts
@@ -2116,6 +2185,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 44.45) (xy 215.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "519a951a-2f03-4cea-96e1-2f0f35a84ea4")
+	)
+	(wire
+		(pts
 			(xy 83.82 80.01) (xy 91.44 80.01)
 		)
 		(stroke
@@ -2126,7 +2205,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 43.18) (xy 160.02 52.07)
+			(xy 160.02 35.56) (xy 160.02 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2156,16 +2235,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 43.18) (xy 144.78 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5be8090c-2368-4cf1-817b-ec1598003352")
-	)
-	(wire
-		(pts
 			(xy 83.82 104.14) (xy 91.44 104.14)
 		)
 		(stroke
@@ -2173,6 +2242,16 @@
 			(type default)
 		)
 		(uuid "617bd504-d029-4cc5-ae68-7de847eeceb5")
+	)
+	(wire
+		(pts
+			(xy 231.14 41.91) (xy 234.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c550de-94f4-4cf0-91b8-f0a6f8858994")
 	)
 	(wire
 		(pts
@@ -2186,13 +2265,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 35.56) (xy 160.02 43.18)
+			(xy 218.44 41.91) (xy 215.9 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76b2654f-284e-42f0-bd57-f8e41c0a86ab")
+		(uuid "80db3c6e-cc2f-4474-9997-ea263907bc9c")
 	)
 	(wire
 		(pts
@@ -2246,6 +2325,26 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 43.18) (xy 143.51 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a315464f-3eb0-470f-9505-e1adda6cc8be")
+	)
+	(wire
+		(pts
+			(xy 219.71 46.99) (xy 219.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83473d7-0ea2-4243-9a17-0ab66ddacb09")
+	)
+	(wire
+		(pts
 			(xy 86.36 91.44) (xy 86.36 90.17)
 		)
 		(stroke
@@ -2266,7 +2365,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 90.17) (xy 162.56 93.98)
+			(xy 180.34 111.76) (xy 180.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2366,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 99.06) (xy 173.99 102.87)
+			(xy 205.74 111.76) (xy 205.74 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2415,83 +2514,6 @@
 		(uuid "f93ba6fc-f12f-48ae-bc57-d9dd8ba71c78")
 	)
 	(symbol
-		(lib_id "Fuse_Holder:2920L185DR")
-		(at 149.86 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19038d61-56d2-477b-bb21-152d298d8556")
-		(property "Reference" "U4"
-			(at 149.86 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2920L185DR"
-			(at 149.86 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse_Holder:F2920"
-			(at 149.86 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Littelfuse_2920L185DR_Littelfuse-2920L185DR_C207086.html"
-			(at 149.86 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C207086"
-			(at 149.86 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6755f16-a26d-4c0a-88e7-9b81b1889c77")
-		)
-		(pin "1"
-			(uuid "a8ebfd91-8607-4f54-adb4-09c71f037b7b")
-		)
-		(instances
-			(project ""
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x06")
 		(at 96.52 101.6 0)
 		(unit 1)
@@ -2500,7 +2522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dfccf2f-0abb-44d0-8a40-94f504893cc7")
-		(property "Reference" "J10"
+		(property "Reference" "J9"
 			(at 99.06 101.5999 0)
 			(effects
 				(font
@@ -2566,7 +2588,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J10")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2574,16 +2596,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 102.87 0)
+		(at 219.71 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "28572175-142c-4647-8f12-908b87722f72")
-		(property "Reference" "#PWR036"
-			(at 173.99 109.22 0)
+		(uuid "216a974b-f4ad-41b5-a29f-9974b7798bf4")
+		(property "Reference" "#PWR010"
+			(at 219.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,8 +2613,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 173.99 107.95 0)
+		(property "Value" "GND2"
+			(at 219.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2600,7 +2622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 102.87 0)
+			(at 219.71 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 102.87 0)
+			(at 219.71 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +2640,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 102.87 0)
+			(at 219.71 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,12 +2649,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b22eb3f-c2c4-4334-bf6b-1a1869b420f0")
+			(uuid "3e861991-bec0-40dd-8b5f-6fc1e8b33015")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR036")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2640,16 +2662,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 106.68 0)
+		(at 160.02 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "294c160e-2bb5-40b4-a787-8cd1659c344d")
-		(property "Reference" "#PWR01"
-			(at 33.02 113.03 0)
+		(uuid "2653de9c-1502-44be-912b-762c80f97c3d")
+		(property "Reference" "#PWR07"
+			(at 160.02 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,8 +2679,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 33.02 111.76 0)
+		(property "Value" "GND1"
+			(at 160.02 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 106.68 0)
+			(at 160.02 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 106.68 0)
+			(at 160.02 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +2706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 106.68 0)
+			(at 160.02 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,28 +2715,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d0861e3-7423-4ff2-86e8-a2ede8a9b1df")
+			(uuid "eef03720-ef4e-4621-b0d6-a3586894d98d")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR01")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 111.76 0)
+		(lib_id "EasyEDA:BSMD1812-150-33V")
+		(at 148.59 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "37ba1d02-d031-4922-ad40-768b9ecc26cc")
-		(property "Reference" "#PWR06"
-			(at 87.63 118.11 0)
+		(fields_autoplaced yes)
+		(uuid "354ee638-e324-48f8-8a4f-617a48ab5c5a")
+		(property "Reference" "F1"
+			(at 149.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSMD1812-150-33V"
+			(at 149.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:F1812"
+			(at 148.59 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,16 +2761,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 91.44 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 111.76 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/PTC-Resettable-Fuses_BHFUSE-BSMD1812-150-33V_C883154.html"
+			(at 148.59 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,8 +2770,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 87.63 111.76 0)
+		(property "Description" ""
+			(at 148.59 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,8 +2779,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 111.76 0)
+		(property "LCSC Part" "C883154"
+			(at 148.59 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,12 +2789,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d16a608c-6bab-4b1e-a5a8-5300694eb378")
+			(uuid "749f38ab-eeea-44f8-bd1f-675fe5ed4953")
+		)
+		(pin "2"
+			(uuid "5fd8daf9-1656-4e5e-b919-64043efb006d")
 		)
 		(instances
-			(project "Nivara_PCB"
+			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR06")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -2778,7 +2812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43943ddc-4078-4354-9454-74e8b9ea1c68")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 99.06 68.5799 0)
 			(effects
 				(font
@@ -2832,7 +2866,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2919,7 +2953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51402e23-e76c-4215-a8fb-4e20911e3f19")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 162.56 54.6099 90)
 			(effects
 				(font
@@ -2973,7 +3007,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2981,7 +3015,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 162.56 87.63 0)
+		(at 180.34 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2989,8 +3023,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "531a50ac-de26-4edd-b136-1dd4b42296a3")
-		(property "Reference" "H3"
-			(at 165.1 85.0899 0)
+		(property "Reference" "H1"
+			(at 182.88 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +3033,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 165.1 87.6299 0)
+			(at 182.88 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +3042,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 162.56 87.63 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3051,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 87.63 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3060,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 162.56 87.63 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3074,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "H3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3048,7 +3082,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 173.99 96.52 0)
+		(at 205.74 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3056,8 +3090,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53278173-5c53-4f96-9d56-8b7ee6aa2dc8")
-		(property "Reference" "H1"
-			(at 176.53 93.9799 0)
+		(property "Reference" "H2"
+			(at 208.28 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,7 +3100,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 176.53 96.5199 0)
+			(at 208.28 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3109,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 173.99 96.52 0)
+			(at 205.74 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +3118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 96.52 0)
+			(at 205.74 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3127,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 173.99 96.52 0)
+			(at 205.74 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3107,7 +3141,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "H1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3255,6 +3289,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 234.95 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "615d115a-c0de-4457-adee-e8eee363291d")
+		(property "Reference" "#PWR012"
+			(at 234.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 234.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ae5e891-a874-4bfd-91bc-5f16e1cddbc5")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:SMBJ33A")
+		(at 234.95 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66d62b8b-60d0-4eb6-9874-d8ebc2b2854b")
+		(property "Reference" "D2"
+			(at 237.49 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ33A"
+			(at 237.49 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB"
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMB Unidirectional TVS diode, 33V, 600W, Alternate KiCAD Library"
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b14491ed-c056-4d97-8274-5418101cb5d9")
+		)
+		(pin "2"
+			(uuid "ff8ea299-8c00-42cb-aa17-abfd7ba8d0ba")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 25.4 86.36 0)
 		(mirror y)
@@ -3335,7 +3505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7388e41f-9f4d-4a2f-b63b-7eb76c6ff383")
-		(property "Reference" "J6"
+		(property "Reference" "J11"
 			(at 133.35 43.1799 0)
 			(effects
 				(font
@@ -3344,7 +3514,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FUENTE"
+		(property "Value" "FUENTE IN"
 			(at 133.35 45.7199 0)
 			(effects
 				(font
@@ -3389,89 +3559,40 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J6")
+					(reference "J11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 86.36 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74e24ad8-a625-4012-a3a8-71ebce946565")
-		(property "Reference" "#PWR05"
-			(at 86.36 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69b0573b-cc99-4731-8136-dee579684715")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 121.92 0)
+		(lib_id "EasyEDA:BSMD1812-150-33V")
+		(at 223.52 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "787246cd-5f79-49be-816a-905f38a1b0fd")
-		(property "Reference" "#PWR02"
-			(at 33.02 128.27 0)
+		(uuid "7a20b54d-d196-4817-a4ef-a5dabdf63176")
+		(property "Reference" "F2"
+			(at 224.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSMD1812-150-33V"
+			(at 224.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:F1812"
+			(at 223.52 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,16 +3600,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 33.02 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 121.92 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/PTC-Resettable-Fuses_BHFUSE-BSMD1812-150-33V_C883154.html"
+			(at 223.52 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,8 +3609,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 33.02 121.92 0)
+		(property "Description" ""
+			(at 223.52 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,8 +3618,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 121.92 0)
+		(property "LCSC Part" "C883154"
+			(at 223.52 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,12 +3628,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "24f885a7-74b7-4441-b67c-5bdca7a44b7e")
+			(uuid "889c5740-39fa-40c1-8fbd-569d3b3ddd9a")
+		)
+		(pin "2"
+			(uuid "95b457c0-9b2c-4115-904b-0df2185395b0")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR02")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -3535,7 +3651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7dd20d2b-de94-491c-be40-b2c6292265c6")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 99.06 120.6499 0)
 			(effects
 				(font
@@ -3601,7 +3717,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -3617,7 +3733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f12e016-5696-4b32-8ae3-4f6f693b334d")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 144.78 54.61 0)
 			(effects
 				(font
@@ -3626,7 +3742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND1"
 			(at 144.78 53.34 0)
 			(effects
 				(font
@@ -3667,7 +3783,73 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR04")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 234.95 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b5608d4-6940-46d6-a6d6-be9363718ec3")
+		(property "Reference" "#PWR011"
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC2"
+			(at 234.95 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "431e8554-c276-4fa7-8556-ef84117fd60e")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3750,7 +3932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a406cb1-f05f-41ee-8aa2-6d1b78bb937f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -3759,7 +3941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VCC1"
 			(at 160.02 30.48 0)
 			(effects
 				(font
@@ -3800,7 +3982,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3816,7 +3998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c84bec2-8dae-4436-a8fc-6db5e333b651")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 99.06 86.3599 0)
 			(effects
 				(font
@@ -3873,73 +4055,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fffeac6-249c-42d7-b61f-1d22f33939b7")
-		(property "Reference" "#PWR032"
-			(at 160.02 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8c8ccc0-adc9-4fea-8681-9e0bb4b549b9")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR032")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4020,6 +4136,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 205.74 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae310865-8c03-4468-aae8-852c2ba37c60")
+		(property "Reference" "#PWR09"
+			(at 205.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 205.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73476759-c3a1-46b6-82f6-45920b8261d2")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2e3e71b-186e-4067-a022-e4db4ec1e71a")
+		(property "Reference" "#PWR02"
+			(at 33.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 33.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6f99067-3aaa-48eb-b46e-b83a59bf233a")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 96.52 77.47 0)
 		(unit 1)
@@ -4028,7 +4276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0e80122-40b9-446f-b68f-d1f6e51b1427")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 99.06 77.4699 0)
 			(effects
 				(font
@@ -4082,7 +4330,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4090,16 +4338,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 93.98 0)
+		(at 86.36 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc2ee6ba-7ed5-4576-be27-5693ac0ded42")
-		(property "Reference" "#PWR035"
-			(at 162.56 100.33 0)
+		(uuid "cb5f6144-f931-4cd1-ac29-f055e9467323")
+		(property "Reference" "#PWR03"
+			(at 86.36 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,8 +4355,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 162.56 99.06 0)
+		(property "Value" "GND1"
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 93.98 0)
+			(at 86.36 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +4373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 93.98 0)
+			(at 86.36 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,7 +4382,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 93.98 0)
+			(at 86.36 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,12 +4391,280 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d2e4d4a-27ad-4813-bffb-9f997841552c")
+			(uuid "386f091e-c9d1-43fd-85ac-a6280d4e905c")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
-					(reference "#PWR035")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 210.82 41.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d92f75d4-70b4-45d0-ab7f-e95c73d7c739")
+		(property "Reference" "J12"
+			(at 208.28 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FUENTE EX"
+			(at 208.28 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+			(at 210.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 210.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d37b57e3-3689-4dfd-b357-57139d92ff56")
+		)
+		(pin "2"
+			(uuid "54895cb6-18dd-4b10-8fa7-c3a6f3c18f57")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e45a6bad-858c-49f4-a44e-f8614196b006")
+		(property "Reference" "#PWR04"
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 87.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0984199c-cd5d-428c-9338-0c506367a430")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb9adab4-49b6-4850-8136-e0199931072a")
+		(property "Reference" "#PWR01"
+			(at 33.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 33.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f75b657-efda-4c09-95bc-ea0e10d22b09")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbc0ae17-4748-490a-b2ab-c7b6c68e4934")
+		(property "Reference" "#PWR08"
+			(at 180.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cab1efc2-7d12-44b1-bc16-417a1795ce1c")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)

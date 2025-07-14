@@ -308,7 +308,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:CXP0420-6R8M-AG(6.8UH)"
+		(symbol "Fuse_Holder:CXP0420-6R8M-AG(6.8UH)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1995,6 +1995,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Regulador a 5V\n"
+		(exclude_from_sim no)
+		(at 52.832 91.694 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "1defcd7b-a652-4d6c-971b-a4871699ead5")
+	)
 	(text "Regulador a 3.3V\n"
 		(exclude_from_sim no)
 		(at 54.356 35.052 0)
@@ -2004,6 +2014,12 @@
 			)
 		)
 		(uuid "edc8f6a7-5ff2-462b-b286-60046656e400")
+	)
+	(junction
+		(at 68.58 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e235a11-2393-45e6-bffe-b9814373e900")
 	)
 	(junction
 		(at 161.29 46.99)
@@ -2024,10 +2040,34 @@
 		(uuid "15fd6674-218d-4738-ac0e-71ae7f3881d7")
 	)
 	(junction
+		(at 156.21 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "261d677b-db29-492e-8e6a-3b5605e35364")
+	)
+	(junction
 		(at 107.95 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2909ff7e-a2cf-43b9-a4ce-e6d05c6d8904")
+	)
+	(junction
+		(at 139.7 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32b99dd8-9b08-46f8-9602-42a1c851498a")
+	)
+	(junction
+		(at 93.98 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f95c4a4-d55f-45bc-8f76-74e84ece63d1")
+	)
+	(junction
+		(at 115.57 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4395190d-e4bf-4a60-a32b-706abd7c206b")
 	)
 	(junction
 		(at 142.24 73.66)
@@ -2048,6 +2088,30 @@
 		(uuid "4c76eb19-6551-4dba-9ec1-42e25efcccd1")
 	)
 	(junction
+		(at 127 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ab989e2-0e68-496e-b7c6-f31779dd60f7")
+	)
+	(junction
+		(at 90.17 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fa01c2b-dfa3-4844-9e5e-30f6641fa576")
+	)
+	(junction
+		(at 50.8 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dfde1cd-5483-4d16-97ea-be1eb1c0cc7d")
+	)
+	(junction
+		(at 139.7 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75a52b50-2bec-40eb-a8cb-ead68feec900")
+	)
+	(junction
 		(at 118.11 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2066,6 +2130,18 @@
 		(uuid "8d83e383-3fd6-469e-b687-0cfd93535e77")
 	)
 	(junction
+		(at 50.8 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94b125ed-1512-49c2-b2d1-d425ec068226")
+	)
+	(junction
+		(at 115.57 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b9d200f-928e-44f4-bead-3ae6f1b19a45")
+	)
+	(junction
 		(at 142.24 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2078,10 +2154,22 @@
 		(uuid "b82ebdca-3f2e-4906-b580-c1c9ec0bd361")
 	)
 	(junction
+		(at 127 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b96651f0-aa52-43e9-953e-3acffa8c3ebc")
+	)
+	(junction
 		(at 118.11 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6536cd8-2785-448b-98eb-6bd334c0ac69")
+	)
+	(junction
+		(at 115.57 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6ac1c89-5701-4ba5-9eb4-ace538a57ed2")
 	)
 	(junction
 		(at 96.52 73.66)
@@ -2090,10 +2178,22 @@
 		(uuid "cd3d5b03-c965-4e03-9e8b-c20b6c836d1c")
 	)
 	(junction
+		(at 104.14 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd718b13-d643-4fa6-81bb-b37611d4113c")
+	)
+	(junction
 		(at 53.34 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce3aaac4-9379-403b-9dda-4fd800179ae2")
+	)
+	(junction
+		(at 104.14 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eec3ce2f-20ae-4079-8231-613e21c012c0")
 	)
 	(junction
 		(at 129.54 46.99)
@@ -2109,6 +2209,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 106.68) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027cdc8e-81a8-413d-9fb9-052688a04947")
+	)
+	(wire
+		(pts
 			(xy 105.41 46.99) (xy 107.95 46.99)
 		)
 		(stroke
@@ -2119,6 +2229,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 111.76) (xy 50.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0364f42d-30a9-4d38-a67e-16870d6d8542")
+	)
+	(wire
+		(pts
 			(xy 161.29 67.31) (xy 161.29 73.66)
 		)
 		(stroke
@@ -2126,6 +2246,16 @@
 			(type default)
 		)
 		(uuid "040c402a-8a8a-4095-af71-8e80d0d871cd")
+	)
+	(wire
+		(pts
+			(xy 50.8 114.3) (xy 50.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064d73b5-f8c8-4dd7-9002-13446fec980f")
 	)
 	(wire
 		(pts
@@ -2149,6 +2279,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 121.92) (xy 127 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d256869-22e0-4ad6-92e7-72dfcf9e700b")
+	)
+	(wire
+		(pts
 			(xy 91.44 49.53) (xy 93.98 49.53)
 		)
 		(stroke
@@ -2156,6 +2296,46 @@
 			(type default)
 		)
 		(uuid "12a79d56-23eb-4414-bc61-9d05f5d52971")
+	)
+	(wire
+		(pts
+			(xy 101.6 106.68) (xy 104.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c4dfad-808b-4807-8a5a-d3d99891ecd0")
+	)
+	(wire
+		(pts
+			(xy 81.28 119.38) (xy 93.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172e65fe-5ea7-41b6-9f43-c2771d629377")
+	)
+	(wire
+		(pts
+			(xy 93.98 116.84) (xy 93.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0d6118-7165-4947-a877-7b6e1eab3891")
+	)
+	(wire
+		(pts
+			(xy 139.7 121.92) (xy 139.7 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c70057-8151-4152-b9bd-563aa472ad6e")
 	)
 	(wire
 		(pts
@@ -2169,6 +2349,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 133.35) (xy 139.7 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d301c6-eb75-4fb0-a2cb-4476451edf7a")
+	)
+	(wire
+		(pts
 			(xy 43.18 52.07) (xy 53.34 52.07)
 		)
 		(stroke
@@ -2179,6 +2369,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 121.92) (xy 50.8 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29334c33-2254-4bf9-af35-19dee4a1b59d")
+	)
+	(wire
+		(pts
 			(xy 161.29 49.53) (xy 161.29 46.99)
 		)
 		(stroke
@@ -2186,6 +2386,16 @@
 			(type default)
 		)
 		(uuid "2b118480-b151-4161-8fcf-1e2554c809bf")
+	)
+	(wire
+		(pts
+			(xy 81.28 119.38) (xy 81.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b77dd89-8354-4d42-b4ad-13d145e9b3c5")
 	)
 	(wire
 		(pts
@@ -2209,6 +2419,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 106.68) (xy 115.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fcaa957-5183-4925-b713-6aeb0b55c2cc")
+	)
+	(wire
+		(pts
 			(xy 96.52 69.85) (xy 96.52 73.66)
 		)
 		(stroke
@@ -2216,6 +2436,16 @@
 			(type default)
 		)
 		(uuid "31bbe6d8-38e9-40f9-8daf-1349a73f4dad")
+	)
+	(wire
+		(pts
+			(xy 50.8 133.35) (xy 68.58 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3940290a-cb97-4509-b0c8-4eb79be4bd35")
 	)
 	(wire
 		(pts
@@ -2229,6 +2459,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 128.27) (xy 156.21 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428014de-0f16-4880-aa8d-6e6ccd64a2f7")
+	)
+	(wire
+		(pts
+			(xy 156.21 102.87) (xy 156.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ea1542-a7ea-42b4-b4b0-7023792db351")
+	)
+	(wire
+		(pts
 			(xy 96.52 73.66) (xy 71.12 73.66)
 		)
 		(stroke
@@ -2236,6 +2486,16 @@
 			(type default)
 		)
 		(uuid "4cbaef4a-805f-4e9a-87a8-51823f6c9bb8")
+	)
+	(wire
+		(pts
+			(xy 93.98 119.38) (xy 104.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4a83c6-25fe-4d5d-bbd6-bf4e4da661aa")
 	)
 	(wire
 		(pts
@@ -2259,6 +2519,46 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 133.35) (xy 127 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54486ee5-4436-41bf-b94b-85c33e3a7488")
+	)
+	(wire
+		(pts
+			(xy 90.17 106.68) (xy 78.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545573f2-870b-48ee-b1b6-2bb16b41f7d4")
+	)
+	(wire
+		(pts
+			(xy 156.21 118.11) (xy 156.21 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a08f4f4-3c5e-418d-900a-1be423e8b31e")
+	)
+	(wire
+		(pts
+			(xy 104.14 106.68) (xy 115.57 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7748f4-1e66-4375-a276-4f2677eb9366")
+	)
+	(wire
+		(pts
 			(xy 118.11 46.99) (xy 129.54 46.99)
 		)
 		(stroke
@@ -2266,6 +2566,16 @@
 			(type default)
 		)
 		(uuid "5acfd8d1-86f4-4d15-8184-4035952c7787")
+	)
+	(wire
+		(pts
+			(xy 68.58 133.35) (xy 68.58 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ffed5ab-30b4-4a59-90cc-e3a51c5acb2b")
 	)
 	(wire
 		(pts
@@ -2279,6 +2589,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 106.68) (xy 151.13 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b58ed4-76a7-44e1-b29a-38f98774ec8c")
+	)
+	(wire
+		(pts
 			(xy 118.11 69.85) (xy 118.11 73.66)
 		)
 		(stroke
@@ -2286,6 +2606,16 @@
 			(type default)
 		)
 		(uuid "6460f3b1-ff90-488f-b69d-632ccc2b487f")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d0ec68-a057-4a50-a277-8fda23bb8ace")
 	)
 	(wire
 		(pts
@@ -2339,6 +2669,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 111.76) (xy 78.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0b4f80-ffc4-45f6-8288-f8f3098cd502")
+	)
+	(wire
+		(pts
 			(xy 118.11 59.69) (xy 118.11 62.23)
 		)
 		(stroke
@@ -2369,6 +2709,46 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 119.38) (xy 115.57 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d371b8-906c-4fb9-8bd0-fcd542e9a410")
+	)
+	(wire
+		(pts
+			(xy 115.57 133.35) (xy 127 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76185104-568b-4edf-b6f6-af179e0055f9")
+	)
+	(wire
+		(pts
+			(xy 104.14 116.84) (xy 104.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b9d7ba-ad32-4271-a5e5-e19d3d2b7540")
+	)
+	(wire
+		(pts
+			(xy 139.7 106.68) (xy 143.51 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c2bba4-8878-429c-9fa6-1c80553efc71")
+	)
+	(wire
+		(pts
 			(xy 118.11 46.99) (xy 118.11 49.53)
 		)
 		(stroke
@@ -2376,6 +2756,26 @@
 			(type default)
 		)
 		(uuid "7fd9dfeb-aede-4fa8-967c-152527c8c8d4")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82109fc9-09a6-4a4a-b3d0-dbf55f0bbab0")
+	)
+	(wire
+		(pts
+			(xy 90.17 109.22) (xy 90.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f37d14-dee4-4327-9f89-d3aced511e56")
 	)
 	(wire
 		(pts
@@ -2399,6 +2799,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 116.84) (xy 68.58 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893d7250-2df9-47c3-a008-d4f75b54bdc8")
+	)
+	(wire
+		(pts
 			(xy 53.34 54.61) (xy 53.34 52.07)
 		)
 		(stroke
@@ -2406,6 +2816,26 @@
 			(type default)
 		)
 		(uuid "8f7ade32-03c1-40c8-a3d2-4fe8efa31c83")
+	)
+	(wire
+		(pts
+			(xy 104.14 106.68) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9012c085-cbb7-41a5-873a-071b82c63016")
+	)
+	(wire
+		(pts
+			(xy 90.17 106.68) (xy 91.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928184fe-c040-413f-9148-1fbc75e88c42")
 	)
 	(wire
 		(pts
@@ -2439,6 +2869,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 110.49) (xy 156.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1c5610-8cc3-4c0f-8fad-5e3ebe62d56d")
+	)
+	(wire
+		(pts
 			(xy 53.34 46.99) (xy 60.96 46.99)
 		)
 		(stroke
@@ -2459,6 +2899,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 133.35) (xy 115.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8bb31bc-3e9c-4a30-868e-7d5afb41a1c9")
+	)
+	(wire
+		(pts
 			(xy 142.24 73.66) (xy 161.29 73.66)
 		)
 		(stroke
@@ -2476,6 +2926,16 @@
 			(type default)
 		)
 		(uuid "ad82a23b-8b1c-4dfa-a158-7a148c0579f7")
+	)
+	(wire
+		(pts
+			(xy 50.8 106.68) (xy 58.42 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1435291-1d09-44e0-b790-b0020748b144")
 	)
 	(wire
 		(pts
@@ -2519,6 +2979,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 119.38) (xy 115.57 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfadd82-ea77-4413-b1c5-43083cc94587")
+	)
+	(wire
+		(pts
 			(xy 43.18 72.39) (xy 43.18 73.66)
 		)
 		(stroke
@@ -2526,6 +2996,26 @@
 			(type default)
 		)
 		(uuid "c419dcb6-c9b3-49c5-8204-dfc1cf648339")
+	)
+	(wire
+		(pts
+			(xy 50.8 111.76) (xy 50.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65d2006-05cc-4acd-b8bc-864055cc47eb")
+	)
+	(wire
+		(pts
+			(xy 78.74 109.22) (xy 81.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77abaea-914b-424f-baf2-fb6ae2578c90")
 	)
 	(wire
 		(pts
@@ -2549,6 +3039,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 106.68) (xy 160.02 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cceed7eb-54ea-4a4b-aecd-cdd541a824c1")
+	)
+	(wire
+		(pts
 			(xy 142.24 43.18) (xy 142.24 46.99)
 		)
 		(stroke
@@ -2569,6 +3069,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 129.54) (xy 115.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6166e6-ba99-4f53-92b8-4ef78d5cd41d")
+	)
+	(wire
+		(pts
 			(xy 161.29 43.18) (xy 161.29 46.99)
 		)
 		(stroke
@@ -2579,6 +3089,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 109.22) (xy 90.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e07dc317-f0c6-4fdb-ab96-19309b10f3b7")
+	)
+	(wire
+		(pts
 			(xy 96.52 57.15) (xy 96.52 59.69)
 		)
 		(stroke
@@ -2586,6 +3106,26 @@
 			(type default)
 		)
 		(uuid "e1b4301f-e8f4-4b2b-9f47-3b69270f5d4f")
+	)
+	(wire
+		(pts
+			(xy 139.7 106.68) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c537aa-b1c9-45ce-a5d3-0a793c50c11b")
+	)
+	(wire
+		(pts
+			(xy 104.14 119.38) (xy 115.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77655e0-b529-47b0-bb1e-7dc5bc4c5538")
 	)
 	(wire
 		(pts
@@ -2619,6 +3159,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 102.87) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f417afc3-4e8d-40dd-8be8-a9191834db66")
+	)
+	(wire
+		(pts
+			(xy 46.99 106.68) (xy 50.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71259dd-79ef-4442-986d-7b1707185621")
+	)
+	(wire
+		(pts
 			(xy 161.29 57.15) (xy 161.29 59.69)
 		)
 		(stroke
@@ -2647,6 +3207,17 @@
 		)
 		(uuid "fc39f9d9-0994-41b5-90bd-1379c4e7de84")
 	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 160.02 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19258f81-ca8f-4bda-8086-7b9a109ca9c7")
+	)
 	(hierarchical_label "+3.3V"
 		(shape output)
 		(at 167.64 46.99 0)
@@ -2658,7 +3229,18 @@
 		)
 		(uuid "46c3af04-e9f6-4dd6-a937-c3ff7b093693")
 	)
-	(hierarchical_label "VCC1"
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 46.99 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "878408ce-0d33-4e72-aeb6-ace2956759b8")
+	)
+	(hierarchical_label "VCC"
 		(shape input)
 		(at 49.53 46.99 180)
 		(effects
@@ -2670,6 +3252,72 @@
 		(uuid "aaf5cb3a-0657-4af3-901a-e08f683fe09f")
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 139.7 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01f45203-6e59-4ae6-9ca4-fed50e186606")
+		(property "Reference" "TP6"
+			(at 134.366 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+5V"
+			(at 132.08 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 139.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39c96f07-df8e-4dab-9ef3-b7f46ec6bef1")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
 		(at 161.29 63.5 180)
 		(unit 1)
@@ -2679,7 +3327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0da669be-4aa0-4702-9b1c-121265940d0d")
-		(property "Reference" "R5"
+		(property "Reference" "R28"
 			(at 163.83 62.2299 0)
 			(effects
 				(font
@@ -2733,7 +3381,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "R5")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2748,7 +3396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1af8ff5f-e0ef-4328-b229-d7d9ce941c82")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 91.186 66.802 0)
 			(effects
 				(font
@@ -2799,7 +3447,297 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "TP3")
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 156.21 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22f7dd64-7e7b-46cb-a77c-e191356d9557")
+		(property "Reference" "TP5"
+			(at 150.876 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+5Vout"
+			(at 148.59 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ae4c1d1-d7c3-4fd2-84d4-e6080241dc99")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 156.21 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30a0b2db-55d9-4b64-9d4f-ac57e2879f81")
+		(property "Reference" "D11"
+			(at 160.02 114.6174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED 5V"
+			(at 160.02 117.1574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 156.21 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 156.21 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b9124b2-86d9-48d8-a6a4-9839db7cc1c0")
+		)
+		(pin "2"
+			(uuid "d8ac153d-275c-46b2-94d3-f30b4e1e82e0")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "363eab58-5cce-4721-b3bb-6a8215f4e257")
+		(property "Reference" "#PWR021"
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b795b6e6-2625-48b3-82f2-b6f28df61c74")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0603")
+		(at 127 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48b6a1e8-1d48-4f5f-9901-0927177217f1")
+		(property "Reference" "C8"
+			(at 130.81 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 130.81 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 127.9652 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltaje" "10V"
+			(at 130.81 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4331fb0f-faf8-4050-a64b-f19d9f95ce22")
+		)
+		(pin "2"
+			(uuid "d17b6e22-63a4-4f01-a550-bf2148354123")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2893,7 +3831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b6948e0-40d8-4084-a075-143a9867ade9")
-		(property "Reference" "R2"
+		(property "Reference" "R27"
 			(at 45.72 67.3099 0)
 			(effects
 				(font
@@ -2947,7 +3885,85 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "R2")
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(at 50.8 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "613937ed-0a17-48e5-8af0-906abb503c71")
+		(property "Reference" "C13"
+			(at 54.61 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 54.61 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+			(at 51.7652 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltaje" "50V"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e060900e-e50f-42e1-9182-656572cfe8d1")
+		)
+		(pin "2"
+			(uuid "135c2d0f-24b0-4b70-8253-3d152d0f6413")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2962,7 +3978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6da54639-322e-4901-a1c7-582bfa636786")
-		(property "Reference" "TP5"
+		(property "Reference" "TP7"
 			(at 155.956 40.132 0)
 			(effects
 				(font
@@ -3013,7 +4029,86 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "TP5")
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0603")
+		(at 139.7 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e2ef367-04b0-4b7b-950a-1142c2b847e9")
+		(property "Reference" "C9"
+			(at 143.51 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 143.51 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 140.6652 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 139.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltaje" "10V"
+			(at 143.51 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "26c562f5-ff0c-4274-a5e0-25c2cf53e6e8")
+		)
+		(pin "2"
+			(uuid "2d10c22c-8061-48aa-bb0b-19373ed5ffb9")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3029,7 +4124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "710767d2-c341-425a-82f5-522b22aed8ef")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 71.12 39.37 0)
 			(effects
 				(font
@@ -3093,7 +4188,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "U2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -3109,7 +4204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7617628d-af6e-4693-a631-a2688b192128")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 46.99 58.7374 90)
 			(effects
 				(font
@@ -3172,7 +4267,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3188,7 +4283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dd25d6e-bd58-4197-97c6-437cc38252c8")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 146.05 55.8799 0)
 			(effects
 				(font
@@ -3251,7 +4346,84 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "C6")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fuse_Holder:CXP0420-6R8M-AG(6.8UH)")
+		(at 96.52 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a6c2af9-edb6-49d1-b438-e8542f4a93d7")
+		(property "Reference" "L1"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CXP0420-6R8M-AG(6.8UH)"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse_Holder:IND-SMD_L4.4-W4.2_CXP0420"
+			(at 96.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7461340"
+			(at 96.52 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20c44e76-ff59-4c07-b74b-51b04398dd71")
+		)
+		(pin "2"
+			(uuid "86561465-ea7e-4d63-b7f9-15e570c31062")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -3266,7 +4438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b902174-1bef-4ce8-9e75-030f5ef066e8")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 136.906 40.132 0)
 			(effects
 				(font
@@ -3317,73 +4489,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9123c48e-694e-4032-aae8-48f53013925f")
-		(property "Reference" "#PWR023"
-			(at 71.12 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 71.12 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94450487-477b-4870-abad-6c5bd83fcde7")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "#PWR023")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3399,7 +4505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98e41746-67fc-4780-aa38-cc8237ef3814")
-		(property "Reference" "R3"
+		(property "Reference" "R31"
 			(at 120.65 52.0699 0)
 			(effects
 				(font
@@ -3453,7 +4559,75 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "R3")
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 85.09 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c76bfcb-e5f6-46ad-b25d-02f65d83a5e0")
+		(property "Reference" "C5"
+			(at 85.09 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 85.09 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+			(at 88.9 108.2548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 85.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a6577ae-77a8-4796-9cf8-18ef3dee2047")
+		)
+		(pin "1"
+			(uuid "b2aa082a-0f29-49f0-b5bd-c17a891b6304")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3469,7 +4643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fdfbe9c-f1de-412f-bb7d-da692b27f1fc")
-		(property "Reference" "C5"
+		(property "Reference" "C12"
 			(at 133.35 55.8799 0)
 			(effects
 				(font
@@ -3532,7 +4706,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "C5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3548,7 +4722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8cebe5f-9b20-4ecc-9906-48189c1b5f0e")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 165.1 53.6574 90)
 			(effects
 				(font
@@ -3611,7 +4785,77 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "D4")
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 156.21 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a934938e-6629-4a17-a8c0-fb6ecb47aed5")
+		(property "Reference" "R29"
+			(at 158.75 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200"
+			(at 158.75 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 156.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 156.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90952a44-b4bd-4e9a-aaba-37aa34326300")
+		)
+		(pin "2"
+			(uuid "0e3b0b3a-94ac-4250-afa4-09ffc5a6fd49")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -3627,7 +4871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa78633b-551d-427b-9f47-6ec674fe26f2")
-		(property "Reference" "R4"
+		(property "Reference" "R32"
 			(at 120.65 64.7699 0)
 			(effects
 				(font
@@ -3681,7 +4925,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "R4")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -3697,7 +4941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b43322f8-21ec-466e-a6bf-5aa1136e130b")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 87.63 41.91 90)
 			(effects
 				(font
@@ -3749,7 +4993,366 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "C3")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 115.57 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b52ab848-b4ac-4d62-95af-b28c28e13215")
+		(property "Reference" "R33"
+			(at 118.11 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "157k"
+			(at 118.11 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 115.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c466f83c-c62e-44c6-b90d-3cec39100c73")
+		)
+		(pin "2"
+			(uuid "8564e0c0-d963-40fb-9a74-01080f3b2c8a")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b90aa81f-eacc-485b-b2b1-8ca1c8347078")
+		(property "Reference" "#PWR020"
+			(at 71.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2128372e-c478-4635-aa67-17fe2ec54a87")
+		)
+		(instances
+			(project ""
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 93.98 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2b267e5-bc36-4889-93e1-dd55d9b595b6")
+		(property "Reference" "TP8"
+			(at 88.646 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FB"
+			(at 86.36 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3729dd77-a92b-4977-b504-8171155e0afb")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fuse_Holder:CXP0420-6R8M-AG(6.8UH)")
+		(at 100.33 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd3a7b62-02f9-4194-ac9d-02a3b181034a")
+		(property "Reference" "L3"
+			(at 100.33 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CXP0420-6R8M-AG(6.8UH)"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse_Holder:IND-SMD_L4.4-W4.2_CXP0420"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7461340"
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2104e16f-7b5b-4d3d-b470-341571fabfdf")
+		)
+		(pin "2"
+			(uuid "7df05cdf-dd7c-470f-b59a-025363d7af53")
+		)
+		(instances
+			(project ""
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:AP63200WU")
+		(at 68.58 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4a8a360-2613-49d3-a5ca-852a220f5ff6")
+		(property "Reference" "U2"
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP63200WU"
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 68.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 68.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"
+			(at 68.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df21b553-6188-434c-ad97-07fddae15b20")
+		)
+		(pin "3"
+			(uuid "8d401462-83f4-42e5-a1ec-fbdab71b0cbe")
+		)
+		(pin "4"
+			(uuid "14e4c3ed-d6c1-46e7-a0e6-f3439419df33")
+		)
+		(pin "5"
+			(uuid "01a35bf1-728f-44d5-91f1-fdf1edef686e")
+		)
+		(pin "6"
+			(uuid "685dac33-5193-4bec-a759-d48e2f5df730")
+		)
+		(pin "1"
+			(uuid "549c88cb-c94a-4463-a704-9f0ad9c4b254")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3824,42 +5427,35 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:CXP0420-6R8M-AG(6.8UH)")
-		(at 100.33 46.99 0)
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 104.14 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eb682f28-7351-4763-ace3-a02727cdecaa")
-		(property "Reference" "L1"
-			(at 100.33 40.64 0)
+		(uuid "e9076d12-8bdb-4095-a8db-e8de9cd5eff9")
+		(property "Reference" "C7"
+			(at 107.95 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "CXP0420-6R8M-AG(6.8UH)"
-			(at 100.33 43.18 0)
+		(property "Value" "100pF"
+			(at 107.95 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "EasyEDA:IND-SMD_L4.4-W4.2_CXP0420"
-			(at 100.33 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 46.99 0)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+			(at 103.1748 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,8 +5463,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 100.33 46.99 0)
+		(property "Datasheet" "~"
+			(at 104.14 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,25 +5472,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7461340"
-			(at 100.33 57.15 0)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 104.14 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "48c6e6a3-ac91-4584-b0ad-62b762ed5409")
 		)
 		(pin "2"
-			(uuid "57838284-ab34-4be3-842c-0ce0fc6ecc8a")
+			(uuid "aadd19fd-3453-48fc-b7a9-f3cdf800949b")
+		)
+		(pin "1"
+			(uuid "89cbe49f-b44f-45ee-970b-67b360715913")
 		)
 		(instances
-			(project ""
+			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "L1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3909,7 +5505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec840152-7e10-4245-aef4-91675cfe6e1e")
-		(property "Reference" "TP2"
+		(property "Reference" "TP4"
 			(at 91.186 54.102 0)
 			(effects
 				(font
@@ -3960,7 +5556,77 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "TP2")
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 115.57 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd8a4b5-2300-4c55-bd3e-14aae2dc92e7")
+		(property "Reference" "R34"
+			(at 118.11 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30k"
+			(at 118.11 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 115.57 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 115.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c889ccb-d7c4-42b9-8f6f-56cda2b95e18")
+		)
+		(pin "2"
+			(uuid "8cb8c12a-6d9e-4080-8b5e-89c653b95176")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -3984,7 +5650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+VCC1"
+		(property "Value" "+VCC"
 			(at 36.83 40.64 0)
 			(effects
 				(font
@@ -4033,6 +5699,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 147.32 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa86a59d-7a5a-4638-a860-08c1db8f073f")
+		(property "Reference" "JP2"
+			(at 147.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8dbab8c7-781c-4933-8010-ea9f9d7170e6")
+		)
+		(pin "1"
+			(uuid "c1dc1847-b76d-4cbd-afe0-771cab30ddbf")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 107.95 53.34 180)
 		(unit 1)
@@ -4042,7 +5776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fef09020-8374-4464-a9ae-b2d0d8ffd4ef")
-		(property "Reference" "C4"
+		(property "Reference" "C11"
 			(at 111.76 52.0699 0)
 			(effects
 				(font
@@ -4096,7 +5830,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "C4")
+					(reference "C11")
 					(unit 1)
 				)
 			)
