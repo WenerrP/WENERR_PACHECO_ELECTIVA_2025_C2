@@ -3265,7 +3265,7 @@
 		(uuid "151afda5-a917-40cd-ada2-c55ef1ac5589")
 	)
 	(hierarchical_label "I_OUT"
-		(shape input)
+		(shape output)
 		(at 273.05 77.47 0)
 		(effects
 			(font
