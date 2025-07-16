@@ -1116,7 +1116,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Diode_TVS_AKL:SMBJ12CA"
+		(symbol "PCM_Diode_TVS_AKL:SMAJ12CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1135,7 +1135,7 @@
 					)
 				)
 			)
-			(property "Value" "SMBJ12CA"
+			(property "Value" "SMAJ12CA"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -1143,7 +1143,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB_TVS"
+			(property "Footprint" "PCM_Diode_SMD_AKL:D_SMA_TVS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1152,7 +1152,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
+			(property "Datasheet" "https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1161,7 +1161,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMB Bidirectional TVS Diode, 12V, 600W, Alternate KiCAD Library"
+			(property "Description" "SMA Bidirectional TVS Diode, 12V, 400W, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1170,7 +1170,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode TVS bidirectional SMBJ-CA"
+			(property "ki_keywords" "diode TVS bidirectional SMAJ-CA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1188,7 +1188,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMBJ12CA_0_1"
+			(symbol "SMAJ12CA_0_1"
 				(polyline
 					(pts
 						(xy 0 1.27) (xy 0 -1.27)
@@ -1262,7 +1262,7 @@
 					)
 				)
 			)
-			(symbol "SMBJ12CA_0_2"
+			(symbol "SMAJ12CA_0_2"
 				(polyline
 					(pts
 						(xy -3.81 -3.81) (xy 3.81 3.81)
@@ -1336,7 +1336,7 @@
 					)
 				)
 			)
-			(symbol "SMBJ12CA_1_1"
+			(symbol "SMAJ12CA_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1374,7 +1374,7 @@
 					)
 				)
 			)
-			(symbol "SMBJ12CA_1_2"
+			(symbol "SMAJ12CA_1_2"
 				(pin passive line
 					(at -3.81 -3.81 0)
 					(length 0)
@@ -1414,7 +1414,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Diode_TVS_AKL:SMBJ5.0A"
+		(symbol "PCM_Diode_TVS_AKL:SMAJ5.0A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1433,7 +1433,7 @@
 					)
 				)
 			)
-			(property "Value" "SMBJ5.0A"
+			(property "Value" "SMAJ5.0A"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -1441,7 +1441,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB"
+			(property "Footprint" "PCM_Diode_SMD_AKL:D_SMA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1450,7 +1450,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
+			(property "Datasheet" "https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1459,7 +1459,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMB Unidirectional TVS diode, 5V, 600W, Alternate KiCAD Library"
+			(property "Description" "SMA Unidirectional TVS diode, 5V, 400W, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1468,7 +1468,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode unidirectional TVS SMBJ-A"
+			(property "ki_keywords" "diode unidirectional TVS SMAJ-A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1486,7 +1486,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMBJ5.0A_0_1"
+			(symbol "SMAJ5.0A_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -1536,7 +1536,7 @@
 					)
 				)
 			)
-			(symbol "SMBJ5.0A_0_2"
+			(symbol "SMAJ5.0A_0_2"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy 2.54 2.54)
@@ -1586,7 +1586,7 @@
 					)
 				)
 			)
-			(symbol "SMBJ5.0A_1_1"
+			(symbol "SMAJ5.0A_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1624,7 +1624,7 @@
 					)
 				)
 			)
-			(symbol "SMBJ5.0A_1_2"
+			(symbol "SMAJ5.0A_1_2"
 				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 0)
@@ -2518,7 +2518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ac860d0-d84d-4587-a40e-010b2ce13083")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 88.9 67.3099 0)
 			(effects
 				(font
@@ -2580,23 +2580,24 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3eeaffcc-9bb5-4f36-a3b6-9bf8c04eaeb0"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_TVS_AKL:SMBJ5.0A")
-		(at 77.47 68.58 90)
+		(lib_id "PCM_Diode_TVS_AKL:SMAJ5.0A")
+		(at 77.47 68.58 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "71cb127d-b117-46d8-b851-15163013380e")
-		(property "Reference" "D5"
-			(at 72.136 67.818 90)
+		(uuid "a2526619-a938-4922-a9b2-38794a1a06b5")
+		(property "Reference" "D6"
+			(at 74.93 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,8 +2605,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMBJ5.0A"
-			(at 65.532 70.358 90)
+		(property "Value" "SMAJ5.0A"
+			(at 74.93 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +2614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMA"
 			(at 77.47 68.58 0)
 			(effects
 				(font
@@ -2622,7 +2623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
 			(at 77.47 68.58 0)
 			(effects
 				(font
@@ -2631,7 +2632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMB Unidirectional TVS diode, 5V, 600W, Alternate KiCAD Library"
+		(property "Description" "SMA Unidirectional TVS diode, 5V, 400W, Alternate KiCAD Library"
 			(at 77.47 68.58 0)
 			(effects
 				(font
@@ -2641,15 +2642,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8ae70cd-0b73-4727-bb9e-843898e20ecc")
+			(uuid "1de3b811-9945-4150-a59a-67fa97d0b9c5")
 		)
 		(pin "2"
-			(uuid "a17eb060-68ee-48c7-bcd8-ccfa3b842ee6")
+			(uuid "6bfae7e0-db50-45dd-9b9b-bad31e01d772")
 		)
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3eeaffcc-9bb5-4f36-a3b6-9bf8c04eaeb0"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2665,7 +2666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a322f593-ae64-4469-837a-7c487295f7b5")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 133.35 80.5814 90)
 			(effects
 				(font
@@ -2722,7 +2723,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3eeaffcc-9bb5-4f36-a3b6-9bf8c04eaeb0"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2738,7 +2739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9e4edd2-70a3-4572-ae56-90f33b2da332")
-		(property "Reference" "R6"
+		(property "Reference" "R13"
 			(at 142.24 58.42 90)
 			(effects
 				(font
@@ -2790,7 +2791,75 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3eeaffcc-9bb5-4f36-a3b6-9bf8c04eaeb0"
-					(reference "R6")
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:SMAJ12CA")
+		(at 130.81 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b04953d2-840e-43da-beb1-758a1e2d4373")
+		(property "Reference" "D8"
+			(at 130.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMAJ12CA"
+			(at 130.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMA_TVS"
+			(at 130.81 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
+			(at 130.81 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMA Bidirectional TVS Diode, 12V, 400W, Alternate KiCAD Library"
+			(at 130.81 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48d292d1-4555-41b7-bb06-86c78847a65e")
+		)
+		(pin "1"
+			(uuid "fff79cf2-205f-4e1f-90f3-92d61622857d")
+		)
+		(instances
+			(project ""
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3eeaffcc-9bb5-4f36-a3b6-9bf8c04eaeb0"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2806,7 +2875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6015ef3-346c-4e3f-a08b-e3890e5576eb")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR045"
 			(at 85.09 83.82 0)
 			(effects
 				(font
@@ -2856,7 +2925,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3eeaffcc-9bb5-4f36-a3b6-9bf8c04eaeb0"
-					(reference "#PWR024")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2967,7 +3036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1b5494f-316c-4380-8aec-92cbfee9d208")
-		(property "Reference" "R7"
+		(property "Reference" "R14"
 			(at 151.13 60.96 90)
 			(effects
 				(font
@@ -3019,7 +3088,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3eeaffcc-9bb5-4f36-a3b6-9bf8c04eaeb0"
-					(reference "R7")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3035,7 +3104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7893bfb-1e18-45eb-b623-0d06bf61439c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR047"
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -3085,75 +3154,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3eeaffcc-9bb5-4f36-a3b6-9bf8c04eaeb0"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Diode_TVS_AKL:SMBJ12CA")
-		(at 130.81 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcf62191-f88d-45af-a7a3-fbaa64291050")
-		(property "Reference" "D7"
-			(at 130.81 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMBJ12CA"
-			(at 130.81 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB_TVS"
-			(at 130.81 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
-			(at 130.81 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMB Bidirectional TVS Diode, 12V, 600W, Alternate KiCAD Library"
-			(at 130.81 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a241ad1a-c800-40f4-9aa6-48aa0725d090")
-		)
-		(pin "1"
-			(uuid "9f1178e4-0e0d-4385-a578-9275a34a607d")
-		)
-		(instances
-			(project ""
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3eeaffcc-9bb5-4f36-a3b6-9bf8c04eaeb0"
-					(reference "D7")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3169,7 +3170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fec82241-469e-494d-aee5-c0ce57b5cccc")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR046"
 			(at 120.65 78.74 0)
 			(effects
 				(font
@@ -3219,7 +3220,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3eeaffcc-9bb5-4f36-a3b6-9bf8c04eaeb0"
-					(reference "#PWR025")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
