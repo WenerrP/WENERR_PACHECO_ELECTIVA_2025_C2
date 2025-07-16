@@ -5,6 +5,222 @@
 	(uuid "3c191c20-3cf9-46cd-addc-b193a38ebde7")
 	(paper "A4")
 	(lib_symbols
+		(symbol "EasyEDA:SKRPACE010"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SKRPACE010"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRPACE010_SKRPACE010_C139797.html"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C139797"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SKRPACE010_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.76 0) (xy -0.76 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.76 -1.02) (xy -1.02 -1.02) (xy -1.02 -1.27) (xy -0.76 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.25) (xy 0 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 1.27 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -3.81 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 1.27 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -3.81 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Capacitor_US_AKL:C_0603"
 			(pin_numbers
 				(hide yes)
@@ -1385,174 +1601,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Devices:Push_Button"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Push_Button"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-				(at -0.127 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Common 6mmx6mm Push Button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Push_Button_0_1"
-				(polyline
-					(pts
-						(xy -3.175 0) (xy -1.778 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 0)
-					(radius 0.4579)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 0.4579)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 0) (xy 3.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Push_Button_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1918,7 +1966,7 @@
 		(uuid "2c37bf75-30da-4565-b411-c144a9f42177")
 	)
 	(junction
-		(at 67.31 62.23)
+		(at 58.42 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59262f66-f033-44a6-890c-a0ab449a47aa")
@@ -1930,10 +1978,10 @@
 		(uuid "84c2bf64-99da-4d85-a91c-f55cbc2510ba")
 	)
 	(junction
-		(at 220.98 77.47)
+		(at 231.14 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f8680a5c-1c63-47d2-8cbb-42c47dc96728")
+		(uuid "ebaa0a91-837a-44cf-b7cb-9ccbb9c8e685")
 	)
 	(junction
 		(at 205.74 77.47)
@@ -1953,7 +2001,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 77.47) (xy 208.28 77.47)
+			(xy 205.74 77.47) (xy 210.82 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2013,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 62.23) (xy 67.31 63.5)
+			(xy 58.42 49.53) (xy 57.15 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2023,7 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 124.46) (xy 209.55 124.46)
+			(xy 209.55 124.46) (xy 212.09 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2050,6 +2098,16 @@
 			(type default)
 		)
 		(uuid "161127f1-1ed2-411e-b2cd-8e4990573133")
+	)
+	(wire
+		(pts
+			(xy 231.14 72.39) (xy 231.14 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18eeb36d-4daa-4819-bc74-f2df9f846565")
 	)
 	(wire
 		(pts
@@ -2113,16 +2171,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 77.47) (xy 220.98 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26337341-9afa-41a8-8fbc-603f4268979f")
-	)
-	(wire
-		(pts
 			(xy 25.4 100.33) (xy 25.4 101.6)
 		)
 		(stroke
@@ -2133,7 +2181,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 62.23) (xy 71.12 62.23)
+			(xy 58.42 49.53) (xy 58.42 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2323,7 +2371,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 115.57) (xy 182.88 115.57)
+			(xy 209.55 115.57) (xy 182.88 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2373,6 +2421,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 125.73) (xy 195.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ffe094-e593-426c-9698-65772ab43862")
+	)
+	(wire
+		(pts
 			(xy 85.09 62.23) (xy 91.44 62.23)
 		)
 		(stroke
@@ -2413,6 +2471,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 135.89) (xy 185.42 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b88433b-2959-4f4c-9bea-9ea453f70aee")
+	)
+	(wire
+		(pts
 			(xy 267.97 86.36) (xy 271.78 86.36)
 		)
 		(stroke
@@ -2420,16 +2488,6 @@
 			(type default)
 		)
 		(uuid "5c1ee231-493c-4dde-b438-656e1c9a6858")
-	)
-	(wire
-		(pts
-			(xy 67.31 53.34) (xy 67.31 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d7b58b6-47e0-4e00-8c27-6827140a37f5")
 	)
 	(wire
 		(pts
@@ -2443,7 +2501,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 121.92) (xy 238.76 119.38)
+			(xy 241.3 121.92) (xy 241.3 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2483,17 +2541,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 62.23) (xy 85.09 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae3edc6-c947-469a-9710-c108647b0558")
-	)
-	(wire
-		(pts
-			(xy 67.31 60.96) (xy 67.31 62.23)
+			(xy 59.69 49.53) (xy 58.42 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2553,7 +2601,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 120.65) (xy 199.39 146.05)
+			(xy 204.47 120.65) (xy 204.47 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2563,7 +2611,27 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 127) (xy 209.55 127)
+			(xy 182.88 95.25) (xy 187.96 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e679a56-6b2f-42f8-910f-d633bf092719")
+	)
+	(wire
+		(pts
+			(xy 63.5 57.15) (xy 58.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f49763b-924b-44ce-954f-a9f3e5058121")
+	)
+	(wire
+		(pts
+			(xy 207.01 127) (xy 212.09 127)
 		)
 		(stroke
 			(width 0)
@@ -2613,7 +2681,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 120.65) (xy 182.88 120.65)
+			(xy 204.47 120.65) (xy 182.88 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2683,16 +2751,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 133.35) (xy 186.69 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a9a7ae0-33fb-4b21-a8ac-d07d5d8cb76e")
-	)
-	(wire
-		(pts
 			(xy 200.66 107.95) (xy 182.88 107.95)
 		)
 		(stroke
@@ -2713,17 +2771,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 80.01) (xy 245.11 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a04ef5ca-87ef-4808-852f-a3db9eb830f3")
-	)
-	(wire
-		(pts
-			(xy 207.01 124.46) (xy 207.01 115.57)
+			(xy 209.55 124.46) (xy 209.55 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2733,7 +2781,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 146.05) (xy 223.52 146.05)
+			(xy 204.47 146.05) (xy 223.52 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +2801,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 127) (xy 204.47 118.11)
+			(xy 207.01 127) (xy 207.01 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2803,7 +2851,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 77.47) (xy 220.98 77.47)
+			(xy 182.88 125.73) (xy 185.42 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a841f747-9c23-41a4-9409-be9317c4e3d0")
+	)
+	(wire
+		(pts
+			(xy 231.14 62.23) (xy 231.14 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2823,7 +2881,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 124.46) (xy 238.76 124.46)
+			(xy 237.49 124.46) (xy 241.3 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2923,13 +2981,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 67.31) (xy 220.98 64.77)
+			(xy 226.06 72.39) (xy 231.14 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cae8394b-5fe2-421c-9175-fcdfd693b923")
+		(uuid "c9cfa1c8-6806-446b-b7a6-e6f836250fd7")
 	)
 	(wire
 		(pts
@@ -2953,7 +3011,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 121.92) (xy 238.76 121.92)
+			(xy 237.49 121.92) (xy 241.3 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2983,16 +3041,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 125.73) (xy 186.69 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db9e757f-8826-4d71-8ad8-7199a35d1c02")
-	)
-	(wire
-		(pts
 			(xy 121.92 24.13) (xy 121.92 26.67)
 		)
 		(stroke
@@ -3000,6 +3048,16 @@
 			(type default)
 		)
 		(uuid "ded27c71-3ed0-415e-b1cb-19e9bea6b0f9")
+	)
+	(wire
+		(pts
+			(xy 185.42 133.35) (xy 182.88 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17cfdf1-c6e4-4533-bf74-6a7f4decd070")
 	)
 	(wire
 		(pts
@@ -3013,7 +3071,27 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 74.93) (xy 220.98 77.47)
+			(xy 186.69 147.32) (xy 185.42 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30b60b3-f856-4957-bc45-e3248cfa8270")
+	)
+	(wire
+		(pts
+			(xy 182.88 80.01) (xy 245.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e319be0d-31d1-47c1-9633-9915dd309851")
+	)
+	(wire
+		(pts
+			(xy 228.6 64.77) (xy 231.14 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3050,6 +3128,16 @@
 			(type default)
 		)
 		(uuid "e8028cdd-4379-4215-b6e3-e5df2aa5fb80")
+	)
+	(wire
+		(pts
+			(xy 78.74 62.23) (xy 85.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8882c93-45a9-4e97-8629-5908f717ffb9")
 	)
 	(wire
 		(pts
@@ -3093,7 +3181,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 118.11) (xy 182.88 118.11)
+			(xy 207.01 118.11) (xy 182.88 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3133,16 +3221,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 95.25) (xy 182.88 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2640747-d5f2-4637-b8ac-2aa1e1b5f010")
-	)
-	(wire
-		(pts
 			(xy 278.13 105.41) (xy 269.24 105.41)
 		)
 		(stroke
@@ -3163,13 +3241,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 127) (xy 238.76 127)
+			(xy 237.49 127) (xy 241.3 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f4561af4-de83-4c6c-b757-a90634bdb067")
+	)
+	(wire
+		(pts
+			(xy 185.42 143.51) (xy 185.42 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51e7d0f-e94c-4027-9d26-2087c8576633")
 	)
 	(wire
 		(pts
@@ -3246,17 +3334,6 @@
 		)
 		(uuid "314ad378-8c27-40d9-a158-af5d0654f961")
 	)
-	(hierarchical_label "PNP_OUT_1"
-		(shape output)
-		(at 259.08 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35d3b4c3-6068-43ad-974c-147c6f9127a5")
-	)
 	(hierarchical_label "RLY_2_NC"
 		(shape output)
 		(at 271.78 83.82 0)
@@ -3279,6 +3356,17 @@
 		)
 		(uuid "3b0ccb48-088c-466f-ada2-7d63f68c2ef9")
 	)
+	(hierarchical_label "PNP_OUT_1"
+		(shape output)
+		(at 259.08 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cd2be07-31d1-49db-bc7f-5bac2296ff09")
+	)
 	(hierarchical_label "A0_10_IN_1"
 		(shape input)
 		(at 231.14 90.17 0)
@@ -3290,20 +3378,9 @@
 		)
 		(uuid "3f11b74f-d7c8-49f2-912c-685ceabb1da8")
 	)
-	(hierarchical_label "PNP_OUT_2"
-		(shape output)
-		(at 259.08 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "44f667bb-e9f4-493c-a928-f5b2e136678b")
-	)
 	(hierarchical_label "AUX_1"
 		(shape output)
-		(at 186.69 133.35 0)
+		(at 186.69 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3358,7 +3435,7 @@
 	)
 	(hierarchical_label "RS485_A"
 		(shape bidirectional)
-		(at 238.76 124.46 0)
+		(at 241.3 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3391,7 +3468,7 @@
 	)
 	(hierarchical_label "RS485_B"
 		(shape bidirectional)
-		(at 238.76 127 0)
+		(at 241.3 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3424,7 +3501,7 @@
 	)
 	(hierarchical_label "AUX_2"
 		(shape output)
-		(at 186.69 125.73 0)
+		(at 195.58 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3432,6 +3509,17 @@
 			(justify left)
 		)
 		(uuid "8fa4d9ea-2d2d-474e-b81b-67bf1a23c97a")
+	)
+	(hierarchical_label "PNP_OUT_2"
+		(shape output)
+		(at 259.08 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6978713-493d-4b93-ab93-448132ea8a17")
 	)
 	(hierarchical_label "PNP_IN_1"
 		(shape input)
@@ -3520,7 +3608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04bcdc39-3029-4282-a2fd-63b3c0dd695b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR035"
 			(at 147.32 27.94 0)
 			(effects
 				(font
@@ -3570,7 +3658,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR017")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3586,7 +3674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0503a6e3-5510-4e03-b584-6dca3bdef163")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR027"
 			(at 53.34 125.73 0)
 			(effects
 				(font
@@ -3636,7 +3724,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR013")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3653,7 +3741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a74ba34-d620-463a-98d1-912145c7b530")
-		(property "Reference" "R49"
+		(property "Reference" "R8"
 			(at 203.2 69.8499 0)
 			(effects
 				(font
@@ -3707,7 +3795,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "R49")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3723,7 +3811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c50d28a-8e5c-4789-8bdd-c8b358cbd772")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR033"
 			(at 137.16 58.42 0)
 			(effects
 				(font
@@ -3773,7 +3861,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR020")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3789,7 +3877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0eb90dc1-1f3a-4339-be0f-e4e61fc19324")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR040"
 			(at 240.03 74.93 0)
 			(effects
 				(font
@@ -3839,7 +3927,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR060")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3847,7 +3935,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 63.5 0)
+		(at 57.15 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3855,8 +3943,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10de9856-53a9-488a-bb88-a82c3e93b841")
-		(property "Reference" "#PWR018"
-			(at 67.31 69.85 0)
+		(property "Reference" "#PWR028"
+			(at 50.8 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +3953,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 67.31 68.58 0)
+			(at 52.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 63.5 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 63.5 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +3979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 63.5 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +3993,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR018")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3920,7 +4008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "175689ab-23f9-4e80-a8d2-a72f88fccb15")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR042"
 			(at 273.05 101.6 0)
 			(effects
 				(font
@@ -3971,7 +4059,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR061")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3987,7 +4075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e6e82ef-3a87-4921-9d56-662527ca1b1c")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR021"
 			(at 20.32 85.09 0)
 			(effects
 				(font
@@ -4037,7 +4125,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR058")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4053,7 +4141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22dea3ea-96e3-49aa-8c41-7ae302bcbad9")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR023"
 			(at 26.67 66.04 0)
 			(effects
 				(font
@@ -4103,7 +4191,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR015")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4119,7 +4207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27308585-31f3-47a2-8690-0a08a1b29803")
-		(property "Reference" "U18"
+		(property "Reference" "U1"
 			(at 139.3033 55.88 0)
 			(effects
 				(font
@@ -4290,7 +4378,76 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "U18")
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 189.23 125.73 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cc14e9f-404a-4a4b-9d89-44cf8407284e")
+		(property "Reference" "R7"
+			(at 189.23 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 189.23 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 200.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 189.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b72d7f6-5423-432a-a28d-ba60838dcf3b")
+		)
+		(pin "2"
+			(uuid "324971b3-8fa5-4d7a-8b63-76ed9e1e05e3")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4307,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3397679c-372a-4f70-9ca3-04ee1874936f")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR022"
 			(at 25.4 104.14 0)
 			(effects
 				(font
@@ -4357,7 +4514,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR057")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4373,7 +4530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3605a3d8-4f42-4868-a95e-6545a3bd1b21")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR030"
 			(at 68.58 46.99 0)
 			(effects
 				(font
@@ -4423,7 +4580,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR070")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4439,7 +4596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37c4fec4-4128-4a81-a94f-3fab81b659ca")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 87.63 54.6099 0)
 			(effects
 				(font
@@ -4493,7 +4650,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4509,7 +4666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fa289ae-d437-4358-a6f0-1363e70dd336")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR032"
 			(at 121.92 27.94 0)
 			(effects
 				(font
@@ -4559,7 +4716,90 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR014")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:SKRPACE010")
+		(at 71.12 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4733c92c-4436-454a-becf-a1c1e6caa46a")
+		(property "Reference" "SW1"
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKRPACE010"
+			(at 71.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6"
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRPACE010_SKRPACE010_C139797.html"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C139797"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a950e35e-6cc5-4f15-823c-946fe76925c1")
+		)
+		(pin "1"
+			(uuid "2dda02e9-4312-4346-b766-6d1fd314620d")
+		)
+		(pin "2"
+			(uuid "c3e1b546-ab2c-4eca-af62-ded928a93bbe")
+		)
+		(pin "3"
+			(uuid "32a2ad19-08a9-4804-a719-a15e78be92f0")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -4576,7 +4816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b0f937c-775c-4c0c-bd42-dbbb6e41bd07")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR036"
 			(at 205.74 66.04 0)
 			(effects
 				(font
@@ -4626,7 +4866,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR064")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4641,7 +4881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5626e997-9cc5-4aa8-8992-ca3ae75871db")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR043"
 			(at 278.13 101.6 0)
 			(effects
 				(font
@@ -4692,7 +4932,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR059")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4700,7 +4940,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 238.76 119.38 0)
+		(at 241.3 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4708,8 +4948,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62aca244-9f3e-444c-b84a-c9a2dbfffb5f")
-		(property "Reference" "#PWR022"
-			(at 238.76 123.19 0)
+		(property "Reference" "#PWR041"
+			(at 241.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +4958,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 241.3 118.1099 0)
+			(at 243.84 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 119.38 0)
+			(at 241.3 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +4976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 119.38 0)
+			(at 241.3 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +4985,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 238.76 119.38 0)
+			(at 241.3 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4999,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR022")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4775,7 +5015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65b7419e-d517-4d0c-b692-6dd4bb47fe1e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR034"
 			(at 137.16 147.32 0)
 			(effects
 				(font
@@ -4825,7 +5065,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR021")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4833,16 +5073,16 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0603")
-		(at 67.31 57.15 0)
-		(mirror y)
+		(at 63.5 49.53 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6c4448b1-28c8-4180-9fa9-8d76dced85a1")
-		(property "Reference" "C1"
-			(at 63.5 55.8799 0)
+		(property "Reference" "C3"
+			(at 64.7701 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +5091,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 63.5 58.4199 0)
+			(at 62.2301 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +5100,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
-			(at 66.3448 60.96 0)
+			(at 59.69 48.5648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,7 +5109,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 57.15 0)
+			(at 63.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +5118,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
-			(at 67.31 57.15 0)
+			(at 63.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +5127,7 @@
 			)
 		)
 		(property "Vol" "10V"
-			(at 61.722 60.96 0)
+			(at 59.69 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +5143,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4919,7 +5159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d88dec5-fe36-4671-a2cd-2b390edc6e79")
-		(property "Reference" "C17"
+		(property "Reference" "C2"
 			(at 34.29 33.0199 0)
 			(effects
 				(font
@@ -4981,75 +5221,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Devices:Push_Button")
-		(at 76.2 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74b015ec-e7ce-4f77-8b73-ac1bcd19fb56")
-		(property "Reference" "SW2"
-			(at 76.2 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push_Button"
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 76.073 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Common 6mmx6mm Push Button"
-			(at 76.2 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bc5438a9-d2e6-4f47-85e9-4c261f97acc1")
-		)
-		(pin "1"
-			(uuid "5f7b4a4e-ea23-47b1-9cce-534c68de9038")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "SW2")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5057,7 +5229,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 77.47 90)
+		(at 231.14 62.23 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5066,8 +5238,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75103073-7d57-4a55-a1fc-a51a3d711dd0")
-		(property "Reference" "#PWR063"
-			(at 229.87 77.47 0)
+		(property "Reference" "#PWR038"
+			(at 231.14 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5248,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 227.33 77.4699 90)
+			(at 231.1399 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 77.47 0)
+			(at 231.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +5266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 77.47 0)
+			(at 231.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +5275,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 77.47 0)
+			(at 231.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5289,78 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR063")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 185.42 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e8076c1-daba-42a4-9eb4-0f0debe89702")
+		(property "Reference" "R6"
+			(at 182.88 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 182.88 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 185.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 185.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a64c870f-7992-406d-b4f2-115382abf336")
+		)
+		(pin "2"
+			(uuid "6b5a0cc6-9f26-4cd0-8b9b-faee863737ac")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5133,7 +5376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9acf521a-94c9-48db-9811-e3c59fff241f")
-		(property "Reference" "C18"
+		(property "Reference" "C4"
 			(at 64.77 33.0199 0)
 			(effects
 				(font
@@ -5195,7 +5438,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "C18")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5211,7 +5454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b650800-73a8-4bfc-8366-cb982886ed2d")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR037"
 			(at 219.71 146.05 0)
 			(effects
 				(font
@@ -5261,7 +5504,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR056")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5276,7 +5519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ede3d11-5392-499e-9503-a16fe1bf798d")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR029"
 			(at 68.58 30.48 0)
 			(effects
 				(font
@@ -5326,7 +5569,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR071")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5334,15 +5577,15 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0603")
-		(at 220.98 71.12 0)
+		(at 224.79 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a3e878d3-e69a-4bd4-a871-44e7b3233b02")
-		(property "Reference" "C16"
-			(at 224.79 69.8499 0)
+		(property "Reference" "C5"
+			(at 223.5199 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5351,7 +5594,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 224.79 72.3899 0)
+			(at 226.0599 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,7 +5603,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
-			(at 221.9452 74.93 0)
+			(at 228.6 63.8048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 71.12 0)
+			(at 224.79 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5621,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
-			(at 220.98 71.12 0)
+			(at 224.79 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +5630,7 @@
 			)
 		)
 		(property "Vol" "10V"
-			(at 226.568 74.93 0)
+			(at 228.6 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5646,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "C16")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5418,7 +5661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4a3d596-e668-40ed-8eb3-f5bd7696b1cc")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR039"
 			(at 227.33 85.09 0)
 			(effects
 				(font
@@ -5468,7 +5711,90 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR062")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:SKRPACE010")
+		(at 218.44 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa5a2b21-3efa-4678-947c-45f4399649d5")
+		(property "Reference" "SW2"
+			(at 218.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKRPACE010"
+			(at 218.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRPACE010_SKRPACE010_C139797.html"
+			(at 218.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C139797"
+			(at 218.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "416e57d7-da79-484d-82b1-4f0783ab4700")
+		)
+		(pin "1"
+			(uuid "c366c533-4427-47e6-b4bc-3e049678f110")
+		)
+		(pin "2"
+			(uuid "35077fe2-8522-4d31-95a9-11060f192829")
+		)
+		(pin "3"
+			(uuid "b6b7548a-5cc9-49a5-8fda-93b7518f21e5")
+		)
+		(instances
+			(project ""
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -5484,7 +5810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5871b36-5234-4aa4-9257-16b6801c92d8")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR026"
 			(at 38.1 46.99 0)
 			(effects
 				(font
@@ -5534,7 +5860,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR067")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5549,7 +5875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbe38b81-d2ef-46fb-b873-4fc20148d9a8")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR025"
 			(at 38.1 30.48 0)
 			(effects
 				(font
@@ -5599,75 +5925,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Devices:Push_Button")
-		(at 213.36 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be2f6fcd-5ab9-4468-bcfe-ba24c5ad5a71")
-		(property "Reference" "SW1"
-			(at 213.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push_Button"
-			(at 213.36 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 213.233 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Common 6mmx6mm Push Button"
-			(at 213.36 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d0a87906-226d-4a67-b605-b12f6aa8a1da")
-		)
-		(pin "1"
-			(uuid "5db26f24-9413-45a6-85f9-ff697c01af31")
-		)
-		(instances
-			(project ""
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "SW1")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5683,7 +5941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7bd92d3-9c24-4241-9924-6297565dd402")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR024"
 			(at 26.67 85.09 0)
 			(effects
 				(font
@@ -5733,7 +5991,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR016")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5748,7 +6006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f126eb4c-c4d8-4b92-8c6e-ed77d2ec31e9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR031"
 			(at 85.09 50.8 0)
 			(effects
 				(font
@@ -5798,7 +6056,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR019")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6051,7 +6309,7 @@
 		)
 	)
 	(sheet
-		(at 209.55 120.65)
+		(at 212.09 120.65)
 		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6067,7 +6325,7 @@
 		)
 		(uuid "3eeaffcc-9bb5-4f36-a3b6-9bf8c04eaeb0")
 		(property "Sheetname" "DRIVER_RS485"
-			(at 209.55 119.9384 0)
+			(at 212.09 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +6334,7 @@
 			)
 		)
 		(property "Sheetfile" "DRIVER_RS485.kicad_sch"
-			(at 209.55 128.8546 0)
+			(at 212.09 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,7 +6344,7 @@
 			)
 		)
 		(pin "RS485_A" bidirectional
-			(at 234.95 124.46 0)
+			(at 237.49 124.46 0)
 			(uuid "6d2ed892-da86-4f0e-bbcf-10f3eaddb062")
 			(effects
 				(font
@@ -6096,7 +6354,7 @@
 			)
 		)
 		(pin "RS485_B" bidirectional
-			(at 234.95 127 0)
+			(at 237.49 127 0)
 			(uuid "862269fc-12b4-43e6-92ff-0b62338f9aef")
 			(effects
 				(font
@@ -6106,7 +6364,7 @@
 			)
 		)
 		(pin "UART_IN" input
-			(at 209.55 127 180)
+			(at 212.09 127 180)
 			(uuid "ac5f97b1-9d68-4cd3-946f-a7931572b190")
 			(effects
 				(font
@@ -6116,7 +6374,7 @@
 			)
 		)
 		(pin "UART_OUT" output
-			(at 209.55 124.46 180)
+			(at 212.09 124.46 180)
 			(uuid "48091370-16bd-498b-8723-c7a3f9fb53dd")
 			(effects
 				(font
@@ -6126,7 +6384,7 @@
 			)
 		)
 		(pin "+3.3V" output
-			(at 234.95 121.92 0)
+			(at 237.49 121.92 0)
 			(uuid "35c916f6-69a0-4916-a758-bcb2ae23bccf")
 			(effects
 				(font

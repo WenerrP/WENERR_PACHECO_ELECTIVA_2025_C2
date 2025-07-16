@@ -770,17 +770,6 @@
 		)
 		(uuid "0abef114-aa12-48b3-9848-fb0d0383939b")
 	)
-	(hierarchical_label "RLY_1_NC"
-		(shape output)
-		(at 83.82 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1922192c-551a-42aa-b685-a6421b551d0b")
-	)
 	(hierarchical_label "ESP_RLY2"
 		(shape output)
 		(at 133.35 71.12 0)
@@ -825,6 +814,17 @@
 		)
 		(uuid "4f1fcc9c-f541-4d03-814a-f2f981987166")
 	)
+	(hierarchical_label "RLY_1_NC"
+		(shape output)
+		(at 83.82 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55a746fe-e144-43d3-85a1-434361cda9ba")
+	)
 	(hierarchical_label "RLY_1_C"
 		(shape output)
 		(at 82.55 58.42 180)
@@ -847,17 +847,6 @@
 		)
 		(uuid "80cc421e-1c22-4d81-b73d-b832bb466e8d")
 	)
-	(hierarchical_label "RLY_1_NO"
-		(shape output)
-		(at 83.82 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5c9c1c4-4e0a-4e1d-83fa-82d18c5d5f59")
-	)
 	(hierarchical_label "VCC1"
 		(shape output)
 		(at 133.35 68.58 0)
@@ -868,6 +857,17 @@
 			(justify left)
 		)
 		(uuid "bb8da8f3-c976-42ce-a256-b6525e397ba4")
+	)
+	(hierarchical_label "RLY_1_NO"
+		(shape output)
+		(at 83.82 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdd6d148-7ddf-4ea1-9d32-98e2f9b19472")
 	)
 	(symbol
 		(lib_id "EasyEDA:SRA-24VDC-CL")
@@ -1054,7 +1054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9fd7977-1ede-4498-b925-7af1469f3133")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR070"
 			(at 99.06 80.01 0)
 			(effects
 				(font
@@ -1104,7 +1104,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/28adab20-3df9-4bd0-b792-64ff7180ad7f"
-					(reference "#PWR049")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
