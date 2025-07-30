@@ -494,6 +494,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Diode_Schottky_AKL:PMEG4010CEH"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PMEG4010CEH"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/6076ddfe18935c4c311aad91dddcf920/PMEG4010CEX-DTE.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOD-123F Schottky diode, 40V, 1A, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky PMEG4010CEH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMEG4010CEH_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -0.762) (xy 1.905 -1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 0.635 1.27) (xy 0.635 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMEG4010CEH_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy -0.381 1.397) (xy 0 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0) (xy 2.159 0.381) (xy 1.778 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMEG4010CEH_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PMEG4010CEH_1_2"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Resistor_US_AKL:R_0603"
 			(pin_numbers
 				(hide yes)
@@ -806,6 +1056,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -909,415 +1284,247 @@
 		)
 	)
 	(junction
-		(at 185.42 66.04)
+		(at 127 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15e6dbb7-b45b-4b36-b989-2701a1d6ec79")
+		(uuid "7fc17b79-2a37-49bf-a17c-895f38a68bac")
 	)
 	(junction
-		(at 105.41 64.77)
+		(at 130.81 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "45fe616e-5def-46a1-98cc-0ec8579e176c")
+		(uuid "b86f0871-c984-4989-bac2-b74276f5e174")
+	)
+	(junction
+		(at 123.19 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e82a98db-23f5-4a92-984e-2fdf8d2afb31")
 	)
 	(wire
 		(pts
-			(xy 105.41 43.18) (xy 105.41 45.72)
+			(xy 123.19 62.23) (xy 130.81 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01c51121-170c-4014-a1d6-cb0f2a01f118")
+		(uuid "1d97351b-f75b-4154-bb51-963b7f612697")
 	)
 	(wire
 		(pts
-			(xy 85.09 43.18) (xy 85.09 44.45)
+			(xy 127 82.55) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "046d92fb-01da-4d47-b8c3-44d438278df1")
+		(uuid "25226538-08cb-4a7b-a251-b976703cc2b6")
 	)
 	(wire
 		(pts
-			(xy 105.41 62.23) (xy 105.41 64.77)
+			(xy 101.6 57.15) (xy 104.14 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "168b1b69-3ed0-4035-9be8-7e466ec06301")
+		(uuid "40a2d991-ed72-451d-94ad-43a7f5dd0dfb")
 	)
 	(wire
 		(pts
-			(xy 185.42 66.04) (xy 191.77 66.04)
+			(xy 101.6 39.37) (xy 101.6 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18507cb5-2641-42a3-8efd-dfdda2c8499f")
+		(uuid "4e92bfa9-c4da-47a4-a15b-7dbcbd74abc1")
 	)
 	(wire
 		(pts
-			(xy 185.42 69.85) (xy 185.42 66.04)
+			(xy 130.81 80.01) (xy 130.81 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19d14f1d-b4ce-48ef-b383-506433f0ecb1")
+		(uuid "6450c8dc-f3d1-4ac9-9cd1-23d48b3ccc73")
 	)
 	(wire
 		(pts
-			(xy 187.96 44.45) (xy 185.42 44.45)
+			(xy 130.81 82.55) (xy 127 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20e2b3ea-f5c9-4852-9b2c-79b389127d76")
+		(uuid "66aeb02a-0e98-415b-a31a-a2f663cfb0f4")
 	)
 	(wire
 		(pts
-			(xy 165.1 69.85) (xy 167.64 69.85)
+			(xy 130.81 62.23) (xy 139.7 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26673562-7e6c-4ccd-b0df-9a165331edf1")
+		(uuid "6958a28b-a551-4a3d-bc3a-025dbc01641e")
 	)
 	(wire
 		(pts
-			(xy 185.42 63.5) (xy 185.42 66.04)
+			(xy 119.38 57.15) (xy 123.19 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26ef56f8-c9c0-48f9-90a4-0311548fde70")
+		(uuid "69b6baf7-d0c0-4601-8964-eba00d43c07d")
 	)
 	(wire
 		(pts
-			(xy 165.1 57.15) (xy 165.1 69.85)
+			(xy 100.33 39.37) (xy 101.6 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4358155c-14f8-4922-b634-3f15912eefba")
+		(uuid "750f4308-4f09-471c-886c-7434714827f4")
 	)
 	(wire
 		(pts
-			(xy 81.28 73.66) (xy 87.63 73.66)
+			(xy 130.81 71.12) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4818b9d6-cfe7-4f07-a62b-25f287d1fa18")
+		(uuid "7d8834d4-4321-4092-9132-eeaa553244ca")
 	)
 	(wire
 		(pts
-			(xy 109.22 76.2) (xy 109.22 73.66)
+			(xy 95.25 62.23) (xy 104.14 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a09d20a-d541-4cf4-80d7-2514651a11d8")
+		(uuid "89d153d9-e424-407f-80bb-08a583c32051")
 	)
 	(wire
 		(pts
-			(xy 185.42 54.61) (xy 185.42 55.88)
+			(xy 123.19 69.85) (xy 123.19 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ff6af7b-952b-4e86-9c8d-e947c06e365d")
+		(uuid "8d549222-4de3-45a6-ab60-8da6bf4e479a")
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 105.41 64.77)
+			(xy 95.25 62.23) (xy 95.25 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68b3dfd0-3c80-46bc-9dc2-a8809fdf1825")
+		(uuid "983ebd55-e870-4ba9-83e5-63118643e4c6")
 	)
 	(wire
 		(pts
-			(xy 102.87 73.66) (xy 109.22 73.66)
+			(xy 101.6 50.8) (xy 101.6 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70ac0da4-0f1a-48b4-aea8-bdfea50cdbb1")
+		(uuid "9c21377a-9542-4eb0-9823-2c7f4fe4091c")
 	)
 	(wire
 		(pts
-			(xy 85.09 52.07) (xy 85.09 68.58)
+			(xy 123.19 41.91) (xy 123.19 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "811c372b-31b0-44a1-b99b-fd4bc6c71114")
+		(uuid "9f4089ba-7e20-4aff-ad64-da5379b212b8")
 	)
 	(wire
 		(pts
-			(xy 186.69 74.93) (xy 182.88 74.93)
+			(xy 123.19 77.47) (xy 123.19 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "834604b6-1096-40f9-84e5-bed8ce190e29")
+		(uuid "a71f8537-e4e2-4985-8311-aa637aee5a7b")
 	)
 	(wire
 		(pts
-			(xy 102.87 68.58) (xy 105.41 68.58)
+			(xy 119.38 62.23) (xy 123.19 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97dfcbaa-b358-4cc1-88e0-a1c8d5c5626d")
+		(uuid "aa82808e-37e6-4cac-8499-e7411ad8fbfb")
 	)
 	(wire
 		(pts
-			(xy 107.95 43.18) (xy 105.41 43.18)
+			(xy 127 82.55) (xy 123.19 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a946c6f5-73ac-43fd-8eb7-160a4fb020a5")
+		(uuid "da49ff75-a73f-48a3-a543-7b68d442b18f")
 	)
 	(wire
 		(pts
-			(xy 182.88 69.85) (xy 185.42 69.85)
+			(xy 130.81 62.23) (xy 130.81 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9783062-5127-43c9-a5b7-69f912a1fd9f")
+		(uuid "de2d8d74-8f90-41e4-8aa3-0dd8995010a9")
 	)
-	(wire
-		(pts
-			(xy 85.09 68.58) (xy 87.63 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c09fa50c-0ba9-4ec7-9027-8bc9480d5d1e")
-	)
-	(wire
-		(pts
-			(xy 81.28 43.18) (xy 85.09 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c137d65e-7dc0-4285-8061-abdfc65d46f6")
-	)
-	(wire
-		(pts
-			(xy 185.42 44.45) (xy 185.42 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c790efb0-b8c3-4079-9152-ab58ca8c07db")
-	)
-	(wire
-		(pts
-			(xy 105.41 53.34) (xy 105.41 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf4ca4a3-d609-4a2c-823f-25c5366287be")
-	)
-	(wire
-		(pts
-			(xy 105.41 64.77) (xy 111.76 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d315067a-fb1b-4e70-b72a-f4f4e54b03cc")
-	)
-	(wire
-		(pts
-			(xy 162.56 74.93) (xy 167.64 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dda76aa1-d7e2-40ac-8634-4b788c2f0a61")
-	)
-	(wire
-		(pts
-			(xy 165.1 44.45) (xy 165.1 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7917018-e4f2-4160-bc69-471c03fc62c9")
-	)
-	(wire
-		(pts
-			(xy 162.56 44.45) (xy 165.1 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f575a0e3-0d96-4ca3-a27f-14d83da95276")
-	)
-	(wire
-		(pts
-			(xy 186.69 74.93) (xy 186.69 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc5f2a81-70f8-47fe-951b-164eb1b6011b")
-	)
-	(hierarchical_label "NPN_IN_2"
+	(hierarchical_label "NPN_IN"
 		(shape input)
-		(at 162.56 74.93 180)
+		(at 100.33 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "08b3881e-c2ec-418f-9e98-e93aa8c94a2b")
+		(uuid "315b5146-929a-4233-8222-08a722b93ea6")
 	)
-	(hierarchical_label "NPN_IN_1"
+	(hierarchical_label "NPN_OUT"
 		(shape input)
-		(at 81.28 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2937db62-1f2b-40d8-bd30-422e0cad52fe")
-	)
-	(hierarchical_label "ESP_NPN_IN_2"
-		(shape input)
-		(at 191.77 66.04 0)
+		(at 139.7 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "2d83bf82-2051-4409-89ff-885964ab80d7")
-	)
-	(hierarchical_label "+3.3V"
-		(shape output)
-		(at 187.96 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "48a8b741-1c41-4663-81e8-e934e038e34e")
-	)
-	(hierarchical_label "+3.3V"
-		(shape output)
-		(at 107.95 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "521e6f2f-af48-428c-be1c-9d31f668b82a")
-	)
-	(hierarchical_label "VCC2"
-		(shape input)
-		(at 162.56 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "607a5d86-cc59-4d3a-b265-897a2c174a33")
-	)
-	(hierarchical_label "VCC2"
-		(shape input)
-		(at 81.28 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "82a0ebda-f4f1-410d-b373-230dce8956b7")
-	)
-	(hierarchical_label "ESP_NPN_IN_1"
-		(shape input)
-		(at 111.76 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e20adf05-cdc7-4a7f-9a34-f1b5ed5872e1")
+		(uuid "48252d8a-a61a-4027-b58c-3a34feba262d")
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 105.41 58.42 90)
+		(lib_id "power:+3.3V")
+		(at 123.19 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1d79af9a-4a4e-470b-8d59-a6c232c7bc45")
-		(property "Reference" "D9"
-			(at 109.22 58.7374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED ON"
-			(at 109.22 61.2774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 105.41 58.42 0)
+		(uuid "04207650-7391-4481-9e9d-1262ad133267")
+		(property "Reference" "#PWR027"
+			(at 123.19 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,8 +1532,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 105.41 58.42 0)
+		(property "Value" "+3.3V"
+			(at 123.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,8 +1549,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 105.41 58.42 0)
+		(property "Datasheet" ""
+			(at 123.19 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,8 +1558,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 105.41 58.42 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 123.19 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,13 +1568,158 @@
 			)
 		)
 		(pin "1"
-			(uuid "778a434d-127e-4eac-835f-64ffa45ac023")
-		)
-		(pin "2"
-			(uuid "9f2e7fd8-827f-4e4c-90fc-4f1798e927ad")
+			(uuid "5ad803bc-bf86-4556-8e6f-c45c0fa406c5")
 		)
 		(instances
 			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0a310172-7d8e-4fb6-834e-e52959d34ba2"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b3d92b7-7dc6-4445-9e9d-79d2ef571b94")
+		(property "Reference" "#PWR028"
+			(at 127 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3760b42b-e674-4879-a97a-73fe363ac8d6")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0a310172-7d8e-4fb6-834e-e52959d34ba2"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_Schottky_AKL:PMEG4010CEH")
+		(at 123.19 73.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26a2fd8b-45dc-4814-aac9-2bab823fb4ee")
+		(property "Reference" "D9"
+			(at 120.65 72.0724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PMEG4010CEH"
+			(at 120.65 74.6124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123F"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6076ddfe18935c4c311aad91dddcf920/PMEG4010CEX-DTE.pdf"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOD-123F Schottky diode, 40V, 1A, Alternate KiCAD Library"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa4d4f7c-27b0-4337-bcb5-28b6fdec3a80")
+		)
+		(pin "2"
+			(uuid "ed83db71-e048-4941-8b84-97c2d2035c4f")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0a310172-7d8e-4fb6-834e-e52959d34ba2"
+					(reference "D24")
+					(unit 1)
+				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
 					(reference "D9")
 					(unit 1)
@@ -1368,304 +1728,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:LTV-357T")
-		(at 95.25 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48ac891a-cbf3-4f6e-b891-7c9726583614")
-		(property "Reference" "U4"
-			(at 95.25 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-357T"
-			(at 95.25 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf"
-			(at 95.25 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SO-4"
-			(at 95.25 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ceebe174-b602-48ba-8d40-d110b96254a4")
-		)
-		(pin "4"
-			(uuid "6a047ce7-5d92-47cd-9b0d-509667a135c4")
-		)
-		(pin "1"
-			(uuid "5aa2834d-255f-48e0-a433-cdced1ad4a56")
-		)
-		(pin "2"
-			(uuid "8eda5abe-7a22-4f40-8e9c-35a132853ff0")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 185.42 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61d2a969-40ad-4b9a-9579-1e3033e60d59")
-		(property "Reference" "R18"
-			(at 187.96 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "140"
-			(at 187.96 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 185.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 185.42 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "215e0abc-8f00-4d88-ae3c-2dd60a2c729d")
-		)
-		(pin "1"
-			(uuid "6fac6767-d2e6-4fdb-b4c2-b8b0d6ebef78")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 85.09 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "681e4196-cf63-48c2-9268-473fd5dee815")
-		(property "Reference" "R15"
-			(at 87.63 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 87.63 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 85.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 85.09 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ffd44267-0c19-4b1e-ad36-15fd5d0979f1")
-		)
-		(pin "1"
-			(uuid "381fb322-d026-4d8e-9b7b-58831d9dbb40")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 105.41 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b857e0b-1e0c-4216-a99f-480203f44e1f")
-		(property "Reference" "R16"
-			(at 107.95 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "140"
-			(at 107.95 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 105.41 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 105.41 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "27ff8174-547e-4655-8f5d-3173f73d4f31")
-		)
-		(pin "1"
-			(uuid "46c08a3b-d10a-4d3f-97ae-b265676d2d70")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 109.22 76.2 0)
+		(at 95.25 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a2229bd4-4006-409f-814a-7ac48a9df834")
-		(property "Reference" "#PWR048"
-			(at 109.22 82.55 0)
+		(uuid "77ea828f-10e1-4d14-b5e3-2bf440127b9e")
+		(property "Reference" "#PWR026"
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,8 +1746,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 109.22 81.28 0)
+		(property "Value" "GND"
+			(at 95.25 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,7 +1755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 76.2 0)
+			(at 95.25 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +1764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 76.2 0)
+			(at 95.25 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +1773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 76.2 0)
+			(at 95.25 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,155 +1782,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f420ede-d39d-4f51-8b6d-236612c1088e")
+			(uuid "8250c7ff-1c44-4675-bbc7-834ac7f33e1a")
 		)
 		(instances
 			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "#PWR048")
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0a310172-7d8e-4fb6-834e-e52959d34ba2"
+					(reference "#PWR054")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7cadb29-3417-4c24-9005-d10c0b6e3ae8")
-		(property "Reference" "#PWR049"
-			(at 186.69 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 186.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "430d257b-6922-4126-a3df-d63bc446b86f")
-		)
-		(instances
-			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-357T")
-		(at 175.26 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cde5da7b-4ac6-4e85-afbb-2b1a3720354e")
-		(property "Reference" "U5"
-			(at 175.26 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-357T"
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
-			(at 170.18 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf"
-			(at 175.26 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SO-4"
-			(at 175.26 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "afdc6351-d961-4cf8-a0d7-76844487ad93")
-		)
-		(pin "4"
-			(uuid "d8ea4eab-bdf5-4b3a-a70d-15da380b7532")
-		)
-		(pin "1"
-			(uuid "53b6649d-ea48-472e-8584-7f55b4407220")
-		)
-		(pin "2"
-			(uuid "2c773975-83a1-4557-b59b-5735d7328352")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "U5")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1865,16 +1799,16 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 165.1 53.34 0)
+		(at 101.6 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d2b14a2f-45e7-452d-bb6c-2dad29132c27")
-		(property "Reference" "R17"
-			(at 167.64 52.0699 0)
+		(uuid "97764655-ad16-40cb-84da-01493ed37e97")
+		(property "Reference" "R9"
+			(at 104.14 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +1817,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 167.64 54.6099 0)
+			(at 104.14 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +1826,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 165.1 64.77 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +1835,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 53.34 0)
+			(at 101.6 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,7 +1844,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 165.1 53.34 0)
+			(at 101.6 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,15 +1853,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "b5c422d1-1233-4036-9e38-01135f95b132")
+			(uuid "a88e1b51-406b-4d42-adae-9bd68ae9d344")
 		)
 		(pin "1"
-			(uuid "6d795180-a702-4bca-bf1c-abc7550ba9ee")
+			(uuid "d85f317d-d9da-4465-9d62-119b8d1ab334")
 		)
 		(instances
 			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0a310172-7d8e-4fb6-834e-e52959d34ba2"
+					(reference "R33")
+					(unit 1)
+				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
-					(reference "R17")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1935,16 +1873,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 185.42 59.69 90)
+		(at 130.81 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "db381b73-9fbd-4e13-a203-e0fba2b2f5fc")
+		(uuid "9dac1fb1-3681-47c8-af52-4fd0899a89b0")
 		(property "Reference" "D10"
-			(at 189.23 60.0074 90)
+			(at 134.62 76.5174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +1891,7 @@
 			)
 		)
 		(property "Value" "LED ON"
-			(at 189.23 62.5474 90)
+			(at 134.62 79.0574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +1900,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 185.42 59.69 0)
+			(at 130.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +1909,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 59.69 0)
+			(at 130.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1918,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 185.42 59.69 0)
+			(at 130.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +1927,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 185.42 59.69 0)
+			(at 130.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,15 +1936,174 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ccfafae-bf3f-4a80-9220-7a0174b56c08")
+			(uuid "8091139a-340c-40d3-9a02-26d8dc6e39bf")
 		)
 		(pin "2"
-			(uuid "9d6afb1f-36d0-4881-be99-156e9e86e898")
+			(uuid "c979b0e7-f316-40f3-a877-4ce628eb9c6b")
 		)
 		(instances
 			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0a310172-7d8e-4fb6-834e-e52959d34ba2"
+					(reference "D25")
+					(unit 1)
+				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-357T")
+		(at 111.76 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd074d0f-0d8b-4a11-8a12-137613e0e7d5")
+		(property "Reference" "U6"
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-357T"
+			(at 111.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SO-4"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "97277a7d-0efb-4dea-b58e-35cc19567603")
+		)
+		(pin "4"
+			(uuid "774cee6f-ff9b-43b1-b51d-00a1ce420535")
+		)
+		(pin "1"
+			(uuid "160d3e97-1efa-4a11-8775-dcd59b49f6a7")
+		)
+		(pin "2"
+			(uuid "b873c963-5b60-4985-893a-03df4b600e70")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0a310172-7d8e-4fb6-834e-e52959d34ba2"
+					(reference "U14")
+					(unit 1)
+				)
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 130.81 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7b4d3ea-b5bb-4a94-a6b1-bbddb190603e")
+		(property "Reference" "R10"
+			(at 133.35 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "140"
+			(at 133.35 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 130.81 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 130.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "316f4582-0d14-426a-899d-5f909d931c24")
+		)
+		(pin "1"
+			(uuid "52a95dcb-d650-4696-a7bd-b1a3539d1e25")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0a310172-7d8e-4fb6-834e-e52959d34ba2"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/58467d6c-1433-4318-a1ea-3b041dc0b319"
+					(reference "R10")
 					(unit 1)
 				)
 			)

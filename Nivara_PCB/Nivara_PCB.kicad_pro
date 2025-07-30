@@ -643,27 +643,27 @@
     ],
     [
       "58467d6c-1433-4318-a1ea-3b041dc0b319",
-      "NPN_IN"
+      "NPN_IN_1"
     ],
     [
       "48f5ac7a-6bba-49c0-99bb-db418c675091",
-      "PNP_IN"
+      "PNP_IN_1"
     ],
     [
       "6456e4f4-1461-4bc6-babd-d2304e34b1f4",
-      "NPN_OUT"
+      "NPN_OUT_1"
     ],
     [
       "8130b756-3e88-4fc2-a026-528e9a5f42de",
-      "PNP_OUT"
+      "PNP_OUT_1"
     ],
     [
       "20ba0c48-a9e2-46df-b6c2-3a15a589565c",
-      "ANALOG_IN"
+      "4-20mA_IN"
     ],
     [
       "941ecd47-882f-406e-b54e-d369029f60e5",
-      "ANALOG_OUT"
+      "A_V_OUT"
     ],
     [
       "28adab20-3df9-4bd0-b792-64ff7180ad7f",
@@ -671,7 +671,51 @@
     ],
     [
       "a8a95db9-2db6-4dd5-a448-91db082870e6",
-      "D_IN"
+      "D_IN_1"
+    ],
+    [
+      "3dfd4311-469e-4031-a3d6-cfb044d165ee",
+      "NPN_OUT_2"
+    ],
+    [
+      "0a310172-7d8e-4fb6-834e-e52959d34ba2",
+      "NPN_IN_2"
+    ],
+    [
+      "49d086d1-9c91-40ca-bbb3-7e0f8c32cd03",
+      "PNP_IN_2"
+    ],
+    [
+      "01f07a6e-8af6-4497-b8f9-efb2d5a78121",
+      "PNP_OUT_2"
+    ],
+    [
+      "d4f8ef66-9185-4a3a-8dfb-54acd9194ea4",
+      "D_IN_2"
+    ],
+    [
+      "0372d97b-d911-4284-acd5-8aa0392816de",
+      "RUN_STOP"
+    ],
+    [
+      "6b2ac78a-787a-465e-8718-8794a92cd9fb",
+      "A_0-32_IN"
+    ],
+    [
+      "510993a1-3109-4ea1-9a07-31416fb9e897",
+      "A_0-10_IN"
+    ],
+    [
+      "5653b51d-16ab-4a56-b89c-3ddccfd36763",
+      "BUTTON"
+    ],
+    [
+      "0c970738-851e-487a-93b3-fffde687d09a",
+      "BUTTON1"
+    ],
+    [
+      "20ce4f76-1b07-4578-a491-e50801028079",
+      "A_I_OUT"
     ]
   ],
   "text_variables": {}
