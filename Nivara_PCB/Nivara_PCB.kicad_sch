@@ -3195,7 +3195,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 66.04) (xy 213.36 74.93)
+			(xy 213.36 66.04) (xy 213.36 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3615,7 +3615,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 85.09) (xy 213.36 82.55)
+			(xy 213.36 81.28) (xy 213.36 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3932,16 +3932,15 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:GND")
-		(at 213.36 85.09 0)
+		(at 213.36 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2653de9c-1502-44be-912b-762c80f97c3d")
 		(property "Reference" "#PWR012"
-			(at 213.36 91.44 0)
+			(at 213.36 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,16 +3948,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 213.36 90.17 0)
+		(property "Value" "GND"
+			(at 211.582 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 85.09 0)
+			(at 213.36 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +3967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 85.09 0)
+			(at 213.36 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +3976,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 85.09 0)
+			(at 213.36 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,7 +4859,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f12e016-5696-4b32-8ae3-4f6f693b334d")
 		(property "Reference" "#PWR09"
 			(at 198.12 77.47 0)
@@ -4870,12 +4869,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 198.12 76.2 0)
+		(property "Value" "GND"
+			(at 196.342 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5296,12 +5296,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 209.55 124.46 0)
+		(property "Value" "GND"
+			(at 212.09 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5731,7 +5732,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:SMAJ33A")
-		(at 213.36 78.74 90)
+		(at 213.36 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5740,7 +5741,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc6246d9-8764-41ff-b18f-ce0525b1247b")
 		(property "Reference" "D3"
-			(at 215.9 77.4699 90)
+			(at 215.9 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +5750,7 @@
 			)
 		)
 		(property "Value" "SMAJ33A"
-			(at 215.9 80.0099 90)
+			(at 215.9 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5759,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMA"
-			(at 213.36 78.74 0)
+			(at 213.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5767,7 +5768,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
-			(at 213.36 78.74 0)
+			(at 213.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,7 +5777,7 @@
 			)
 		)
 		(property "Description" "SMA Unidirectional TVS diode, 33V, 400W, Alternate KiCAD Library"
-			(at 213.36 78.74 0)
+			(at 213.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,12 +6045,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 184.15 124.46 0)
+		(property "Value" "GND"
+			(at 186.69 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
