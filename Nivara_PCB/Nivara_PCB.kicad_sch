@@ -3703,6 +3703,16 @@
 		)
 		(uuid "fdb11faf-fded-44b3-958c-7545f97c8b95")
 	)
+	(label "VIN"
+		(at 195.58 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "514c8991-7acd-4db6-a4cb-e6d338ac2540")
+	)
 	(symbol
 		(lib_id "EasyEDA:GND")
 		(at 63.5 147.32 0)

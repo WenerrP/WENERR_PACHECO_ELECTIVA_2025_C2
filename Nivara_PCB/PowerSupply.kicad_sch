@@ -2929,6 +2929,46 @@
 		)
 		(uuid "fc39f9d9-0994-41b5-90bd-1379c4e7de84")
 	)
+	(label "VOUT"
+		(at 120.65 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0398ef18-148d-4bc0-80e4-008b3bdd00c0")
+	)
+	(label "BST"
+		(at 82.55 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52215de0-8ef3-4a83-a2b6-fa3856f83e0d")
+	)
+	(label "FB"
+		(at 100.33 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5da411bc-1c23-4af4-8657-8989079ffe4c")
+	)
+	(label "SW"
+		(at 90.17 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64bbe41d-72d6-443f-b961-1737a67f65de")
+	)
 	(symbol
 		(lib_id "EasyEDA:R_0603")
 		(at 161.29 63.5 180)

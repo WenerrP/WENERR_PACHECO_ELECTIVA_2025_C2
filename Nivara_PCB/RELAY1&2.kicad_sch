@@ -1056,15 +1056,15 @@
 	(symbol
 		(lib_id "EasyEDA:SRA-24VDC-CL")
 		(at 148.59 58.42 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c8e4f2b-53a1-440c-bd38-698881251785")
 		(property "Reference" "K2"
-			(at 147.065 45.72 0)
+			(at 147.065 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1072,7 @@
 			)
 		)
 		(property "Value" "SRA-24VDC-CL"
-			(at 147.065 48.26 0)
+			(at 147.065 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1080,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:RELAY-TH_SRA-X-CX"
-			(at 148.59 73.66 0)
+			(at 148.59 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1089,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Relays_SRA-24VDC-CL_C127865.html"
-			(at 148.59 76.2 0)
+			(at 148.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,7 +1107,7 @@
 			)
 		)
 		(property "LCSC Part" "C127865"
-			(at 148.59 78.74 0)
+			(at 148.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,7 +1362,8 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:SRA-24VDC-CL")
-		(at 97.79 58.42 180)
+		(at 97.79 58.42 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1370,7 +1371,7 @@
 		(dnp no)
 		(uuid "e1e0b78e-f7e4-4b60-98cc-950fa3f3b036")
 		(property "Reference" "K1"
-			(at 99.06 45.466 0)
+			(at 99.06 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +1379,7 @@
 			)
 		)
 		(property "Value" "SRA-24VDC-CL"
-			(at 99.314 48.26 0)
+			(at 99.314 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,7 +1387,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:RELAY-TH_SRA-X-CX"
-			(at 97.79 43.18 0)
+			(at 97.79 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1396,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Relays_SRA-24VDC-CL_C127865.html"
-			(at 97.79 40.64 0)
+			(at 97.79 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1414,7 @@
 			)
 		)
 		(property "LCSC Part" "C127865"
-			(at 97.79 38.1 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
