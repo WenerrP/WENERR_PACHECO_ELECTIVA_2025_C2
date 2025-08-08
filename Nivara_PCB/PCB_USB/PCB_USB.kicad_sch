@@ -2310,12 +2310,12 @@
 	(symbol
 		(lib_id "PCM_SL_Pin_Headers:PINHD_2x2_Male")
 		(at 59.69 40.64 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7de0f52d-eafe-4ba7-a84c-cf4cce1a2fe5")
 		(property "Reference" "J1"
 			(at 59.69 33.02 0)
@@ -2343,7 +2343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 33.02 0)
+			(at 60.96 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
