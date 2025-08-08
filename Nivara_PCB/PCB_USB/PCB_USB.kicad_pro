@@ -506,7 +506,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PCB_USB.step",
       "svg": "",
       "vrml": "PCB_USB.wrl"
     },
