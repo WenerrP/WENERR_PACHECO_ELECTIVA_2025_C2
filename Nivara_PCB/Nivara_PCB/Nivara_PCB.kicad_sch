@@ -7626,26 +7626,6 @@
 				(justify right)
 			)
 		)
-		(pin "RS485_A" bidirectional
-			(at 116.84 81.28 0)
-			(uuid "a7e04973-c5df-4273-9a28-3f5187e089a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RS485_B" bidirectional
-			(at 116.84 83.82 0)
-			(uuid "93b5b93e-de5b-4eb6-b051-54a0fd5f4f7d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RUN{slash}STOP" input
 			(at 73.66 106.68 180)
 			(uuid "f4991601-78c8-43d3-b024-abd7f5fbffca")
@@ -7674,6 +7654,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "RS485_A+" bidirectional
+			(at 116.84 81.28 0)
+			(uuid "5863cd8a-9244-4d7d-a1d5-b8b4f7a01b0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_B-" bidirectional
+			(at 116.84 83.82 0)
+			(uuid "1912f1b8-cc79-4395-83f1-d0437a054cca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
