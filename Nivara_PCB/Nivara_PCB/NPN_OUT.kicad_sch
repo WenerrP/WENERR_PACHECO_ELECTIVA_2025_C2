@@ -2347,16 +2347,14 @@
 	(symbol
 		(lib_id "EasyEDA:R_0603")
 		(at 125.73 72.39 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f6ff5f5-1311-433b-bf5f-f474013aae8c")
 		(property "Reference" "R16"
-			(at 123.19 71.1199 0)
+			(at 128.27 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +2363,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 123.19 73.6599 0)
+			(at 128.27 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
