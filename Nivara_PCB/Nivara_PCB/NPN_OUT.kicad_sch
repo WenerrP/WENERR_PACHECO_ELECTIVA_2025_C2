@@ -369,6 +369,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEDA:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:LTV-357T"
 			(pin_names
 				(offset 1.016)
@@ -1237,180 +1420,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:IR26-21C_L110_TR8"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "IR26-21C_L110_TR8"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "940nm, 20 deg, Infrared LED, 1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "IR LED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*1206*3216Metric*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "IR26-21C_L110_TR8_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "IR26-21C_L110_TR8_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:Earth"
 			(power)
 			(pin_numbers
@@ -1987,7 +1996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e10e34f-bb17-495d-a8ab-54d353f70400")
-		(property "Reference" "R15"
+		(property "Reference" "R19"
 			(at 99.06 60.96 90)
 			(effects
 				(font
@@ -2012,7 +2021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706409566388224"
 			(at 99.06 67.31 0)
 			(effects
 				(font
@@ -2030,6 +2039,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "0603WAF3002T5E"
+			(at 99.06 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22984"
+			(at 99.06 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d320fff1-fbcf-45f2-935c-ca68bc85f1b6")
 		)
@@ -2039,11 +2066,11 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3dfd4311-469e-4031-a3d6-cfb044d165ee"
-					(reference "R31")
+					(reference "R37")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/6456e4f4-1461-4bc6-babd-d2304e34b1f4"
-					(reference "R15")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2086,7 +2113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/1c439a2ee55cd7132de81d42f8bd8d4f/irlml0040pbf.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5364305.pdf"
 			(at 104.14 93.98 0)
 			(effects
 				(font
@@ -2096,6 +2123,24 @@
 			)
 		)
 		(property "Description" "SOT-23 N-MOSFET enchancement mode transistor, 40V, 3.6A, 1.3W, Alternate KiCAD Library"
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "IRLML0040"
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5364305"
 			(at 104.14 93.98 0)
 			(effects
 				(font
@@ -2136,7 +2181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bd76652-bf5b-40ba-8d0a-82ed316572b6")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR037"
 			(at 106.68 68.58 0)
 			(effects
 				(font
@@ -2186,11 +2231,11 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3dfd4311-469e-4031-a3d6-cfb044d165ee"
-					(reference "#PWR087")
+					(reference "#PWR056")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/6456e4f4-1461-4bc6-babd-d2304e34b1f4"
-					(reference "#PWR029")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2233,7 +2278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/6076ddfe18935c4c311aad91dddcf920/PMEG4010CEX-DTE.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C193342.pdf"
 			(at 106.68 73.66 0)
 			(effects
 				(font
@@ -2251,6 +2296,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "PMEG4010CEH,115"
+			(at 106.68 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C193342"
+			(at 106.68 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9a81022-2ce0-4aff-8a40-d507c64ec743")
 		)
@@ -2260,85 +2323,11 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3dfd4311-469e-4031-a3d6-cfb044d165ee"
-					(reference "D22")
-					(unit 1)
-				)
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/6456e4f4-1461-4bc6-babd-d2304e34b1f4"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:IR26-21C_L110_TR8")
-		(at 125.73 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "647484ac-e4a6-40ab-b3b1-372b103bcc91")
-		(property "Reference" "D14"
-			(at 129.54 81.5974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "IR26-21C_L110_TR8"
-			(at 129.54 84.1374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 120.65 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
-			(at 125.73 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "940nm, 20 deg, Infrared LED, 1206"
-			(at 125.73 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cf70248d-7ab1-47d0-b9a8-aba88c1d9fd3")
-		)
-		(pin "1"
-			(uuid "a2e393e7-8c00-4b9a-8db3-8ad7c95d337e")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3dfd4311-469e-4031-a3d6-cfb044d165ee"
 					(reference "D23")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/6456e4f4-1461-4bc6-babd-d2304e34b1f4"
-					(reference "D14")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -2353,7 +2342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f6ff5f5-1311-433b-bf5f-f474013aae8c")
-		(property "Reference" "R16"
+		(property "Reference" "R20"
 			(at 128.27 71.1199 0)
 			(effects
 				(font
@@ -2380,7 +2369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C114668.pdf"
 			(at 125.73 72.39 0)
 			(effects
 				(font
@@ -2398,6 +2387,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "0603WAF1501T5E"
+			(at 125.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22843"
+			(at 125.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40e51441-4ec8-4f15-9ef1-658f90cda011")
 		)
@@ -2407,11 +2414,111 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3dfd4311-469e-4031-a3d6-cfb044d165ee"
-					(reference "R32")
+					(reference "R38")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/6456e4f4-1461-4bc6-babd-d2304e34b1f4"
-					(reference "R16")
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:LED")
+		(at 125.73 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92dc329b-5316-4256-80ad-1cba283947aa")
+		(property "Reference" "D14"
+			(at 116.078 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 116.078 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C440520.pdf"
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C12065"
+			(at 125.73 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "LTST-C193TGKT-5A"
+			(at 125.73 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d12ef7c3-39b3-406a-bff3-546c8f1ff9b3")
+		)
+		(pin "2"
+			(uuid "84505978-f6ec-42d5-a4a6-b8c2d367a37f")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3dfd4311-469e-4031-a3d6-cfb044d165ee"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/6456e4f4-1461-4bc6-babd-d2304e34b1f4"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2427,7 +2534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0366b48-e6c1-4f89-8f04-333758254a13")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR038"
 			(at 106.68 119.38 0)
 			(effects
 				(font
@@ -2477,11 +2584,11 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3dfd4311-469e-4031-a3d6-cfb044d165ee"
-					(reference "#PWR034")
+					(reference "#PWR057")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/6456e4f4-1461-4bc6-babd-d2304e34b1f4"
-					(reference "#PWR026")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2497,7 +2604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5168887-937c-4e7c-8564-7f101a984499")
-		(property "Reference" "U8"
+		(property "Reference" "U10"
 			(at 82.55 83.82 0)
 			(effects
 				(font
@@ -2524,7 +2631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C119091.pdf"
 			(at 82.55 92.71 0)
 			(effects
 				(font
@@ -2535,6 +2642,24 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SO-4"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "LTV-357T-C"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C119091"
 			(at 82.55 92.71 0)
 			(effects
 				(font
@@ -2558,11 +2683,11 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3dfd4311-469e-4031-a3d6-cfb044d165ee"
-					(reference "U13")
+					(reference "U15")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/6456e4f4-1461-4bc6-babd-d2304e34b1f4"
-					(reference "U8")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -2578,7 +2703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c54b1cbf-754f-490e-88dc-93bb77e538b2")
-		(property "Reference" "R13"
+		(property "Reference" "R17"
 			(at 68.58 83.82 90)
 			(effects
 				(font
@@ -2603,7 +2728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105588.pdf"
 			(at 68.58 90.17 0)
 			(effects
 				(font
@@ -2621,6 +2746,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "0603WAF1000T5E"
+			(at 68.58 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22775"
+			(at 68.58 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd1fca74-b426-4a60-beb3-96b1659f2d00")
 		)
@@ -2630,11 +2773,11 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3dfd4311-469e-4031-a3d6-cfb044d165ee"
-					(reference "R29")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/6456e4f4-1461-4bc6-babd-d2304e34b1f4"
-					(reference "R13")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2650,7 +2793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2c72fab-0767-40c1-a577-9887005f1aa7")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 71.12 109.22 0)
 			(effects
 				(font
@@ -2700,11 +2843,11 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3dfd4311-469e-4031-a3d6-cfb044d165ee"
-					(reference "#PWR051")
+					(reference "#PWR055")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/6456e4f4-1461-4bc6-babd-d2304e34b1f4"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2720,7 +2863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fef1bc51-67af-4ba0-ad1e-5369a3f0f7cc")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 100.838 102.87 0)
 			(effects
 				(font
@@ -2747,7 +2890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706378535165952"
 			(at 97.79 104.14 0)
 			(effects
 				(font
@@ -2765,6 +2908,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "0603WAF2202T5E"
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C31850"
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "49dafef2-d6db-45b7-b106-1fdd37917fcd")
 		)
@@ -2774,11 +2935,11 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/3dfd4311-469e-4031-a3d6-cfb044d165ee"
-					(reference "R30")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/6456e4f4-1461-4bc6-babd-d2304e34b1f4"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)

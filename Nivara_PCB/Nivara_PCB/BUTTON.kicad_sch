@@ -794,37 +794,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:SKRPACE010"
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 6.35 0)
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SKRPACE010"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRPACE010_SKRPACE010_C139797.html"
-				(at 0 -13.97 0)
+			(property "Footprint" ""
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -832,7 +831,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -841,8 +849,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C139797"
-				(at 0 -16.51 0)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -850,11 +858,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SKRPACE010_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -865,8 +872,19 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -3.81) (xy 2.54 -3.81)
+						(xy 0 1.27) (xy 0 3.048)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -877,7 +895,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.76 0) (xy -0.76 -2.29)
+						(xy 2.54 1.27) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0)
@@ -887,57 +905,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.76 -1.02) (xy -1.02 -1.02) (xy -1.02 -1.27) (xy -0.76 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0.25)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.25) (xy 0 -0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 1.27 0)
-					(length 5.08)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -953,27 +923,9 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -3.81 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 1.27 180)
-					(length 5.08)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -989,27 +941,15 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 7.62 -3.81 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
+	)
+	(junction
+		(at 118.11 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3be5c8b2-e7e7-463a-88ae-c8df03dd059d")
 	)
 	(junction
 		(at 105.41 71.12)
@@ -1018,13 +958,7 @@
 		(uuid "669597d8-6446-40b0-b8a4-8b1a63a14813")
 	)
 	(junction
-		(at 118.11 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1e0b364-11d2-4d80-8d47-835ed873983d")
-	)
-	(junction
-		(at 92.71 87.63)
+		(at 92.71 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee46cb8e-774c-4450-af1f-9f650f4992e9")
@@ -1041,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 82.55) (xy 118.11 81.28)
+			(xy 118.11 81.28) (xy 118.11 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1061,7 +995,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 87.63) (xy 92.71 87.63)
+			(xy 88.9 82.55) (xy 92.71 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1071,17 +1005,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 118.11 82.55)
+			(xy 118.11 82.55) (xy 118.11 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42d12d27-511a-428c-bc89-bc1fcc5cbdd3")
+		(uuid "45712bfb-ee18-438d-a6ab-154725a116f9")
 	)
 	(wire
 		(pts
-			(xy 92.71 87.63) (xy 97.79 87.63)
+			(xy 92.71 82.55) (xy 100.33 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1091,23 +1025,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 71.12) (xy 92.71 77.47)
+			(xy 92.71 71.12) (xy 92.71 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6864ef16-7647-4244-96e6-18de88f46e1f")
-	)
-	(wire
-		(pts
-			(xy 118.11 88.9) (xy 118.11 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc8828e-6aa6-4572-bb76-49e03cccb47e")
 	)
 	(wire
 		(pts
@@ -1121,13 +1045,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 85.09) (xy 92.71 87.63)
+			(xy 92.71 80.01) (xy 92.71 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8e36fcd7-0dc9-44dd-9e02-732a8d5ab160")
+	)
+	(wire
+		(pts
+			(xy 110.49 82.55) (xy 118.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a936d88e-e3a0-4f32-bb6a-41ebc2cb55b1")
 	)
 	(wire
 		(pts
@@ -1141,7 +1075,7 @@
 	)
 	(hierarchical_label "BUTTON_PIN"
 		(shape input)
-		(at 88.9 87.63 180)
+		(at 88.9 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1152,7 +1086,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:R_0603")
-		(at 92.71 81.28 0)
+		(at 92.71 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1161,8 +1095,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a74ba34-d620-463a-98d1-912145c7b530")
-		(property "Reference" "R49"
-			(at 90.17 80.0099 0)
+		(property "Reference" "R55"
+			(at 90.17 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1171,7 +1105,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 90.17 82.5499 0)
+			(at 90.17 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,7 +1114,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 92.71 92.71 0)
+			(at 92.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,8 +1122,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 92.71 81.28 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
+			(at 92.71 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,7 +1132,25 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 92.71 81.28 0)
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF1002T5E"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25804"
+			(at 92.71 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,11 +1167,11 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0c970738-851e-487a-93b3-fffde687d09a"
-					(reference "R50")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/5653b51d-16ab-4a56-b89c-3ddccfd36763"
-					(reference "R49")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -1227,7 +1179,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:GND")
-		(at 118.11 88.9 0)
+		(at 118.11 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1235,8 +1187,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49ed69c5-0ce8-46cd-a3ce-5cff0a34885b")
-		(property "Reference" "#PWR075"
-			(at 118.11 95.25 0)
+		(property "Reference" "#PWR079"
+			(at 118.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1197,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 93.98 0)
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 88.9 0)
+			(at 118.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 88.9 0)
+			(at 118.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 88.9 0)
+			(at 118.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1285,11 +1237,11 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0c970738-851e-487a-93b3-fffde687d09a"
-					(reference "#PWR077")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/5653b51d-16ab-4a56-b89c-3ddccfd36763"
-					(reference "#PWR075")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -1306,7 +1258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b0f937c-775c-4c0c-bd42-dbbb6e41bd07")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR078"
 			(at 105.41 71.12 0)
 			(effects
 				(font
@@ -1356,11 +1308,101 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0c970738-851e-487a-93b3-fffde687d09a"
-					(reference "#PWR076")
+					(reference "#PWR080")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/5653b51d-16ab-4a56-b89c-3ddccfd36763"
-					(reference "#PWR074")
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 105.41 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a66ea86e-35f0-4dc5-8328-ac0c91a6b1ef")
+		(property "Reference" "SW3"
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRPACE010_SKRPACE010_C139797.html"
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C139797"
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "SKRPACE010"
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fec5cc72-a082-4461-812f-8cb2b8f4f808")
+		)
+		(pin "2"
+			(uuid "34dd5c08-a25e-4724-9d22-77e65022d681")
+		)
+		(instances
+			(project ""
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0c970738-851e-487a-93b3-fffde687d09a"
+					(reference "SW4")
+					(unit 1)
+				)
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/5653b51d-16ab-4a56-b89c-3ddccfd36763"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -1368,15 +1410,15 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:C_0603")
-		(at 118.11 77.47 180)
+		(at 118.11 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a3e878d3-e69a-4bd4-a871-44e7b3233b02")
+		(uuid "ad550202-a68b-4f85-8935-4d21ab8d48a7")
 		(property "Reference" "C15"
-			(at 114.3 78.7401 0)
+			(at 121.92 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,7 +1427,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 114.3 76.2001 0)
+			(at 121.92 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1436,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
-			(at 117.1448 73.66 0)
+			(at 119.0752 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556213788459761664"
 			(at 118.11 77.47 0)
 			(effects
 				(font
@@ -1420,19 +1462,29 @@
 				(hide yes)
 			)
 		)
-		(property "Vol" "10V"
-			(at 112.522 73.66 0)
+		(property "Part #" "CL10A105KB8NNNC"
+			(at 118.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C15849"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "4f0ad2a9-c866-4d5b-a95c-838f12fda7df")
+			(uuid "8228b4ec-9e50-4027-a71d-1c92a1be8cac")
 		)
 		(pin "2"
-			(uuid "52828635-1fec-424e-85b1-9a64de6073e4")
+			(uuid "0a6174f7-6d85-423b-853e-d42c8e40f7ca")
 		)
 		(instances
 			(project "Nivara_PCB"
@@ -1442,93 +1494,6 @@
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/5653b51d-16ab-4a56-b89c-3ddccfd36763"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:SKRPACE010")
-		(at 105.41 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa5a2b21-3efa-4678-947c-45f4399649d5")
-		(property "Reference" "SW1"
-			(at 105.41 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKRPACE010"
-			(at 105.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6"
-			(at 105.41 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRPACE010_SKRPACE010_C139797.html"
-			(at 105.41 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C139797"
-			(at 105.41 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a0b9bc11-30e9-423e-8c8b-1082c8c2c0b3")
-		)
-		(pin "1"
-			(uuid "8ea7c145-3486-47ea-a8a9-a5329a0bff8a")
-		)
-		(pin "2"
-			(uuid "8395cfad-1da1-4ab5-b82c-83e3b5517872")
-		)
-		(pin "3"
-			(uuid "353c27d2-9355-4b8e-bd40-b7450c65a669")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0c970738-851e-487a-93b3-fffde687d09a"
-					(reference "SW2")
-					(unit 1)
-				)
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/5653b51d-16ab-4a56-b89c-3ddccfd36763"
-					(reference "SW1")
 					(unit 1)
 				)
 			)

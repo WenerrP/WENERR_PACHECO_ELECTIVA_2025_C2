@@ -5,6 +5,167 @@
 	(uuid "ad8214c9-21b9-487f-82cd-81af2b8ddbac")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:+3.3V"
 			(power)
 			(pin_numbers
@@ -464,257 +625,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:C_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_0603"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor ceramic chip mlcc smd 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0603_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_0603_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -0.381 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy -1.651 0.635)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy 0.635 -1.651)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 0.381) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy -0.635 1.651)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy 1.651 -0.635)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "C_0603_1_2"
-				(pin passive line
-					(at -2.54 -2.54 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:C_0805"
 			(pin_numbers
 				(hide yes)
@@ -966,257 +876,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:C_1206"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_1206"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor ceramic chip mlcc smd 1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_1206_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1206_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -0.381 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy -1.651 0.635)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy 0.635 -1.651)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 0.381) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy -0.635 1.651)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy 1.651 -0.635)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1206_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "C_1206_1_2"
-				(pin passive line
-					(at -2.54 -2.54 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:GND"
 			(power)
 			(pin_numbers
@@ -1308,6 +967,189 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2061,180 +1903,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:IR26-21C_L110_TR8"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "IR26-21C_L110_TR8"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "940nm, 20 deg, Infrared LED, 1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "IR LED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*1206*3216Metric*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "IR26-21C_L110_TR8_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "IR26-21C_L110_TR8_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Regulador a 3.3V\n"
 		(exclude_from_sim no)
@@ -2652,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 54.61) (xy 53.34 52.07)
+			(xy 53.34 58.42) (xy 53.34 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2692,7 +2360,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 62.23) (xy 53.34 73.66)
+			(xy 53.34 66.04) (xy 53.34 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2961,44 +2629,34 @@
 		(uuid "64bbe41d-72d6-443f-b961-1737a67f65de")
 	)
 	(symbol
-		(lib_id "LED:IR26-21C_L110_TR8")
-		(at 43.18 58.42 90)
+		(lib_id "EasyEDA:R_0603")
+		(at 43.18 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0635d54a-80c9-493d-ab88-86e129a6f5f0")
-		(property "Reference" "D4"
-			(at 46.99 58.7374 90)
+		(uuid "04cc0b3c-0db8-41f2-833c-54240edafb14")
+		(property "Reference" "R8"
+			(at 45.72 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "IR26-21C_L110_TR8"
-			(at 46.99 61.2774 90)
+		(property "Value" "1.5k"
+			(at 45.72 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 38.1 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
-			(at 43.18 58.42 0)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 43.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,8 +2664,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "940nm, 20 deg, Infrared LED, 1206"
-			(at 43.18 58.42 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C114668.pdf"
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF1501T5E"
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22843"
+			(at 43.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,15 +2701,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "46ab4441-b05b-4149-a941-da9115ad4cd6")
+			(uuid "69a560a0-3d6d-4432-834d-49af3722acf8")
 		)
 		(pin "1"
-			(uuid "da8e9f7c-7cd9-4c0f-92fd-6e678dce0cd4")
+			(uuid "6257cd11-bf57-4c98-bfdb-69bb824b99cc")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "D4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3040,7 +2725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0da669be-4aa0-4702-9b1c-121265940d0d")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 163.83 62.2299 0)
 			(effects
 				(font
@@ -3067,7 +2752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105588.pdf"
 			(at 161.29 63.5 0)
 			(effects
 				(font
@@ -3085,6 +2770,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "0603WAF1000T5E"
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22775"
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a22a95f3-6363-49d3-af9a-2d45334a547d")
 		)
@@ -3094,7 +2797,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3105,7 +2808,7 @@
 		(at 96.52 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1af8ff5f-e0ef-4328-b229-d7d9ce941c82")
@@ -3154,6 +2857,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "958b6c0b-b7c3-4e20-9baa-6a2a34ee40ba")
 		)
@@ -3167,17 +2879,103 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:C_1206")
-		(at 53.34 58.42 0)
+		(lib_id "EasyEDA:C_0805")
+		(at 129.54 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55b0247b-2482-45ce-9c2c-3f455c9f6af9")
+		(uuid "1d948f57-a151-4b22-9d27-044390f2c72f")
+		(property "Reference" "C21"
+			(at 133.35 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 133.35 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+			(at 128.5748 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706866429190144"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CL21A226MAQNNNE"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C45783"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65af9ee1-fdf1-451f-9e9d-380e720b7fc4")
+		)
+		(pin "1"
+			(uuid "d209df32-6a10-4ca2-ad80-cc7b4e4256c4")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 53.34 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "420f2e95-5474-44e0-8c56-63dc00182bae")
 		(property "Reference" "C4"
-			(at 57.15 57.1499 0)
+			(at 57.15 60.0709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +2984,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 57.15 59.6899 0)
+			(at 57.15 62.6109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,8 +2992,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
-			(at 54.3052 62.23 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+			(at 54.3052 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,8 +3001,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 53.34 58.42 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C72485.pdf"
+			(at 53.34 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,8 +3010,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
-			(at 53.34 58.42 0)
+		(property "Description" "Polarized capacitor"
+			(at 53.34 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3221,22 +3019,32 @@
 				(hide yes)
 			)
 		)
-		(property "Voltaje" "50V"
-			(at 53.34 58.42 0)
+		(property "Part #" "RVT1V100M0405"
+			(at 53.34 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C72485"
+			(at 53.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "bad0789e-8b89-4fe8-a08a-22ca016a8568")
+			(uuid "1a6e08d7-daf0-4178-a457-a68cb0d3fcab")
 		)
 		(pin "2"
-			(uuid "871be4f0-fced-4163-8bfa-5e1c821b5850")
+			(uuid "b8c2430f-502e-44a1-b0ed-5a19e11df2c5")
 		)
 		(instances
-			(project ""
+			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
 					(reference "C4")
 					(unit 1)
@@ -3245,17 +3053,16 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:R_0603")
-		(at 43.18 68.58 180)
+		(lib_id "EasyEDA:LED")
+		(at 43.18 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b6948e0-40d8-4084-a075-143a9867ade9")
-		(property "Reference" "R3"
-			(at 45.72 67.3099 0)
+		(uuid "6b2bfb07-8e75-4a9a-ac03-ba35ab887780")
+		(property "Reference" "D5"
+			(at 33.528 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,8 +3070,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k2"
-			(at 45.72 69.8499 0)
+		(property "Value" "LED_R"
+			(at 33.528 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,8 +3079,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 43.18 57.15 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 43.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,8 +3088,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 43.18 68.58 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723991833485312"
+			(at 43.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,8 +3097,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 43.18 68.58 0)
+		(property "Description" "Light emitting diode"
+			(at 43.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2286"
+			(at 43.18 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "KT-0603R"
+			(at 43.18 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,15 +3134,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c1c5d73-5a58-486d-8348-05fa5f40b9e4")
+			(uuid "2b60393d-122d-4061-b646-8391878c92bb")
 		)
 		(pin "2"
-			(uuid "6ab0ac1a-f318-4aea-8eb4-90f6d61e4de4")
+			(uuid "588648ee-0982-4b32-aa50-ce6c08787115")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "R3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3319,7 +3153,7 @@
 		(at 161.29 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6da54639-322e-4901-a1c7-582bfa636786")
@@ -3368,6 +3202,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93b20587-97f5-46a5-b9f6-380fda20b707")
 		)
@@ -3390,7 +3233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "710767d2-c341-425a-82f5-522b22aed8ef")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 71.12 39.37 0)
 			(effects
 				(font
@@ -3433,6 +3276,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "AP63200WU-7"
+			(at 71.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2071868"
+			(at 71.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "226d4864-224e-41ff-9156-2b36f281b600")
 		)
@@ -3454,156 +3315,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:C_0603")
-		(at 142.24 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7dd25d6e-bd58-4197-97c6-437cc38252c8")
-		(property "Reference" "C8"
-			(at 146.05 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 146.05 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
-			(at 143.2052 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
-			(at 142.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltaje" "10V"
-			(at 146.05 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "a483fc07-85a2-4332-97ef-5e7006921319")
-		)
-		(pin "2"
-			(uuid "3a22f624-3569-4f71-8fe4-ecc80de24d90")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:IR26-21C_L110_TR8")
-		(at 161.29 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ead7bd6-36a7-4af8-bbd6-3e9accf1550f")
-		(property "Reference" "D38"
-			(at 165.1 53.6574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "IR26-21C_L110_TR8"
-			(at 165.1 56.1974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 156.21 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
-			(at 161.29 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "940nm, 20 deg, Infrared LED, 1206"
-			(at 161.29 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b61bc5db-e6ba-44d3-aa5a-2a63bcebac5f")
-		)
-		(pin "1"
-			(uuid "949bb577-1645-4606-8625-ff65aff0ef27")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "D38")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3614,7 +3326,7 @@
 		(at 142.24 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8b902174-1bef-4ce8-9e75-030f5ef066e8")
@@ -3663,6 +3375,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 142.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a38d8cdf-2a53-4bec-983d-ec0b01a52f90")
 		)
@@ -3685,7 +3406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98e41746-67fc-4780-aa38-cc8237ef3814")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 120.65 52.0699 0)
 			(effects
 				(font
@@ -3712,7 +3433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2974032.pdf"
 			(at 118.11 53.34 0)
 			(effects
 				(font
@@ -3730,6 +3451,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "FRC0603F1963TS"
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2974032"
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2f2f7db-90ba-41cd-b8ee-099e72a867e1")
 		)
@@ -3739,51 +3478,41 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:C_0603")
-		(at 129.54 58.42 0)
+		(lib_id "EasyEDA:C_0805")
+		(at 142.24 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fdfbe9c-f1de-412f-bb7d-da692b27f1fc")
-		(property "Reference" "C7"
-			(at 133.35 55.8799 0)
+		(uuid "a06bb9a9-deb8-442e-a638-5769679519d6")
+		(property "Reference" "C22"
+			(at 146.05 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "22uF"
-			(at 133.35 58.4199 0)
+			(at 146.05 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
-			(at 130.5052 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 58.42 0)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+			(at 141.2748 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,8 +3520,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
-			(at 129.54 58.42 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706866429190144"
+			(at 142.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,25 +3529,43 @@
 				(hide yes)
 			)
 		)
-		(property "Voltaje" "10V"
-			(at 133.35 60.9599 0)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 142.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "ef9d544b-6ac4-4cd3-b338-09d3bb337179")
+		(property "Part #" "CL21A226MAQNNNE"
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C45783"
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "45c9c539-4b94-48e5-8828-c1e55a948523")
+			(uuid "94c52eae-69b4-41e8-80de-5db8a7dcead5")
+		)
+		(pin "1"
+			(uuid "21838e70-4be7-4614-842f-f7484f9aed77")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "C7")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3834,7 +3581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2515694-1e87-4ae8-ae05-e97ed360c700")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR024"
 			(at 71.12 82.55 0)
 			(effects
 				(font
@@ -3884,7 +3631,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "#PWR020")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3900,7 +3647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa78633b-551d-427b-9f47-6ec674fe26f2")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 120.65 64.7699 0)
 			(effects
 				(font
@@ -3927,7 +3674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C136961.pdf"
 			(at 118.11 66.04 0)
 			(effects
 				(font
@@ -3945,6 +3692,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "RT0603BRD0762KL"
+			(at 118.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C136961"
+			(at 118.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "333c11c4-f42f-48d9-b4d8-b4e230bde464")
 		)
@@ -3954,7 +3719,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3963,15 +3728,15 @@
 	(symbol
 		(lib_id "EasyEDA:C_0805")
 		(at 87.63 49.53 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b43322f8-21ec-466e-a6bf-5aa1136e130b")
 		(property "Reference" "C5"
-			(at 87.63 41.91 90)
+			(at 87.63 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +3744,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 87.63 44.45 90)
+			(at 87.63 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +3752,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
-			(at 91.44 48.5648 0)
+			(at 91.44 50.4952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +3760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C56476.pdf"
 			(at 87.63 49.53 0)
 			(effects
 				(font
@@ -4006,6 +3771,24 @@
 		)
 		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 87.63 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "C1608X7R1H104KT000N"
+			(at 87.63 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C56476"
+			(at 87.63 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +3821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfd966fc-2cc2-467e-96a5-7321eb1df277")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR025"
 			(at 177.8 45.72 0)
 			(effects
 				(font
@@ -4088,7 +3871,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "#PWR021")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4104,7 +3887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcc0c89f-6ea0-409c-b177-24a81737a6b4")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR023"
 			(at 43.18 46.99 0)
 			(effects
 				(font
@@ -4154,7 +3937,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "#PWR019")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4213,6 +3996,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8877f27f-9d72-41f1-b4d5-779450fda8cb")
 		)
@@ -4246,7 +4038,7 @@
 				)
 			)
 		)
-		(property "Value" "CXP0420-6R8M-AG(6.8UH)"
+		(property "Value" "HCMA-0420-6R8-M"
 			(at 100.33 43.18 0)
 			(effects
 				(font
@@ -4263,7 +4055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7461340.pdf"
 			(at 100.33 46.99 0)
 			(effects
 				(font
@@ -4281,8 +4073,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7461340"
+		(property "LCSC Part" "C351092"
 			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "YSPI0420-6R8M"
+			(at 100.33 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4111,7 @@
 		(at 96.52 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ec840152-7e10-4245-aef4-91675cfe6e1e")
@@ -4359,6 +4160,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "340143b2-d4b9-4d35-be1b-07c54cee3f07")
 		)
@@ -4372,11 +4182,108 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:LED")
+		(at 161.29 53.34 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1e77700-0a33-4958-b316-392eedc62778")
+		(property "Reference" "D6"
+			(at 170.942 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 170.942 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C440520.pdf"
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C12065"
+			(at 161.29 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "LTST-C193TGKT-5A"
+			(at 161.29 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f83fcd9-8570-4320-8c4d-3e6cc3e5374b")
+		)
+		(pin "2"
+			(uuid "4263038e-7853-48f0-b433-d204f3bb1f0e")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:TestPoint_Probe")
 		(at 53.34 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f803aebc-c90e-4a51-b3e8-3aca084d6f1a")
@@ -4425,6 +4332,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af607975-00a8-402a-9b93-c3989012a615")
 		)
@@ -4445,7 +4361,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fef09020-8374-4464-a9ae-b2d0d8ffd4ef")
 		(property "Reference" "C6"
 			(at 111.76 52.0699 0)
@@ -4474,7 +4389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C76709.pdf"
 			(at 107.95 53.34 0)
 			(effects
 				(font
@@ -4484,6 +4399,24 @@
 			)
 		)
 		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CGA3E2C0G1H101JT0Y0N"
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C76709"
 			(at 107.95 53.34 0)
 			(effects
 				(font

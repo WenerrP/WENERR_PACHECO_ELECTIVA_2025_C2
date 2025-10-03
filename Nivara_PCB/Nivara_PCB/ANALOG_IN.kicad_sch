@@ -1641,7 +1641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707164920893440"
 			(at 60.96 67.31 0)
 			(effects
 				(font
@@ -1659,7 +1659,16 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Part #" "0603B103K500NT"
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C57112"
 			(at 60.96 67.31 0)
 			(effects
 				(font
@@ -1693,7 +1702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fb9f151-4e31-4bc3-8ef0-f012a255a6e7")
-		(property "Reference" "R22"
+		(property "Reference" "R26"
 			(at 74.93 64.7699 0)
 			(effects
 				(font
@@ -1702,7 +1711,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "145"
+		(property "Value" "147"
 			(at 74.93 67.3099 0)
 			(effects
 				(font
@@ -1720,7 +1729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C228308.pdf"
 			(at 72.39 66.04 0)
 			(effects
 				(font
@@ -1738,6 +1747,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "AC0805FR-07147RL"
+			(at 72.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C228308"
+			(at 72.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88db2893-eabc-4c4c-a6d5-7e52c999cbc6")
 		)
@@ -1747,7 +1774,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/20ba0c48-a9e2-46df-b6c2-3a15a589565c"
-					(reference "R22")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -1763,7 +1790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d3ca71f-3f15-445e-88f7-d159f1bf1863")
-		(property "Reference" "D29"
+		(property "Reference" "D18"
 			(at 53.34 67.3099 90)
 			(effects
 				(font
@@ -1791,7 +1818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19077498.pdf"
 			(at 55.88 68.58 0)
 			(effects
 				(font
@@ -1929,6 +1956,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "SMF5.0CA"
+			(at 55.88 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19077498"
+			(at 55.88 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "ee73f8ee-adbe-44cf-ba3b-1b06e9880d17")
 		)
@@ -1938,7 +1983,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/20ba0c48-a9e2-46df-b6c2-3a15a589565c"
-					(reference "D29")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -1954,7 +1999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40e78351-e535-4d90-bdf0-2c56d1cdd426")
-		(property "Reference" "R21"
+		(property "Reference" "R25"
 			(at 66.04 53.34 90)
 			(effects
 				(font
@@ -1979,7 +2024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944"
 			(at 66.04 59.69 0)
 			(effects
 				(font
@@ -1997,6 +2042,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "0603WAF1001T5E"
+			(at 66.04 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C21190"
+			(at 66.04 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb59933a-5a77-42fc-9267-d8106095ffd2")
 		)
@@ -2006,7 +2069,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/20ba0c48-a9e2-46df-b6c2-3a15a589565c"
-					(reference "R21")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -2021,7 +2084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4a3d596-e668-40ed-8eb3-f5bd7696b1cc")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR043"
 			(at 55.88 46.99 0)
 			(effects
 				(font
@@ -2071,7 +2134,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/20ba0c48-a9e2-46df-b6c2-3a15a589565c"
-					(reference "#PWR039")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2115,7 +2178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19077498.pdf"
 			(at 55.88 52.07 0)
 			(effects
 				(font
@@ -2253,6 +2316,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "SMF5.0CA"
+			(at 55.88 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19077498"
+			(at 55.88 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "b5d2b874-ebd3-4cb0-a050-2850147f6a6d")
 		)
@@ -2278,7 +2359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6dffc49-986b-44bc-be1c-50209b53a2e8")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR044"
 			(at 72.39 85.09 0)
 			(effects
 				(font
@@ -2328,7 +2409,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/20ba0c48-a9e2-46df-b6c2-3a15a589565c"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)

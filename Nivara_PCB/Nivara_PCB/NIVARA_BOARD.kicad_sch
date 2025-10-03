@@ -1611,6 +1611,432 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_LED_AKL:LiteOn_LTST-C19HE1WT"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LiteOn_LTST-C19HE1WT"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_LED_SMD_AKL:LED_LiteOn_LTST-C19HE1WT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED, PLCC-4, 1.6x1.6mm, common anode, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode rgb anode plcc4 1.6x1.6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LiteOn_LTST-C19HE1WT_0_0"
+				(polyline
+					(pts
+						(xy -1.397 5.08) (xy -2.54 5.08) (xy -2.54 -5.08) (xy -1.397 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "R"
+					(at 2.54 6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at 2.54 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at 2.54 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LiteOn_LTST-C19HE1WT_0_1"
+				(rectangle
+					(start -3.81 7.62)
+					(end 3.81 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.1524)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy 1.27 5.08) (xy -1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 240 30 30 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 30 200 30 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35) (xy 1.27 -5.08) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 70 70 200 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 8.255) (xy 4.064 9.779)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 9.271) (xy 3.556 9.398)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 9.271) (xy 4.064 9.144)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 9.144) (xy 3.556 9.398) (xy 4.064 9.779) (xy 4.064 9.144)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 7.747) (xy 5.08 9.271)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 8.763) (xy 4.572 8.89)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 8.763) (xy 5.08 8.636)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 8.636) (xy 4.572 8.89) (xy 5.08 9.271) (xy 5.08 8.636)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "LiteOn_LTST-C19HE1WT_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 5.08 180)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -5.08 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(wire
 		(pts
@@ -1621,6 +2047,16 @@
 			(type default)
 		)
 		(uuid "0034cef8-3e29-4ea3-8b22-1ab4890cb305")
+	)
+	(wire
+		(pts
+			(xy 181.61 147.32) (xy 189.23 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a9ecdb-a28b-4219-a5f6-10093b3626e3")
 	)
 	(wire
 		(pts
@@ -1654,7 +2090,17 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 133.35) (xy 238.76 133.35)
+			(xy 66.04 92.71) (xy 76.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fcc40e1-c221-4cba-95bc-965659d70989")
+	)
+	(wire
+		(pts
+			(xy 226.06 133.35) (xy 238.76 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1684,13 +2130,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 72.39) (xy 74.93 71.12)
+			(xy 66.04 101.6) (xy 81.28 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "204e5ad1-6d4e-46cc-af06-8113d61c34c6")
+		(uuid "2356ad2c-2abe-441c-b892-d0831bf7ffbc")
 	)
 	(wire
 		(pts
@@ -1704,7 +2150,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 29.21) (xy 215.9 29.21)
+			(xy 210.82 29.21) (xy 226.06 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1724,7 +2170,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 147.32) (xy 149.86 147.32)
+			(xy 153.67 148.59) (xy 149.86 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1734,23 +2180,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 16.51) (xy 203.2 78.74)
+			(xy 203.2 20.32) (xy 203.2 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "292dd750-0c12-43a2-a82b-e13d656030d9")
-	)
-	(wire
-		(pts
-			(xy 181.61 148.59) (xy 190.5 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2acb4983-3170-4504-82f8-70a169ef4569")
 	)
 	(wire
 		(pts
@@ -1774,6 +2210,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 83.82) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a69185-0d65-4b64-abeb-66ec5d26b9fe")
+	)
+	(wire
+		(pts
 			(xy 210.82 83.82) (xy 182.88 83.82)
 		)
 		(stroke
@@ -1794,7 +2240,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 127) (xy 190.5 148.59)
+			(xy 193.04 127) (xy 193.04 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1844,7 +2290,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 134.62) (xy 182.88 134.62)
+			(xy 55.88 92.71) (xy 58.42 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4030f7a8-8b27-4336-b9ec-75ee12a9509b")
+	)
+	(wire
+		(pts
+			(xy 189.23 134.62) (xy 182.88 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1864,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 134.62) (xy 186.69 146.05)
+			(xy 189.23 134.62) (xy 189.23 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1894,7 +2350,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 116.84) (xy 222.25 111.76)
+			(xy 234.95 116.84) (xy 234.95 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1924,7 +2380,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 129.54) (xy 182.88 129.54)
+			(xy 210.82 129.54) (xy 182.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1934,13 +2390,23 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 114.3) (xy 219.71 124.46)
+			(xy 231.14 114.3) (xy 231.14 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c1531a8-a129-4bbd-939d-423a54fc31d6")
+	)
+	(wire
+		(pts
+			(xy 181.61 149.86) (xy 193.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50965db7-26c2-4c46-afcf-d701fe9550a7")
 	)
 	(wire
 		(pts
@@ -1964,7 +2430,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 116.84) (xy 182.88 116.84)
+			(xy 226.06 116.84) (xy 182.88 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1984,7 +2450,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 29.21) (xy 226.06 29.21)
+			(xy 233.68 29.21) (xy 236.22 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2044,7 +2510,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 127) (xy 182.88 127)
+			(xy 193.04 127) (xy 182.88 127)
 		)
 		(stroke
 			(width 0)
@@ -2054,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 161.29) (xy 196.85 161.29)
+			(xy 238.76 161.29) (xy 205.74 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2064,13 +2530,23 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 124.46) (xy 219.71 124.46)
+			(xy 238.76 124.46) (xy 231.14 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "678f1cb0-e7a3-4b69-b82d-3df557ad0c53")
+	)
+	(wire
+		(pts
+			(xy 81.28 101.6) (xy 81.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6deddb-7864-4b6d-a89c-8d5b2aa93bf6")
 	)
 	(wire
 		(pts
@@ -2084,7 +2560,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 152.4) (xy 203.2 129.54)
+			(xy 210.82 152.4) (xy 210.82 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2094,7 +2570,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 16.51) (xy 236.22 16.51)
+			(xy 203.2 20.32) (xy 238.76 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2104,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 121.92) (xy 207.01 143.51)
+			(xy 215.9 121.92) (xy 215.9 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2134,7 +2610,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 72.39) (xy 36.83 72.39)
+			(xy 31.75 71.12) (xy 36.83 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2144,7 +2620,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 135.89) (xy 238.76 135.89)
+			(xy 55.88 92.71) (xy 55.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcc3073-e19e-4030-a7c6-82d22007adeb")
+	)
+	(wire
+		(pts
+			(xy 220.98 135.89) (xy 238.76 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2174,7 +2660,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 81.28) (xy 78.74 81.28)
+			(xy 53.34 101.6) (xy 58.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ba352e-5427-4b96-b348-2af5d4da2984")
+	)
+	(wire
+		(pts
+			(xy 64.77 80.01) (xy 71.12 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2204,7 +2700,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 121.92) (xy 182.88 121.92)
+			(xy 215.9 121.92) (xy 182.88 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2231,6 +2727,16 @@
 			(type default)
 		)
 		(uuid "90cdbe84-63e9-4089-802d-7abec1bcb791")
+	)
+	(wire
+		(pts
+			(xy 55.88 96.52) (xy 53.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e33c8a-315c-4fb2-877d-95a5d9c9f8f8")
 	)
 	(wire
 		(pts
@@ -2264,7 +2770,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 73.66) (xy 91.44 73.66)
+			(xy 71.12 73.66) (xy 91.44 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2274,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 152.4) (xy 203.2 152.4)
+			(xy 238.76 152.4) (xy 210.82 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2284,7 +2790,27 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 21.59) (xy 207.01 21.59)
+			(xy 182.88 71.12) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e223a99-7405-4e6c-9af8-27b6a7e4d342")
+	)
+	(wire
+		(pts
+			(xy 55.88 111.76) (xy 58.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e52eb9c-ce83-4c61-ac86-ed94dddd6ef0")
+	)
+	(wire
+		(pts
+			(xy 209.55 25.4) (xy 207.01 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2294,7 +2820,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 133.35) (xy 214.63 116.84)
+			(xy 226.06 133.35) (xy 226.06 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2304,7 +2830,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 143.51) (xy 238.76 143.51)
+			(xy 215.9 143.51) (xy 238.76 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2314,7 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 135.89) (xy 210.82 119.38)
+			(xy 220.98 135.89) (xy 220.98 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2324,7 +2850,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 81.28) (xy 36.83 81.28)
+			(xy 31.75 80.01) (xy 36.83 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2334,7 +2860,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 132.08) (xy 182.88 132.08)
+			(xy 205.74 132.08) (xy 182.88 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2374,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 116.84) (xy 238.76 116.84)
+			(xy 234.95 116.84) (xy 238.76 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2384,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 21.59) (xy 207.01 81.28)
+			(xy 207.01 25.4) (xy 207.01 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2394,17 +2920,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 187.96 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8dc4cdd-2ef1-42e9-b126-86955d0d3e7f")
-	)
-	(wire
-		(pts
-			(xy 182.88 114.3) (xy 219.71 114.3)
+			(xy 182.88 114.3) (xy 231.14 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2424,13 +2940,33 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 78.74 73.66)
+			(xy 71.12 80.01) (xy 71.12 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb610e28-52b1-48f2-b3a9-503f8cd443c2")
+	)
+	(wire
+		(pts
+			(xy 76.2 92.71) (xy 76.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb85c506-a405-4afc-bbc7-5a0c34cb1cab")
+	)
+	(wire
+		(pts
+			(xy 86.36 111.76) (xy 86.36 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be87bb6b-9864-484a-8e07-bb2630751e48")
 	)
 	(wire
 		(pts
@@ -2444,7 +2980,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 72.39) (xy 74.93 72.39)
+			(xy 64.77 71.12) (xy 91.44 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2454,33 +2990,23 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 71.12) (xy 187.96 71.12)
+			(xy 66.04 111.76) (xy 86.36 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c61ca9c0-bf0b-4aa1-a630-ae339264805f")
+		(uuid "c304100b-1797-490e-a87f-d5479d0869ee")
 	)
 	(wire
 		(pts
-			(xy 186.69 146.05) (xy 181.61 146.05)
+			(xy 55.88 111.76) (xy 55.88 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6abad61-e94a-427d-a960-092107434f2b")
-	)
-	(wire
-		(pts
-			(xy 74.93 71.12) (xy 91.44 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c895ab13-21ca-425d-b2fc-25616f6c7857")
+		(uuid "c68a3f0e-fc1c-4f84-8ac1-126672119697")
 	)
 	(wire
 		(pts
@@ -2524,6 +3050,26 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 93.98) (xy 33.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbcdcd9-9f26-47df-876a-a6d9816764b3")
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 187.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1718496-73a1-4bbe-8282-ea133ae65437")
+	)
+	(wire
+		(pts
 			(xy 232.41 87.63) (xy 238.76 87.63)
 		)
 		(stroke
@@ -2544,7 +3090,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 132.08) (xy 196.85 161.29)
+			(xy 55.88 106.68) (xy 53.34 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c1edfd-68ae-4886-8819-a76281a3d3e0")
+	)
+	(wire
+		(pts
+			(xy 205.74 132.08) (xy 205.74 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2574,7 +3130,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 111.76) (xy 182.88 111.76)
+			(xy 234.95 111.76) (xy 182.88 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2584,7 +3140,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 119.38) (xy 182.88 119.38)
+			(xy 220.98 119.38) (xy 182.88 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2604,6 +3160,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 101.6) (xy 40.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45baf2a-8062-4d52-ba2e-d682f5e42edb")
+	)
+	(wire
+		(pts
 			(xy 238.76 58.42) (xy 222.25 58.42)
 		)
 		(stroke
@@ -2614,7 +3180,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 21.59) (xy 222.25 21.59)
+			(xy 217.17 25.4) (xy 218.44 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2634,6 +3200,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 81.28) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8c12cb-2547-4912-9fa1-16512adee09c")
+	)
+	(wire
+		(pts
 			(xy 64.77 63.5) (xy 91.44 63.5)
 		)
 		(stroke
@@ -2642,9 +3218,19 @@
 		)
 		(uuid "fb93d481-2ff8-4f0e-b261-97b92f0d7a4e")
 	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 91.44 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0b37db-8467-494e-a9f2-96662acaf020")
+	)
 	(hierarchical_label "D_IN_1"
 		(shape input)
-		(at 31.75 81.28 180)
+		(at 31.75 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2732,7 +3318,7 @@
 	)
 	(hierarchical_label "AUX_1"
 		(shape output)
-		(at 222.25 21.59 0)
+		(at 218.44 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2765,7 +3351,7 @@
 	)
 	(hierarchical_label "USB_D-"
 		(shape input)
-		(at 187.96 71.12 0)
+		(at 187.96 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2853,7 +3439,7 @@
 	)
 	(hierarchical_label "D_IN_2"
 		(shape input)
-		(at 31.75 72.39 180)
+		(at 31.75 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2864,7 +3450,7 @@
 	)
 	(hierarchical_label "AUX_2"
 		(shape output)
-		(at 226.06 29.21 0)
+		(at 236.22 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2897,7 +3483,7 @@
 	)
 	(hierarchical_label "I_OUT"
 		(shape output)
-		(at 149.86 147.32 180)
+		(at 149.86 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2907,8 +3493,8 @@
 		(uuid "bba7c59d-e5f9-439e-aaee-509d6828a584")
 	)
 	(hierarchical_label "USB_D+"
-		(shape input)
-		(at 187.96 73.66 0)
+		(shape output)
+		(at 187.96 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2951,6 +3537,92 @@
 		(uuid "fdb0d053-5686-452b-a187-28246f529299")
 	)
 	(symbol
+		(lib_id "EasyEDA:R_0603")
+		(at 62.23 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03af3d19-6ca5-4c4e-a358-e31273494bb1")
+		(property "Reference" "R3"
+			(at 62.23 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 62.23 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706172544782336"
+			(at 62.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 62.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF200JT5E"
+			(at 62.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22950"
+			(at 62.23 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "389054bb-88f9-43a8-b777-b1b64307c705")
+		)
+		(pin "1"
+			(uuid "7490c38f-07c3-4e57-bbae-b1ac48e3dfc1")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:+3.3V")
 		(at 137.16 55.88 0)
 		(unit 1)
@@ -2960,7 +3632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c50d28a-8e5c-4789-8bdd-c8b358cbd772")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 137.16 59.69 0)
 			(effects
 				(font
@@ -3010,7 +3682,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3026,7 +3698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27308585-31f3-47a2-8690-0a08a1b29803")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 139.3033 57.15 0)
 			(effects
 				(font
@@ -3044,7 +3716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
+		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1U"
 			(at 139.7 147.32 0)
 			(effects
 				(font
@@ -3063,6 +3735,24 @@
 			)
 		)
 		(property "Description" "2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "ESP32-S3-WROOM-1U-N16R8"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3013946"
 			(at 137.16 99.06 0)
 			(effects
 				(font
@@ -3197,7 +3887,7 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3205,7 +3895,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:R_0603")
-		(at 219.71 29.21 90)
+		(at 229.87 29.21 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3213,8 +3903,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cc14e9f-404a-4a4b-9d89-44cf8407284e")
-		(property "Reference" "R2"
-			(at 219.71 22.86 90)
+		(property "Reference" "R7"
+			(at 229.87 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3912,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 219.71 25.4 90)
+			(at 229.87 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,7 +3920,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 231.14 29.21 0)
+			(at 241.3 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,8 +3928,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 219.71 29.21 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706226143518720"
+			(at 229.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3938,25 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 219.71 29.21 0)
+			(at 229.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF330JT5E"
+			(at 229.87 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23140"
+			(at 229.87 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,42 +3973,23 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:C_0603")
-		(at 48.26 36.83 0)
-		(mirror y)
+		(lib_id "EasyEDA:+3.3V")
+		(at 33.02 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6d88dec5-fe36-4671-a2cd-2b390edc6e79")
-		(property "Reference" "C2"
-			(at 44.45 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 44.45 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
-			(at 47.2948 40.64 0)
+		(uuid "54551115-82ee-4662-bb93-74679d2991f6")
+		(property "Reference" "#PWR016"
+			(at 33.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,8 +3997,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 48.26 36.83 0)
+		(property "Value" "+3.3V"
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,8 +4014,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
-			(at 48.26 36.83 0)
+		(property "Datasheet" ""
+			(at 33.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,24 +4023,22 @@
 				(hide yes)
 			)
 		)
-		(property "Vol" "10V"
-			(at 42.672 40.64 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 33.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "5843e31d-42a3-4394-8b61-2d8317bc3358")
-		)
-		(pin "2"
-			(uuid "48ebaddf-3a6d-4ab9-a476-ac15673d4e77")
+			(uuid "e8c7de8e-4373-4b3e-9e51-98934b4dcda6")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "C2")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3359,7 +4054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76cfde11-2954-4bdb-8c19-75b3d890ad88")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR022"
 			(at 137.16 148.59 0)
 			(effects
 				(font
@@ -3409,7 +4104,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR018")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3417,15 +4112,15 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:R_0603")
-		(at 217.17 21.59 90)
+		(at 213.36 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7e8076c1-daba-42a4-9eb4-0f0debe89702")
-		(property "Reference" "R1"
-			(at 218.44 16.764 90)
+		(property "Reference" "R6"
+			(at 214.63 20.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +4129,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 218.44 19.05 90)
+			(at 214.63 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +4138,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 228.6 21.59 0)
+			(at 224.79 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,8 +4146,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 217.17 21.59 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706226143518720"
+			(at 213.36 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +4156,25 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 217.17 21.59 0)
+			(at 213.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF330JT5E"
+			(at 213.36 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23140"
+			(at 213.36 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,7 +4191,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3521,7 +4234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77058.pdf"
 			(at 78.74 36.83 0)
 			(effects
 				(font
@@ -3539,12 +4252,22 @@
 				(hide yes)
 			)
 		)
-		(property "Vol" "10V"
-			(at 73.152 40.64 0)
+		(property "Part #" "GRM188R72A104KA35D"
+			(at 78.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77058"
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3571,7 +4294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ede3d11-5392-499e-9503-a16fe1bf798d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR019"
 			(at 78.74 33.02 0)
 			(effects
 				(font
@@ -3621,7 +4344,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3637,7 +4360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a80896-ff4c-4ed3-997a-7a27f4d80d45")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 78.74 49.53 0)
 			(effects
 				(font
@@ -3687,7 +4410,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR016")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3702,7 +4425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbe38b81-d2ef-46fb-b873-4fc20148d9a8")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR017"
 			(at 48.26 33.02 0)
 			(effects
 				(font
@@ -3752,7 +4475,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR013")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3768,7 +4491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc8ef264-ad54-4dff-a1be-1769bee4a7c9")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 48.26 49.53 0)
 			(effects
 				(font
@@ -3818,7 +4541,359 @@
 		(instances
 			(project ""
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
-					(reference "#PWR014")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:R_0603")
+		(at 62.23 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdebd2ca-1b5f-4c64-9a23-37f56cb77379")
+		(property "Reference" "R4"
+			(at 62.23 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 62.23 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 73.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706172544782336"
+			(at 62.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 62.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF200JT5E"
+			(at 62.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22950"
+			(at 62.23 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ebd18e4e-17fc-48d8-82f5-f9b7e4f8ba36")
+		)
+		(pin "1"
+			(uuid "5cc9b41a-c6a6-4ecb-a63f-f2651df18dd9")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LiteOn_LTST-C19HE1WT")
+		(at 46.99 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3d7ff30-b90e-428a-8f95-d903371beb2d")
+		(property "Reference" "LED2"
+			(at 47.5996 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LiteOn_LTST-C19HE1WT"
+			(at 47.5996 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_LiteOn_LTST-C19HE1WT"
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C458749.pdf"
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, PLCC-4, 1.6x1.6mm, common anode, Alternate KiCad Library"
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C458749"
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "LTST-C19HE1WT"
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4662ec75-0131-48aa-9882-26850161a588")
+		)
+		(pin "1"
+			(uuid "e13df09d-0000-4ccc-afee-c7635e0109c1")
+		)
+		(pin "3"
+			(uuid "70f85256-1e7d-4b39-9d3e-8f71f88a9898")
+		)
+		(pin "4"
+			(uuid "cce97563-6c88-4682-a75d-68e68017b387")
+		)
+		(instances
+			(project ""
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:C_0603")
+		(at 48.26 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea949952-af51-469e-bcf9-93b196c7a5a7")
+		(property "Reference" "C2"
+			(at 44.45 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 44.45 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 47.2948 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C913904.pdf"
+			(at 48.26 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 48.26 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CL10A225KB8NNNC"
+			(at 48.26 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C913904"
+			(at 48.26 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc87e534-2deb-43a6-a72b-62ea42d45a66")
+		)
+		(pin "2"
+			(uuid "d24c1234-8ba3-40a7-9b59-56095b32115a")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:R_0603")
+		(at 62.23 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6a7b833-6b70-4fd4-9dc3-72d138630e61")
+		(property "Reference" "R5"
+			(at 62.23 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 62.23 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706172544782336"
+			(at 62.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 62.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF200JT5E"
+			(at 62.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22950"
+			(at 62.23 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e549694c-75b0-47b0-9079-3717799b7a4f")
+		)
+		(pin "1"
+			(uuid "c4542f5c-92a7-4566-93aa-e04eafc72aa6")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4066,7 +5141,7 @@
 		)
 	)
 	(sheet
-		(at 153.67 143.51)
+		(at 153.67 144.78)
 		(size 27.94 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4082,7 +5157,7 @@
 		)
 		(uuid "20ce4f76-1b07-4578-a491-e50801028079")
 		(property "Sheetname" "A_I_OUT"
-			(at 153.67 142.7984 0)
+			(at 153.67 144.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +5166,7 @@
 			)
 		)
 		(property "Sheetfile" "A_I_OUT.kicad_sch"
-			(at 153.67 151.7146 0)
+			(at 153.67 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +5175,7 @@
 			)
 		)
 		(pin "I_OUT" output
-			(at 153.67 147.32 180)
+			(at 153.67 148.59 180)
 			(uuid "b53324a2-207d-4bc8-a5cf-09f5d4f78210")
 			(effects
 				(font
@@ -4110,7 +5185,7 @@
 			)
 		)
 		(pin "SCLK_C" input
-			(at 181.61 148.59 0)
+			(at 181.61 147.32 0)
 			(uuid "b3ad7718-8775-431d-83fa-fed725ac0a46")
 			(effects
 				(font
@@ -4120,7 +5195,7 @@
 			)
 		)
 		(pin "SDA_C" input
-			(at 181.61 146.05 0)
+			(at 181.61 149.86 0)
 			(uuid "b9aa7147-ed6e-4773-b211-caef0c144c7a")
 			(effects
 				(font
@@ -4532,7 +5607,7 @@
 		)
 	)
 	(sheet
-		(at 236.22 13.97)
+		(at 238.76 17.78)
 		(size 13.97 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4548,7 +5623,7 @@
 		)
 		(uuid "5653b51d-16ab-4a56-b89c-3ddccfd36763")
 		(property "Sheetname" "BUTTON"
-			(at 236.22 13.2584 0)
+			(at 238.76 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +5632,7 @@
 			)
 		)
 		(property "Sheetfile" "BUTTON.kicad_sch"
-			(at 236.22 19.6346 0)
+			(at 238.76 23.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +5641,7 @@
 			)
 		)
 		(pin "BUTTON_PIN" input
-			(at 236.22 16.51 180)
+			(at 238.76 20.32 180)
 			(uuid "ee195e55-cbc4-429a-83ed-9400bbc179ee")
 			(effects
 				(font
@@ -4918,7 +5993,7 @@
 		)
 	)
 	(sheet
-		(at 36.83 78.74)
+		(at 36.83 77.47)
 		(size 27.94 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4934,7 +6009,7 @@
 		)
 		(uuid "a8a95db9-2db6-4dd5-a448-91db082870e6")
 		(property "Sheetname" "D_IN_1"
-			(at 36.83 78.0284 0)
+			(at 36.83 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +6018,7 @@
 			)
 		)
 		(property "Sheetfile" "D_IN.kicad_sch"
-			(at 36.83 84.4046 0)
+			(at 36.83 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +6028,7 @@
 			)
 		)
 		(pin "D_IN" input
-			(at 36.83 81.28 180)
+			(at 36.83 80.01 180)
 			(uuid "bfc58cca-4717-43e4-a817-6de82250a158")
 			(effects
 				(font
@@ -4963,7 +6038,7 @@
 			)
 		)
 		(pin "D_OUT" input
-			(at 64.77 81.28 0)
+			(at 64.77 80.01 0)
 			(uuid "77bf6da3-c6c9-461a-8d12-997fe04fb816")
 			(effects
 				(font
@@ -5087,7 +6162,7 @@
 		)
 	)
 	(sheet
-		(at 36.83 69.85)
+		(at 36.83 68.58)
 		(size 27.94 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5103,7 +6178,7 @@
 		)
 		(uuid "d4f8ef66-9185-4a3a-8dfb-54acd9194ea4")
 		(property "Sheetname" "D_IN_2"
-			(at 36.83 69.1384 0)
+			(at 36.83 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +6187,7 @@
 			)
 		)
 		(property "Sheetfile" "D_IN.kicad_sch"
-			(at 36.83 75.5146 0)
+			(at 36.83 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +6197,7 @@
 			)
 		)
 		(pin "D_IN" input
-			(at 36.83 72.39 180)
+			(at 36.83 71.12 180)
 			(uuid "6ab354eb-356b-4329-b576-60fb8f0fe145")
 			(effects
 				(font
@@ -5132,7 +6207,7 @@
 			)
 		)
 		(pin "D_OUT" input
-			(at 64.77 72.39 0)
+			(at 64.77 71.12 0)
 			(uuid "42e621e7-6016-42f9-9bc8-f8ecc52d37c9")
 			(effects
 				(font
