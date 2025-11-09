@@ -876,107 +876,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:LED"
 			(pin_numbers
 				(hide yes)
@@ -1903,6 +1802,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND2"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND2"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Regulador a 3.3V\n"
 		(exclude_from_sim no)
@@ -2701,10 +2701,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "69a560a0-3d6d-4432-834d-49af3722acf8")
+			(uuid "a09711ce-b349-431a-b28a-d7a986fc30a6")
 		)
 		(pin "1"
-			(uuid "6257cd11-bf57-4c98-bfdb-69bb824b99cc")
+			(uuid "001ecc8f-06a1-43ce-a81d-cb19775f4754")
 		)
 		(instances
 			(project "Nivara_PCB"
@@ -2789,10 +2789,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a22a95f3-6363-49d3-af9a-2d45334a547d")
+			(uuid "fac7a4e7-12b6-4ae3-bdd2-ca8fce9b785f")
 		)
 		(pin "2"
-			(uuid "131d60ce-109a-4f74-b840-c8e80d547215")
+			(uuid "119539f5-5c40-45ed-970b-769cdc077d01")
 		)
 		(instances
 			(project "Nivara_PCB"
@@ -2867,7 +2867,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "958b6c0b-b7c3-4e20-9baa-6a2a34ee40ba")
+			(uuid "e2754b93-1d30-4ef9-ae5f-fa5b89d4fee3")
 		)
 		(instances
 			(project "Nivara_PCB"
@@ -2887,7 +2887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d948f57-a151-4b22-9d27-044390f2c72f")
-		(property "Reference" "C21"
+		(property "Reference" "C6"
 			(at 133.35 57.1499 0)
 			(effects
 				(font
@@ -2951,15 +2951,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "65af9ee1-fdf1-451f-9e9d-380e720b7fc4")
+			(uuid "319f54aa-791f-46d3-b687-09f7adb30550")
 		)
 		(pin "1"
-			(uuid "d209df32-6a10-4ca2-ad80-cc7b4e4256c4")
+			(uuid "502b46fa-21ab-4d21-afd3-611ae3649f57")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "C21")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3038,15 +3038,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a6e08d7-daf0-4178-a457-a68cb0d3fcab")
+			(uuid "90a29231-572e-40a5-8f58-270816f0f0ae")
 		)
 		(pin "2"
-			(uuid "b8c2430f-502e-44a1-b0ed-5a19e11df2c5")
+			(uuid "abd9d805-b682-4396-84a6-4c6d3450cba6")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:VCC")
+		(at 43.18 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "622519e6-9179-4ba9-a0c5-3af9b31a2ede")
+		(property "Reference" "#PWR025"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCD"
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aa0386c-79fd-4402-a8f1-a14b0bf9cc06")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3134,10 +3200,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b60393d-122d-4061-b646-8391878c92bb")
+			(uuid "ec4ccb1b-91c5-4a87-9189-679b9bb2da04")
 		)
 		(pin "2"
-			(uuid "588648ee-0982-4b32-aa50-ce6c08787115")
+			(uuid "462bc2c3-4a94-43ab-bc4d-ff5feedf2db2")
 		)
 		(instances
 			(project "Nivara_PCB"
@@ -3212,7 +3278,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "93b20587-97f5-46a5-b9f6-380fda20b707")
+			(uuid "a41b5bec-2a98-4e4d-9c41-fa3e1a079edb")
 		)
 		(instances
 			(project "Nivara_PCB"
@@ -3295,27 +3361,92 @@
 			)
 		)
 		(pin "2"
-			(uuid "226d4864-224e-41ff-9156-2b36f281b600")
+			(uuid "fb0259a7-2e10-4dfa-968b-9f9707344c6b")
 		)
 		(pin "3"
-			(uuid "ad54779d-f077-47be-a469-d907e5bf2659")
+			(uuid "bcb4e65f-7e1a-4360-a214-b0ec333e5c5b")
 		)
 		(pin "4"
-			(uuid "baed36f3-047a-496e-a7d3-f38aef9d10a8")
+			(uuid "862503b4-2f20-41f5-9ad2-fa1200dd1d58")
 		)
 		(pin "5"
-			(uuid "e241f86e-871e-497c-979f-841143f50e9d")
+			(uuid "6af3b1e6-c888-45ea-9050-7d9245904763")
 		)
 		(pin "6"
-			(uuid "f5a2e708-6bb1-4077-9718-f67f0393a157")
+			(uuid "8d9e9a55-d6ba-4a28-8e88-7d19e511d433")
 		)
 		(pin "1"
-			(uuid "68568d8a-2dc3-47ee-ba5b-9689d4e079a5")
+			(uuid "d86b8de1-0487-4177-aefd-201803652f4c")
 		)
 		(instances
-			(project ""
+			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:+3.3V")
+		(at 177.8 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71c5bfad-8a07-4fb2-bf6a-9e8b32f9de01")
+		(property "Reference" "#PWR027"
+			(at 177.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 177.8 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d8d11e6-1a8b-4a47-af25-fb341b61345a")
+		)
+		(instances
+			(project "Nivara_PCB"
+				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3385,7 +3516,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a38d8cdf-2a53-4bec-983d-ec0b01a52f90")
+			(uuid "5caa7625-ca1a-4439-89e2-e0b7b028c807")
 		)
 		(instances
 			(project "Nivara_PCB"
@@ -3470,13 +3601,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2f2f7db-90ba-41cd-b8ee-099e72a867e1")
+			(uuid "2084eee4-6a10-4d9c-9702-73be623d4c7e")
 		)
 		(pin "2"
-			(uuid "10a9725e-c2aa-43d2-8b16-f528d89dae21")
+			(uuid "57c1d83b-9a95-4347-89a9-548ad9835fb1")
 		)
 		(instances
-			(project ""
+			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
 					(reference "R9")
 					(unit 1)
@@ -3493,7 +3624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a06bb9a9-deb8-442e-a638-5769679519d6")
-		(property "Reference" "C22"
+		(property "Reference" "C7"
 			(at 146.05 57.1499 0)
 			(effects
 				(font
@@ -3557,81 +3688,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "94c52eae-69b4-41e8-80de-5db8a7dcead5")
+			(uuid "6621055e-c7a8-49da-903a-722238061480")
 		)
 		(pin "1"
-			(uuid "21838e70-4be7-4614-842f-f7484f9aed77")
+			(uuid "3c1dcc6e-1be0-4aef-ac53-2ecc720270bd")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:GND")
-		(at 71.12 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2515694-1e87-4ae8-ae05-e97ed360c700")
-		(property "Reference" "#PWR024"
-			(at 71.12 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f69ed56-0e21-4d5b-b18e-06b23c4ac210")
-		)
-		(instances
-			(project ""
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "#PWR024")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3647,7 +3712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa78633b-551d-427b-9f47-6ec674fe26f2")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 120.65 64.7699 0)
 			(effects
 				(font
@@ -3711,15 +3776,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "333c11c4-f42f-48d9-b4d8-b4e230bde464")
+			(uuid "c4002994-006f-4406-9fde-00caae1b9436")
 		)
 		(pin "2"
-			(uuid "d6402d32-a1ca-41f4-8876-f7c4ee6b8213")
+			(uuid "cf3a6cf2-c625-43ed-a99d-2f6850db7fa1")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3797,10 +3862,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "968a1ca2-876e-416b-aa2a-b3a9c7ad4b89")
+			(uuid "43f02c83-623a-46b3-a72b-a4c460af7228")
 		)
 		(pin "1"
-			(uuid "417696b6-79c4-437b-8f0c-2eeb41125c48")
+			(uuid "e4adc23b-d2c1-4559-9e18-bd4d14f3f349")
 		)
 		(instances
 			(project "Nivara_PCB"
@@ -3812,17 +3877,17 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:+3.3V")
-		(at 177.8 41.91 0)
+		(lib_id "power:GND2")
+		(at 71.12 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bfd966fc-2cc2-467e-96a5-7321eb1df277")
-		(property "Reference" "#PWR025"
-			(at 177.8 45.72 0)
+		(uuid "ca84b21d-8271-40e3-93a7-4f9c00978c1a")
+		(property "Reference" "#PWR026"
+			(at 71.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,8 +3895,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 177.8 36.83 0)
+		(property "Value" "GND2"
+			(at 71.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,7 +3904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 41.91 0)
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 41.91 0)
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,74 +3921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 177.8 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a835f838-44e0-40ca-929b-67553d4052d7")
-		)
-		(instances
-			(project "Nivara_PCB"
-				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:VCC")
-		(at 43.18 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcc0c89f-6ea0-409c-b177-24a81737a6b4")
-		(property "Reference" "#PWR023"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 43.18 43.18 0)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,12 +3931,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b4f88f1-174d-4cc5-ac4d-c28357fca1e8")
+			(uuid "c9661e76-2fb4-4bb0-afe7-2d714d27a30e")
 		)
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4006,13 +4005,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "8877f27f-9d72-41f1-b4d5-779450fda8cb")
+			(uuid "86080c14-422f-41fc-8570-2133f1bcdd87")
 		)
 		(pin "1"
-			(uuid "ea65f96d-87e6-453f-83b7-5c3a1dcd5322")
+			(uuid "f64fc30b-37fb-482d-b6ad-30bedf43e5e7")
 		)
 		(instances
-			(project ""
+			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
 					(reference "JP1")
 					(unit 1)
@@ -4092,13 +4091,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "48c6e6a3-ac91-4584-b0ad-62b762ed5409")
+			(uuid "fdae80bb-dff0-42e3-9e38-af1e910f0029")
 		)
 		(pin "2"
-			(uuid "57838284-ab34-4be3-842c-0ce0fc6ecc8a")
+			(uuid "bd52cfbb-a2a6-497a-85f0-3aedfb5725be")
 		)
 		(instances
-			(project ""
+			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
 					(reference "L1")
 					(unit 1)
@@ -4170,7 +4169,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "340143b2-d4b9-4d35-be1b-07c54cee3f07")
+			(uuid "29c2615b-6d0a-4378-b99e-41b0c4c236d7")
 		)
 		(instances
 			(project "Nivara_PCB"
@@ -4264,10 +4263,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f83fcd9-8570-4320-8c4d-3e6cc3e5374b")
+			(uuid "c83b916d-8eb9-42fc-aeb2-e42e2e19adda")
 		)
 		(pin "2"
-			(uuid "4263038e-7853-48f0-b433-d204f3bb1f0e")
+			(uuid "d9c995b3-a311-4d8a-b147-ba590c6bc86f")
 		)
 		(instances
 			(project "Nivara_PCB"
@@ -4342,10 +4341,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "af607975-00a8-402a-9b93-c3989012a615")
+			(uuid "db56928a-fa78-4c66-8c9a-64111ce00dcc")
 		)
 		(instances
-			(project ""
+			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
 					(reference "TP1")
 					(unit 1)
@@ -4426,10 +4425,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "01bf1a2d-726f-48cb-8e90-86f90e9f6f96")
+			(uuid "b5522305-47ec-4ec7-9827-aeebc79df7bd")
 		)
 		(pin "1"
-			(uuid "a1a2988a-66b7-4e0b-b605-ef8e305c413f")
+			(uuid "5471fdf8-7fb5-4d2e-861e-fe432b954b31")
 		)
 		(instances
 			(project "Nivara_PCB"

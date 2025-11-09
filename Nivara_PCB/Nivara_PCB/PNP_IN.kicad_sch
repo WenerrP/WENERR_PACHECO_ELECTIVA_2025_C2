@@ -1316,7 +1316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40b91383-9d38-4e46-bd7a-9a590af68f2d")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -1366,11 +1366,11 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/48f5ac7a-6bba-49c0-99bb-db418c675091"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/caca7181-9f66-4070-8ce1-bf0189ab573e"
-					(reference "#PWR062")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -1478,7 +1478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5328208c-b0cb-45a3-bc01-e739cdec745d")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 81.28 71.12 0)
 			(effects
 				(font
@@ -1528,11 +1528,11 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/48f5ac7a-6bba-49c0-99bb-db418c675091"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/caca7181-9f66-4070-8ce1-bf0189ab573e"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -1748,7 +1748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce5994f6-28c9-469c-9759-0d18c0889b75")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 105.41 109.22 0)
 			(effects
 				(font
@@ -1798,11 +1798,11 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/48f5ac7a-6bba-49c0-99bb-db418c675091"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/caca7181-9f66-4070-8ce1-bf0189ab573e"
-					(reference "#PWR063")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)

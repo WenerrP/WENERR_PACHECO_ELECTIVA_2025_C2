@@ -1700,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 64.77) (xy 152.4 67.31)
+			(xy 152.4 63.5) (xy 152.4 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1800,7 +1800,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 52.07) (xy 152.4 57.15)
+			(xy 152.4 52.07) (xy 152.4 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +2067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17aebe01-ee7b-49ca-a214-46aabda49132")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 128.27 91.44 0)
 			(effects
 				(font
@@ -2117,7 +2117,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/941ecd47-882f-406e-b54e-d369029f60e5"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2133,7 +2133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e453a41-cef3-469b-bb5e-c29e11717d84")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 82.55 53.34 0)
 			(effects
 				(font
@@ -2183,7 +2183,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/941ecd47-882f-406e-b54e-d369029f60e5"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2199,7 +2199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dca533c-d2dd-482f-8e40-e7b68be7008b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 59.69 54.61 0)
 			(effects
 				(font
@@ -2249,7 +2249,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/941ecd47-882f-406e-b54e-d369029f60e5"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2607,7 +2607,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:R_0603")
-		(at 152.4 60.96 0)
+		(at 152.4 59.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2617,25 +2617,25 @@
 		(fields_autoplaced yes)
 		(uuid "cd038e07-fc3e-4e83-bc75-cdab27cae1bc")
 		(property "Reference" "R30"
-			(at 149.86 59.6899 0)
+			(at 154.94 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 149.86 62.2299 0)
+			(at 154.94 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 152.4 72.39 0)
+			(at 152.4 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +2644,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
-			(at 152.4 60.96 0)
+			(at 152.4 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2653,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 152.4 60.96 0)
+			(at 152.4 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2662,7 @@
 			)
 		)
 		(property "Part #" "0603WAF1002T5E"
-			(at 152.4 60.96 0)
+			(at 152.4 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2671,7 @@
 			)
 		)
 		(property "LCSC Part" "C25804"
-			(at 152.4 60.96 0)
+			(at 152.4 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +2704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc7f6e28-5d47-473c-836c-54f64e6ad48d")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 152.4 55.88 0)
 			(effects
 				(font
@@ -2754,7 +2754,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/941ecd47-882f-406e-b54e-d369029f60e5"
-					(reference "#PWR048")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)

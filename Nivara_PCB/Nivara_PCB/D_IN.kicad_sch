@@ -1412,7 +1412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10cf961e-c241-43b7-a3e1-ae5e06194a9b")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 54.61 50.8 0)
 			(effects
 				(font
@@ -1462,15 +1462,15 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/a8a95db9-2db6-4dd5-a448-91db082870e6"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/d4f8ef66-9185-4a3a-8dfb-54acd9194ea4"
-					(reference "#PWR068")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/f57bf70a-dd95-4d15-b66e-6c4899791940"
-					(reference "#PWR071")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -1486,7 +1486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "742b7ae6-83da-46bf-9f4e-d562445d6a19")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR056"
 			(at 76.2 87.63 0)
 			(effects
 				(font
@@ -1536,15 +1536,15 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/a8a95db9-2db6-4dd5-a448-91db082870e6"
-					(reference "#PWR054")
+					(reference "#PWR056")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/d4f8ef66-9185-4a3a-8dfb-54acd9194ea4"
-					(reference "#PWR070")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/f57bf70a-dd95-4d15-b66e-6c4899791940"
-					(reference "#PWR073")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -1864,7 +1864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4af9105-c2a1-47c8-8ebc-762d07c65df4")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 76.2 50.8 0)
 			(effects
 				(font
@@ -1914,15 +1914,15 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/a8a95db9-2db6-4dd5-a448-91db082870e6"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/d4f8ef66-9185-4a3a-8dfb-54acd9194ea4"
-					(reference "#PWR069")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/f57bf70a-dd95-4d15-b66e-6c4899791940"
-					(reference "#PWR072")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
