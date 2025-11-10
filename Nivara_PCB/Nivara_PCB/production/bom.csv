@@ -1,70 +1,70 @@
-"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","LCSC Part","Part #"
-"C1,C3,C11,C13,C20","5","100nF","","","","PCM_Capacitor_SMD_AKL:C_0603_1608Metric","https://www.lcsc.com/datasheet/C77058.pdf","C77058","GRM188R72A104KA35D"
-"C2","1","2.2uF","","","","PCM_Capacitor_SMD_AKL:C_0603_1608Metric","https://www.lcsc.com/datasheet/C913904.pdf","C913904","CL10A225KB8NNNC"
-"C4,C9","2","10uF","","","","Capacitor_SMD:CP_Elec_4x5.4","https://www.lcsc.com/datasheet/C72485.pdf","C72485","RVT1V100M0405"
-"C5,C14","2","100nF","","","","PCM_Capacitor_SMD_AKL:C_0805_2012Metric","https://www.lcsc.com/datasheet/C56476.pdf","C56476","C1608X7R1H104KT000N"
-"C6","1","100pF","","","","PCM_Capacitor_SMD_AKL:C_0805_2012Metric","https://www.lcsc.com/datasheet/C76709.pdf","C76709","CGA3E2C0G1H101JT0Y0N"
-"C10","1","10nF","","","","PCM_Capacitor_SMD_AKL:C_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707164920893440","C57112","0603B103K500NT"
-"C12,C15,C16","3","1uF","","","","PCM_Capacitor_SMD_AKL:C_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556213788459761664","C15849","CL10A105KB8NNNC"
-"C17","1","220pF","","","","PCM_Capacitor_SMD_AKL:C_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706990821425152","C1603","CL10B221KB8NNNC"
-"C18,C19","2","1uF","","","","Capacitor_SMD:CP_Elec_4x5.4","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556213788459761664","C72491","RVT1H1R0M0405"
-"C21,C22","2","22uF","","","","PCM_Capacitor_SMD_AKL:C_0805_2012Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706866429190144","C45783","CL21A226MAQNNNE"
-"D1","1","LED_USB","","","","LED_SMD:LED_0603_1608Metric","https://www.lcsc.com/datasheet/C84263.pdf","C84263","NCD0603R1"
-"D2,D9","2","SM712","","","","PCM_Package_TO_SOT_SMD_AKL:SOT-23","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579709112560435200","C32677","PSM712-LF-T7"
-"D3,D4,D37","3","SMAJ33A","","","","PCM_Diode_SMD_AKL:D_SMA","https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf","C148231","SMAJ33A"
-"D5","1","LED_R","","","","LED_SMD:LED_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723991833485312","C2286","KT-0603R"
-"D6,D11,D12,D14,D16,D20,D21,D22,D24,D26,D27,D29,D30,D31","14","LED","","","","LED_SMD:LED_0603_1608Metric","https://www.lcsc.com/datasheet/C440520.pdf","C12065","LTST-C193TGKT-5A"
-"D7","1","SMAJ5.0A","","","","PCM_Diode_SMD_AKL:D_SMA","https://www.lcsc.com/datasheet/C87074.pdf","C87074","SMAJ5.0A-13-F"
-"D8","1","SMAJ12CA","","","","PCM_Diode_SMD_AKL:D_SMA_TVS","https://www.lcsc.com/datasheet/C134947.pdf","C83267","SMAJ12CA-13-F"
-"D10,D13,D15,D23,D25,D28","6","PMEG4010CEH","","","","PCM_Diode_SMD_AKL:D_SOD-123F","https://www.lcsc.com/datasheet/C193342.pdf","C193342","PMEG4010CEH,115"
-"D17,D18,D32,D33,D34,D35","6","SMF5.0A","","","","SMF5.0A:SODFL3718X102N","https://www.lcsc.com/datasheet/C19077498.pdf","C19077498","SMF5.0CA"
-"D19","1","SMAJ12A","","","","PCM_Diode_SMD_AKL:D_SMA","https://www.lcsc.com/datasheet/C134947.pdf","C134947","SMAJ12A-13-F"
-"D36","1","BZT52C12_C2891780","","","","EasyEDA:SOD-123_L2.7-W1.6-LS3.7-RD-1","https://www.lcsc.com/datasheet/C2891780.pdf","C2891780","BZT52C12"
-"D38","1","MRA4007T3G","","","","Diode_SMD:D_SMA","https://www.lcsc.com/datasheet/C47921.pdf","C47921","MRA4007T3G"
-"D39","1","SS14","","","","PCM_Diode_SMD_AKL:D_SMA","https://www.tme.eu/Document/39e1c2d2c354f63d74e9a2edb2156b4b/SS14-E3_61T.pdf","C2480","SS14"
-"F1","1","BSMD1812-150-33V","","","","EasyEDA:F1812","https://lcsc.com/product-detail/PTC-Resettable-Fuses_BHFUSE-BSMD1812-150-33V_C883154.html","C883154","BSMD1812-150-33V"
-"F3","1","Resettable fuse","","","","EasyEDA:Reseatteble Fuse","https://www.lcsc.com/datasheet/C7433877.pdf","C7433877","BSMD1812-200-33V"
-"J1","1","Conn_02x02_Counter_Clockwise","","","","Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical","https://www.lcsc.com/datasheet/C2977590.pdf","C2977590","2.54-2*2"
-"J2","1","Auxiliares","","","","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","https://www.lcsc.com/datasheet/C492401.pdf","C492401","PZ254V-11-02P"
-"J3,J5,J6,J7,J8,J10,J11,J13","8","Bolnera 2P","","","","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal","https://www.lcsc.com/datasheet/C2915639.pdf","C2915639","DB128V-5.08-2P-GN-S"
-"J4,J9","2","Bolnera 3P","","","","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal","https://www.lcsc.com/datasheet/C2915640.pdf","C2915640","DB128V-5.08-3P-GN-S"
-"J12","1","Bolnera 4P","","","","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal","https://www.lcsc.com/datasheet/C2915641.pdf","C2915641","DB128V-5.08-4P-GN-S"
-"J14","1","Bolnera 6P","","","","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal","https://www.lcsc.com/datasheet/C2915642.pdf","C2915642","DB128V-5.08-6P-GN-S"
-"J15","1","PINHD_2x2_Male","","","","Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical","https://www.lcsc.com/datasheet/C49286556.pdf","C49286556","PH2.54-07-02PWS"
-"K1,K2","2","SRA-24VDC-CL","","","","EasyEDA:RELAY-TH_SRA-X-CX","https://lcsc.com/product-detail/Relays_SRA-24VDC-CL_C127865.html","C127865","SRA-24VDC-CL"
-"L1","1","HCMA-0420-6R8-M","","","","EasyEDA:IND-SMD_L4.4-W4.2_CXP0420","https://www.lcsc.com/datasheet/C7461340.pdf","C351092","YSPI0420-6R8M"
-"LED2","1","LiteOn_LTST-C19HE1WT","","","","PCM_LED_SMD_AKL:LED_LiteOn_LTST-C19HE1WT","https://www.lcsc.com/datasheet/C458749.pdf","C458749","LTST-C19HE1WT"
-"Q1,Q3","2","IRLML0040","","","","PCM_Package_TO_SOT_SMD_AKL:SOT-23","https://www.lcsc.com/datasheet/C5364305.pdf","C5364305","IRLML0040"
-"Q2,Q4","2","AO3407A","","","","PCM_Package_TO_SOT_SMD_AKL:SOT-23","https://www.lcsc.com/datasheet/C15155.pdf","C15155","AO3407A"
-"Q5","1","IRLML6402TRPBF-JSM","","","","EasyEDA:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR","https://www.lcsc.com/datasheet/C18190991.pdf","C18190991","IRLML6402TRPBF-JSM"
-"R1,R2,R6,R7","4","33","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706226143518720","C23140","0603WAF330JT5E"
-"R3,R4,R5","3","20","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706172544782336","C22950","0603WAF200JT5E"
-"R8,R20,R24,R31,R32,R38,R46","7","1.5k","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://www.lcsc.com/datasheet/C114668.pdf","C22843","0603WAF1501T5E"
-"R9","1","196k","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://www.lcsc.com/datasheet/C2974032.pdf","C2974032","FRC0603F1963TS"
-"R10","1","62k","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://www.lcsc.com/datasheet/C136961.pdf","C136961","RT0603BRD0762KL"
-"R11,R17,R21,R22,R35,R43,R44","7","100","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://www.lcsc.com/datasheet/C105588.pdf","C22775","0603WAF1000T5E"
-"R12","1","120","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706116978507776","C22787","0603WAF1200T5E"
-"R13,R15,R39,R41","4","2k","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706189568917504","C22975","0603WAF2001T5E"
-"R14,R16,R34,R40,R42,R48,R50","7","140","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://www.lcsc.com/datasheet/C245910.pdf","C245910","RC0603FR-07140RL"
-"R18,R36,R57,R59,R61","5","22k","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706378535165952","C31850","0603WAF2202T5E"
-"R19,R37","2","30k","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706409566388224","C22984","0603WAF3002T5E"
-"R23,R45,R51,R63","4","100k","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432","C25803","0603WAF1003T5E"
-"R25,R33,R47,R49","4","1k","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944","C21190","0603WAF1001T5E"
-"R26","1","147","","","","PCM_Resistor_SMD_AKL:R_0805_2012Metric","https://www.lcsc.com/datasheet/C228308.pdf","C228308","AC0805FR-07147RL"
-"R27,R28,R58,R60","4","4K7","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://www.lcsc.com/datasheet/C99782.pdf","C99782","RC0603FR-074K7L"
-"R29","1","0","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8578255895094087680","C21189","0603WAF0000T5E"
-"R30,R52,R54,R55,R56","5","10k","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072","C25804","0603WAF1002T5E"
-"R53","1","24k","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706339318288384","C23352","0603WAF2402T5E"
-"R62","1","2.5k","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://www.lcsc.com/datasheet/C137758.pdf","C137758","RC0603FR-0724RL"
-"R64","1","15","","","","PCM_Resistor_SMD_AKL:R_0805_2012Metric","https://www.lcsc.com/datasheet/C137590.pdf","C137590","RC0805FR-0715RL"
-"R65,R67","2","5.1K","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://www.lcsc.com/datasheet/C473240.pdf","C473240","ERA3AEB512V"
-"R66","1","500","","","","PCM_Resistor_SMD_AKL:R_0603_1608Metric","https://www.lcsc.com/datasheet/C860931.pdf","C860931"," RT0603BRC07500RL"
-"SW3,SW4","2","SW_Push","","","","Button_Switch_SMD:SW_SPST_PTS810","https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRPACE010_SKRPACE010_C139797.html","C139797","SKRPACE010"
-"U1","1","GT-USB-7010ASV","","","","EasyEDA:USB-C-SMD_G-SWITCH_GT-USB-7010ASV","https://www.lcsc.com/datasheet/C2988369.pdf","C2988369","GT-USB-7010ASV"
-"U5","1","ESP32-S3-WROOM-1","","","","RF_Module:ESP32-S3-WROOM-1U","https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf","C3013946","ESP32-S3-WROOM-1U-N16R8"
-"U6","1","AP63200WU","","","","Package_TO_SOT_SMD:TSOT-23-6","https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf","C2071868","AP63200WU-7"
-"U7","1","RSM3485ECHT_C2992406","","","","EasyEDA:COMM-TH_8P-L19.5-W16.5-P2.54-BL","https://www.lcsc.com/datasheet/C2992406.pdf","C2992406","RSM3485ECHT"
-"U8,U9,U10,U11,U14,U15,U16,U17,U18,U19,U20","11","LTV-357T","","","","Package_SO:SO-4_4.4x3.6mm_P2.54mm","https://www.lcsc.com/datasheet/C119091.pdf","C119091","LTV-357T-C"
-"U12","1","GP8201S-TC50-EW","","","","EasyEDA:ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP","https://www.lcsc.com/datasheet/C5240058.pdf","C5240058","GP8201S-TC50-EW"
-"U13","1","LK1802","","","","EasyEDA:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR","https://www.lcsc.com/datasheet/C2984831.pdf","C2984831","LK1802"
-"U21","1","GP8303-TC50-EW","","","","EasyEDA:ESOP-10_L4.9-W3.9-P1.00-LS6.1-BL-EP","https://www.lcsc.com/datasheet/C3445809.pdf","C3445809","GP8303-TC50-EW"
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C11, C13, C20, C3",0603,5,100nF,C14663
+C10,0603,1,10nF,C57112
+"C12, C15, C16",0603,3,1uF,C15849
+"C14, C5",0805,2,100nF,C49678
+C17,0603,1,220pF,C1603
+"C18, C19",CP_Elec_4x5.4,2,1uF,C72491
+C2,0603,1,2.2uF,C23630
+"C4, C9",CP_Elec_4x5.4,2,10uF,C72485
+C6_2,0805,1,100pF,C1790
+"C6, C7",0805,2,22uF,C45783
+D1,0603,1,LED,C84263
+"D10, D13, D15, D23, D25, D28",D_SOD-123F,6,PMEG4010CEH,C193342
+"D11, D12, D14, D16, D20, D21, D22, D24, D26, D27, D29, D30, D31, D6",0603,14,LED,C12065
+"D17, D18, D32, D33, D34, D35",SODFL3718X102N,6,SMF5.0A,C19077498
+D19,D_SMA,1,SMAJ12A,C134947
+"D2, D9",SOT-23,2,SM712,C32677
+"D3, D37, D4",D_SMA,3,SMAJ33A,C148231
+D36,SOD-123_L2.7-W1.6-LS3.7-RD-1,1,BZT52C12_C2891780,C2891780
+D38,D_SMA,1,MRA4007T3G,C47921
+D39,D_SMA,1,SS14,C2480
+D5,0603,1,LED_R,C2286
+D7,D_SMA,1,SMAJ5.0A,C87074
+D8,D_SMA_TVS,1,SMAJ12CA,C83267
+F1,F1812,1,BSMD1812-150-33V,C883154
+F3,Reseatteble Fuse,1,Resettable fuse,C7433877
+J1,PinSocket_2x02_P2.54mm_Vertical,1,Conn_02x02_Counter_Clockwise,C2977590
+"J10, J11, J13, J3, J5, J6, J7, J8","TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",8,Bolnera 2P,C2915639
+J12,"TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal",1,Bolnera 4P,C2915641
+J14,"TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal",1,Bolnera 6P,C2915642
+J15,PinHeader_2x02_P2.54mm_Vertical,1,PINHD_2x2_Male,
+J2,PinHeader_1x02_P2.54mm_Vertical,1,Auxiliares,C492401
+"J4, J9","TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",2,Bolnera 3P,C2915640
+"K1, K2",RELAY-TH_SRA-X-CX,2,SRA-24VDC-CL,C127865
+L1,IND-SMD_L4.4-W4.2_CXP0420,1,HCMA-0420-6R8-M,C351092
+LED2,LED_LiteOn_LTST-C19HE1WT,1,LiteOn_LTST-C19HE1WT,C458749
+"Q1, Q3",SOT-23,2,IRLML0040,C5364305
+"Q2, Q4",SOT-23,2,AO3407A,C15155
+Q5,SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR,1,IRLML6402TRPBF-JSM,C18190991
+"R1, R2, R6, R7",0603,4,33,C23140
+R11_2,0603,1,62k,C136961
+"R11, R17, R21, R22, R35, R43, R44",0603,7,100,C22775
+R12,0603,1,120,C22787
+"R13, R15, R39, R41",0603,4,2k,C22975
+"R14, R16, R34, R40, R42, R48, R50",0603,7,140,C245910
+"R18, R36, R57, R59, R61",0603,5,22k,C31850
+"R19, R37",0603,2,30k,C22984
+"R20, R24, R31, R32, R38, R46, R8",0603,7,1.5k,C22843
+"R23, R45, R51, R63",0603,4,100k,C25803
+"R25, R33, R47, R49",0603,4,1k,C21190
+R26,0805,1,147,C228308
+"R27, R28, R58, R60",0603,4,4K7,C99782
+R29,0603,1,0,C21189
+"R3, R4, R5",0603,3,20,C22950
+"R30, R52, R54, R55, R56",0603,5,10k,C25804
+R53,0603,1,24k,C23352
+R62,0603,1,2.5k,C137758
+R64,0805,1,15,C137590
+"R65, R67",0603,2,5.1K,
+R66,0603,1,500,
+R9,0603,1,196k,C2974032
+"SW3, SW4",SW_SPST_PTS810,2,SW_Push,C139797
+U1,USB-C-SMD_G-SWITCH_GT-USB-7010ASV,1,GT-USB-7010ASV,C2988369
+"U10, U11, U14, U15, U16, U17, U18, U19, U20, U8, U9",SO-4_4.4x3.6mm_P2.54mm,11,LTV-357T,C119091
+U12,ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP,1,GP8201S-TC50-EW,C5240058
+U13,SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR,1,LK1802,C2984831
+U21,ESOP-10_L4.9-W3.9-P1.00-LS6.1-BL-EP,1,GP8303-TC50-EW,C3445809
+U5,ESP32-S3-WROOM-1U,1,ESP32-S3-WROOM-1,C3013946
+U6,TSOT-23-6,1,AP63200WU,C2071868
+U7,COMM-TH_8P-L19.5-W16.5-P2.54-BL,1,RSM3485ECHT_C2992406,C2992406

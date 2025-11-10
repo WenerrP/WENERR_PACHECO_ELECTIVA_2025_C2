@@ -2887,7 +2887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d948f57-a151-4b22-9d27-044390f2c72f")
-		(property "Reference" "C6"
+		(property "Reference" "C22"
 			(at 133.35 57.1499 0)
 			(effects
 				(font
@@ -2959,7 +2959,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "C6")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3154,7 +3154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723991833485312"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C84263.pdf"
 			(at 43.18 58.42 0)
 			(effects
 				(font
@@ -3181,7 +3181,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2286"
+		(property "LCSC Part" "C84263"
 			(at 43.18 58.42 90)
 			(effects
 				(font
@@ -3190,7 +3190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "KT-0603R"
+		(property "Part #" "NCD0603R1"
 			(at 43.18 58.42 90)
 			(effects
 				(font
@@ -3624,7 +3624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a06bb9a9-deb8-442e-a638-5769679519d6")
-		(property "Reference" "C7"
+		(property "Reference" "C21"
 			(at 146.05 57.1499 0)
 			(effects
 				(font
@@ -3696,7 +3696,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "C7")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3712,7 +3712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa78633b-551d-427b-9f47-6ec674fe26f2")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 120.65 64.7699 0)
 			(effects
 				(font
@@ -3784,7 +3784,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/c8cd749e-9134-4d76-b8ef-ce0eb3eb606f"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)

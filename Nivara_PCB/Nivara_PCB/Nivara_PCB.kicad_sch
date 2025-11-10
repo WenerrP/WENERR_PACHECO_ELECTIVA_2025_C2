@@ -5109,7 +5109,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_USB"
+		(property "Value" "LED_R"
 			(at 109.22 144.018 90)
 			(effects
 				(font
@@ -7343,7 +7343,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "525"
 			(at 102.87 149.86 90)
 			(effects
 				(font
@@ -7360,7 +7360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C860931.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C413744.pdf"
 			(at 102.87 153.67 0)
 			(effects
 				(font
@@ -7378,7 +7378,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C860931"
+		(property "LCSC Part" "C413744"
 			(at 102.87 153.67 90)
 			(effects
 				(font
@@ -7387,7 +7387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" " RT0603BRC07500RL"
+		(property "Part #" "ERJPB3B5100V"
 			(at 102.87 153.67 90)
 			(effects
 				(font

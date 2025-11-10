@@ -1167,7 +1167,7 @@
 		(instances
 			(project "Nivara_PCB"
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/0c970738-851e-487a-93b3-fffde687d09a"
-					(reference "R57")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/13184db0-a71d-4054-b13a-bbf46d2b100d/4e7fa7f2-8bf5-4f9c-874d-fa1b4fd76f92/5653b51d-16ab-4a56-b89c-3ddccfd36763"
